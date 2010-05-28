@@ -1,0 +1,39 @@
+/* color pallete on http://es-es.colourlovers.com/palette/459343/Dust_in_the_Wind
+gray:       #D2DCDD
+gray-blue:  #BDDDDF
+blue-gray:  #A7D4D8
+light blue: #8DD1D7
+dark blue: #629CA3
+
+*/
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+h1,h2,h3,h4,h5,h6,a {  color: #629CA3; }
+
+body { background-color: #629CA3; }
+
+
+/* general padding */
+.container, #header, #content{
+  padding: 5px;
+}
+
+.container {
+  border: 3px solid #8DD1D7;
+  background-color: #D2DCDD;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#header {
+  background-color: #BDDDDF;
+}
+
+
+#content{
+  background-color: white;
+  padding: 5px;
+}

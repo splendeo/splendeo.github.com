@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+---
+
+This is the home page of splendeo.
+
+We do:
+* "Ruby on Rails":http://www.rubyonrails.org.es/
+* "General web development":callbacks.html
+
+Here's some sample ruby code that we do:
+
+{% highlight ruby %}
+def hello
+  puts 'Hello world'
+end
+{% endhighlight %}
