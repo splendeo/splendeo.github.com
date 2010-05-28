@@ -1,6 +1,10 @@
 title: Splendeo
 url: http://splendeo.github.com
-lsi: false
-pygments: true
+locales:
+  es: Español
+  en: English
+
 auto: true
 server: true
+lsi: false
+pygments: true

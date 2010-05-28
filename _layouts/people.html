@@ -1,0 +1,11 @@
+{% assign page_title = page.name %}
+{% capture page_url %}/people/{{ page.id }}-{{ page.locale }}.html{% endcapture %}
+
+{% include header.html %}
+
+  <div id="content">
+    <h2><a href="{{ page_url }}">{{ page.name }}</a></h2>
+    {{ content }}
+  </div>
+
+{% include footer.html %}

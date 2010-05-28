@@ -1,0 +1,14 @@
+---
+locale: es
+layout: people
+name: Enrique García Cota
+id: egarcia
+---
+
+Esta es la página de Enrique García.
+
+{% highlight ruby %}
+def hello
+  puts 'Hola mundo'
+end
+{% endhighlight %}
