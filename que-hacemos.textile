@@ -1,0 +1,70 @@
+---
+layout: front
+title: Qué hacemos
+locale: es
+en: whatwedo.html
+---
+
+h3. Aplicaciones web
+
+bq. "Te envío este excel para que lo revises."
+
+Nuestra filosofía es: todo el mundo usa la web. Es un medio universal de comunicación.
+
+Utilizar una página web para controlar un flujo de trabajo:
+
+* Facilita la compartición de datos entre usuarios
+* Deslocaliza la información
+* Añade seguridad
+
+h3. Aplicaciones fáciles de usar
+
+bq. "¿Dónde tengo que hacer click?"
+
+bq. "Oups! He vuelto a borrar mis datos"
+
+* Un botón para cada cosa
+* No más botones de los necesarios
+* Confirme siempre antes de borrar cualquier cosa
+
+
+h3. Aplicaciones útiles
+
+bq. "No es lo que pido, sino lo que quiero."
+
+Analizamos el problema y las expectativas del cliente y:
+
+* Desarrollamos una aplicación ajustada a sus necesidades o bien
+* Encontramos la solución ya existente que mejor se ajuste
+
+h3. Código abierto
+
+En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
+
+* Más calidad
+* Más control
+* Mejor coste
+* Más libertad
+
+* "Ruby on Rails":http://rubyonrails.org
+* "Apache":http://apache.org
+* "Postgresql":http://postgresql.org
+* "Ubuntu":http://www.ubuntu.com
+
+h3. Optimización para buscadores (SEO)
+
+Las claves para el éxito son: estilo, estructura y relevancia.
+
+Nosotros sabemos cómo aplicarlas en cualquier sitio web.
+
+h3. Mobile
+
+Los dispositivos móbiles cada vez tienen más protagonismo en la web.
+
+Nosotros sabemos hacer que su página web funcione correctamente en un navegador mobile.
+
+h3. Etc
+
+Hacemos más cosas. Pregúntenos.
+
+

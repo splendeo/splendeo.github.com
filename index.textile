@@ -1,18 +1,22 @@
 ---
-layout: default
-title: Home
+layout: front
+title: Splendeo Innovación
+locale: es
+en: index-en.html
 ---
 
-This is the home page of splendeo.
+h2. "Qué hacemos":/que-hacemos.html
 
-We do:
-* "Ruby on Rails":http://www.rubyonrails.org.es/
-* "General web development":callbacks.html
+Hacemos apliaciones web útiles y fáciles de usar.
 
-Here's some sample ruby code that we do:
+h2. "Quiénes somos":/people/
 
-{% highlight ruby %}
-def hello
-  puts 'Hello world'
-end
-{% endhighlight %}
+Conoce nuestra empresa.
+
+h2. "Proyectos":/projects/index.html
+
+Ejemplos de nuestro trabajo.
+
+h2. "Blog":/blog/index.html
+
+Noticias y novedades de Splendeo.

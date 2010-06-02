@@ -1,0 +1,22 @@
+---
+layout: front
+title: Splendeo Innovación
+locale: en
+es: index.html
+---
+
+h2. What we do
+
+We make productive & easy to use web applications.
+
+h2. Who we are
+
+Meet our company.
+
+h2. Projects
+
+Samples of our work.
+
+h2. Blog
+
+News and events related with Splendeo.
