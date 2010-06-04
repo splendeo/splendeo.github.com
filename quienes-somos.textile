@@ -1,0 +1,32 @@
+---
+layout: front
+title: Quiénes somos
+locale: es
+en: whoweare.html
+---
+
+h3. La empresa
+
+3 amigos que se juntaron un día porque pensaban que existe otra forma de hacer informática.
+
+Cada uno cubre una parcela del proceso, gracias a su experiencia previa y/o formación. Nos complementamos y aprendemos en el proceso.
+
+Estamos en Madrid, pero atendemos a clientes internacionales.
+
+
+h3. El equipo
+
+h4. Francisco Juan
+
+Juan es un apellido. Francisco es Ingeniero Aeronáutico y muy curioso. Lleva 4 años diseñando y programando aplicaciones web usando varias tecnologías. Tiene experiencia tratando con los clientes. Es experto en usabilidad.
+
+h4. Enrique Roibás
+
+Enrique es licenciado en Administración y dirección de empresas. Le gustan las empresas de nueva creación. Tiene experiencia en control de costes, gestión financiera y análisis de procesos. Enólogo de la empresa.
+
+h4. Enrique García
+
+Enrique es Ingeniero en Informática. Habla fluidamente inglés, francés y español. Empezó programando en el Sinclair Spectrum 48k, y lleva haciendolo profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas.
+
+
+

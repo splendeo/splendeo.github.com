@@ -9,7 +9,7 @@ h2. "Qué hacemos":/que-hacemos.html
 
 Hacemos apliaciones web útiles y fáciles de usar.
 
-h2. "Quiénes somos":/people/
+h2. "Quiénes somos":/quienes-somos.html
 
 Conoce nuestra empresa.
 
