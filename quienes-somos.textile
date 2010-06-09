@@ -3,17 +3,14 @@ layout: default
 title: Quiénes somos
 permalink: quienes-somos
 locale: es
-en: whoweare.html
+en: who-we-are
 ---
 
 h3. La empresa
 
-3 amigos que se juntaron un día porque pensaban que existe otra forma de hacer informática.
-
-Cada uno cubre una parcela del proceso, gracias a su experiencia previa y/o formación. Nos complementamos y aprendemos en el proceso.
+3 amigos se juntaron un día porque pensaban que existe otra forma de usar la web. Así que crearon una empresa, donde cada uno cubre una ámbito empresarial, gracias a su experiencia previa y/o formación. Nos complementamos y aprendemos en el proceso.
 
 Estamos en Madrid, pero atendemos a clientes internacionales.
-
 
 h3. El equipo
 

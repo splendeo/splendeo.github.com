@@ -1,0 +1,27 @@
+---
+layout: default
+title: Who we are
+permalink: who-we-are
+locale: en
+es: quienes-somos
+---
+
+h3. The company
+
+3 friends met up together one day because they thought there was a better way of using the web. So they created a company, where each one of them covered one face of the business. We complete each other and we learn on the process.
+
+We are located in Madrid, but we have international clients.
+
+h3. The team
+
+h4. Francisco Juan
+
+Juan is a surname. Francisco is very curious Aeronautical Engineer. He's spent 4 years designing and programming web applications using several technologies. He's got experience dealing with clients. He's our usability expert.
+
+h4. Enrique Roibás
+
+Enrique has a Degree in Business Administration. He likes start-ups. He's got experience with cost control, financial management and process analysis. He's also the company's enologist.
+
+h4. Enrique García
+
+Enrique is a Computer Sciencist. He is fluent on English, French and Spanish. He started programming the Sinclair Spectrum 48k, and hasn't stopped programming since them, exept for brief encounters with the consultancy world. He's an expert on managing expectations.

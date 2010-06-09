@@ -14,7 +14,7 @@ locales:
     navigation:
     - "What we do": what-we-do
     - "Who we are": who-we-are
-    - "Projects": proyectos
+    - "Projects": projects
     - "Blog": blog
 
 auto: true

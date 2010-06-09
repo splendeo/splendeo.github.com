@@ -1,9 +1,0 @@
----
-layout: front
-title: What do we do
-permalink: what-we-do
-locale: en
-es: que-hacemos.html
----
-
-Hacemos apliaciones web útiles y fáciles de usar.

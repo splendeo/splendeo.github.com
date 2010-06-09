@@ -6,4 +6,67 @@ locale: en
 es: que-hacemos
 ---
 
-Hacemos apliaciones web útiles y fáciles de usar.
+
+h3. Web applications
+
+bq. "Please review the attached excel and send it back to me when done."
+
+Our philosophy is: everyone uses the web. It's a universal communication medium.
+
+Using a website in order to control workflows:
+
+* Eases data sharing between users
+* Unlocalizes information
+* Increases security
+
+h3. Easy to use
+
+bq. "Where should I click? I've lost my data!"
+
+We follow very straightforward design guidelines:
+
+* Respect the W3C standards
+* Our clickable elements are visually differentiable from the content.
+* We use one (and only one) button for each thing
+* Each deletion has a confirmation dialog
+
+h3. Effective
+
+bq. "It's not what I asked for, but it's what I needed."
+
+We analyze our client's *problem* and *expectations* and:
+
+* We develop custom applications adapted to our client's *needs* or
+* We find the best available existing solution
+
+h3. Open Source
+
+We use open source technologies in all our projects. This allows us to be competitive and efficient.
+
+Open Source technologies allow us to have:
+
+* More quality, control and freedom in providing solutions.
+* Less cost for us means less cost for our clients.
+
+Here're some of the technologies we use:
+
+* "Ruby on Rails":http://rubyonrails.org
+* "Apache":http://apache.org
+* "Postgresql":http://postgresql.org
+* "Ubuntu":http://www.ubuntu.com
+
+h3. Search Engine Optimization (SEO)
+
+The keys for sucess here are: style, structure and relevance.
+
+We know how to apply them to any website, new or existing.
+
+h3. Mobile
+
+Mobile devices are increasingly relevant - some websites have them as their main target.
+
+We know how to make your website look and work correctly on a mobile browser.
+
+h3. Etc
+
+We do more things. Ask us!

@@ -5,18 +5,18 @@ locale: en
 es: ""
 ---
 
-h2. What we do
+h2. "What we do":what-we-do
 
-We make productive & easy to use web applications.
+We create productive & easy to use web applications.
 
-h2. Who we are
+h2. "Who we are":who-we-are
 
 Meet our company.
 
-h2. Projects
+h2. "Projects":projects
 
 Samples of our work.
 
-h2. Blog
+h2. "Blog":blog
 
 News and events related with Splendeo.

@@ -3,15 +3,15 @@
 {% for nav in site.locales[page.locale].navigation %}
 
   {% for link in nav %}
-
-    {% assign css_class = nil %}
     {% if link[1] == page.permalink %}
       {% assign css_class = 'current' %}
     {% endif %}
-  
+
     <li class="{{ css_class }}">
       <a href="{{ site.locales[page.locale].path }}{{ link[1] }}">{{ link[0] }}</a>
     </li>
+
+    {% assign css_class = nil %}
   {% endfor %}
 {% endfor %}
 </ul>
