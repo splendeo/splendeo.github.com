@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: default
 title: Quiénes somos
 permalink: quienes-somos
 locale: es

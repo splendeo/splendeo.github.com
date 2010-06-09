@@ -2,20 +2,20 @@ title: Splendeo
 locales:
   es:
     name: Español
-    path:
+    path: /
     navigation:
-      "Qué hacemos": que-hacemos.html
-      "Quiénes somos": quienes-somos.html
-      "Proyectos": proyectos.html
-      "Blog": blog.html
+    - "Qué hacemos": que-hacemos
+    - "Quiénes somos": quienes-somos
+    - "Proyectos": proyectos
+    - "Blog": blog
   en:
     name: English
-    path: /en
+    path: /en/
     navigation:
-      "What we do": whatwedo.html
-      "Who we are": who-we-are.html
-      "Projects": proyectos.html
-      "Blog": blog_en.html
+    - "What we do": what-we-do
+    - "Who we are": who-we-are
+    - "Projects": proyectos
+    - "Blog": blog
 
 auto: true
 server: true

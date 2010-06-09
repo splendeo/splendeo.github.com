@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: default
 title: Qué hacemos
 permalink: que-hacemos
 locale: es

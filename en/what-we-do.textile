@@ -1,6 +1,6 @@
 ---
-layout: front
-title: What do we do
+layout: default
+title: What we do
 permalink: what-we-do
 locale: en
 es: que-hacemos
