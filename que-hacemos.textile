@@ -1,8 +1,9 @@
 ---
 layout: front
 title: Qué hacemos
+permalink: que-hacemos
 locale: es
-en: whatwedo.html
+en: what-we-do
 ---
 
 h3. Aplicaciones web

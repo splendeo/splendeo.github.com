@@ -19,3 +19,24 @@
     <title> {{ site.title }} - {{ page_title }} </title>
   </head>
 
+  <body>
+    <div id="container" class="container">
+      <div id="header">
+
+        {% if page.locale %}
+          <h1><a href="{{ site.locales[page.locale].path }}">{{ site.title }}</a></h1>
+          <div>
+            {% for locale in site.locales %}
+              {% assign locale_name = locale[0] %}
+              {% assign locale_hash = locale[1] %}
+              {% unless locale_name == page.locale %}
+                {% if page[locale_name] %}
+                  <a href="{{ locale_hash['path'] }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <h1><a href="/">{{ site.title }}</a></h1>
+        {% endif %}
+      </div>

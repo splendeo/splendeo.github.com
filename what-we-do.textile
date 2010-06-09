@@ -1,6 +1,7 @@
 ---
 layout: front
 title: What do we do
+permalink: what-we-do
 locale: en
 es: que-hacemos.html
 ---

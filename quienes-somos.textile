@@ -1,6 +1,7 @@
 ---
 layout: front
 title: Quiénes somos
+permalink: quienes-somos
 locale: es
 en: whoweare.html
 ---

@@ -2,7 +2,7 @@
 layout: front
 title: Splendeo Innovación
 locale: en
-es: index.html
+es: ""
 ---
 
 h2. What we do

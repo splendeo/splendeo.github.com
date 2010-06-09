@@ -2,21 +2,21 @@
 layout: front
 title: Splendeo Innovación
 locale: es
-en: index-en.html
+en: ""
 ---
 
-h2. "Qué hacemos":/que-hacemos.html
+h2. "Qué hacemos":/que-hacemos
 
 Hacemos apliaciones web útiles y fáciles de usar.
 
-h2. "Quiénes somos":/quienes-somos.html
+h2. "Quiénes somos":/quienes-somos
 
 Conoce nuestra empresa.
 
-h2. "Proyectos":/projects/index.html
+h2. "Proyectos":/proyectos
 
 Ejemplos de nuestro trabajo.
 
-h2. "Blog":/blog/index.html
+h2. "Blog":/blog
 
 Noticias y novedades de Splendeo.

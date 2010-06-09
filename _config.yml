@@ -1,8 +1,21 @@
 title: Splendeo
-url: http://splendeo.github.com
 locales:
-  es: Español
-  en: English
+  es:
+    name: Español
+    path:
+    navigation:
+      "Qué hacemos": que-hacemos.html
+      "Quiénes somos": quienes-somos.html
+      "Proyectos": proyectos.html
+      "Blog": blog.html
+  en:
+    name: English
+    path: /en
+    navigation:
+      "What we do": whatwedo.html
+      "Who we are": who-we-are.html
+      "Projects": proyectos.html
+      "Blog": blog_en.html
 
 auto: true
 server: true
