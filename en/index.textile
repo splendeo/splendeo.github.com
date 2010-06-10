@@ -1,6 +1,6 @@
 ---
 layout: front
-title: Splendeo Innovación
+title: Home
 locale: en
 es: ""
 ---
