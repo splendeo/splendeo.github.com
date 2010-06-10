@@ -22,8 +22,6 @@
   <body>
     <div id="container" class="container">
       <div id="header">
-
-        <h1><a href="{{ site.locales[page.locale].path }}">{{ site.title }}</a></h1>
         <div>
           {% for locale in site.locales %}
             {% assign locale_name = locale[0] %}
@@ -35,4 +33,7 @@
             {% endunless %}
           {% endfor %}
         </div>
+
+        <a id="logo" href="{{ site.locales[page.locale].path }}" title="Splendeo Innovación"><img src="/images/splendeo-logo.png" alt="Splendeo Innovación" /></a>
+
       </div>

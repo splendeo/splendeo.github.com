@@ -1,9 +1,5 @@
 /* color pallete on http://es-es.colourlovers.com/palette/459343/Dust_in_the_Wind
-gray:       #D2DCDD
-gray-blue:  #BDDDDF
-blue-gray:  #A7D4D8
-light blue: #8DD1D7
-dark blue: #629CA3
+blue (links, h1, etc): 569DD5
 
 */
 
@@ -11,29 +7,54 @@ a { text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
-h1,h2,h3,h4,h5,h6,a {  color: #629CA3; }
+h1,h2,h3,h4,h5,h6,a {  color: #569DD5; }
 
-body { background-color: #629CA3; }
-
-
-/* general padding */
-.container, #header, #content{
-  padding: 5px;
+body {
+  background: url(/css/images/background.png) repeat transparent;
 }
 
+#header, #content {
+  padding: 10px;
+}
+
+#header #logo{
+  text-align: center;
+  display: block;
+}
+
+
 .container {
-  border: 3px solid #8DD1D7;
-  background-color: #D2DCDD;
+  background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#header {
-  background-color: #BDDDDF;
-}
-
-
 #content{
   background-color: white;
-  padding: 5px;
 }
+
+/* navigation */
+
+#navigation {
+  padding: 0.65em 0;
+  margin: 0;
+  text-align: center;
+  background: url(/css/images/navigation-background.png) repeat transparent;
+  display: block;
+}
+
+#navigation li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 2em;
+}
+
+#navigation li a {
+  color: black;
+  font-size: 2em;
+}
+
+#navigation li.current a{
+  color: #569DD5;
+}
+
