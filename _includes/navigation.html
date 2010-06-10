@@ -5,6 +5,10 @@
   {% for link in nav %}
     {% if link[1] == page.permalink %}
       {% assign css_class = 'current' %}
+    {% elsif page.layout == 'project' and link[1] == 'projects' %}
+      {% assign css_class = 'current' %}
+    {% elsif page.layout == 'project' and link[1] == 'proyectos' %}
+      {% assign css_class = 'current' %}
     {% endif %}
 
     <li class="{{ css_class }}">

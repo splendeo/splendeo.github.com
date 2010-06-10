@@ -1,0 +1,17 @@
+---
+layout: default
+title: Proyectos
+locale: es
+en: projects
+permalink: proyectos
+---
+
+{% for project in site.categories.proyectos %}
+
+h2. {{ project.title }}
+
+  {{ project.content}}
+
+  !/images/{{ project.image }}!
+  
+{% endfor %}

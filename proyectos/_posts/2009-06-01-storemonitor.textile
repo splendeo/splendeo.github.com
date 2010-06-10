@@ -1,0 +1,11 @@
+---
+layout: project
+title: Storemonitor
+locale: es
+en: projects/storemonitor.html
+permalink: /proyectos/storemonitor.html
+image: storemonitor.png
+---
+
+Loren impsun dolor sita met
+

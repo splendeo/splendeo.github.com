@@ -25,6 +25,3 @@ Enrique es licenciado en Administración y dirección de empresas. Le gustan las
 h4. Enrique García
 
 Enrique es Ingeniero en Informática. Habla fluidamente inglés, francés y español. Empezó programando en el Sinclair Spectrum 48k, y lleva haciendolo profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas.
-
-
-
