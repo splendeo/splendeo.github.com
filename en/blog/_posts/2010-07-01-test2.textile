@@ -1,0 +1,8 @@
+---
+layout: post
+title: Test 2
+locale: en
+es: blog/2010/07/01/prueba2.html
+---
+
+This is the second test

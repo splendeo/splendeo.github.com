@@ -1,0 +1,9 @@
+/*
+  IE- specific rules
+*/
+
+/* use a gif instead of a transparent png */
+#navigation li.current {
+  background: transparent url(/css/images/navigation-current-background.gif) no-repeat center center;
+}
+

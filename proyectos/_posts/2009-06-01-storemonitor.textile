@@ -7,5 +7,5 @@ permalink: /proyectos/storemonitor.html
 image: storemonitor.png
 ---
 
-Loren impsun dolor sita met
+Loren impsun dolor sit amet
 

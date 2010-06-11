@@ -1,0 +1,9 @@
+---
+layout: post
+title: Test
+locale: en
+es: blog/2010/06/01/prueba.html
+---
+
+This is test 1
+

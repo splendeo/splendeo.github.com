@@ -4,7 +4,7 @@ title: Inicio
 locale: es
 en: ""
 ---
-
+ 
 h2. "Qué hacemos":que-hacemos
 
 Hacemos apliaciones web útiles y fáciles de usar.

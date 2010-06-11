@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+locale: es
+en: blog
+permalink: blog
+---
+
+{% for article in site.categories.blog %}
+{% if article.locale == page.locale %}
+
+h3. <span>{{ article.date | date: '%d/%m/%Y' }}</span> - {{ article.title }} 
+
+{{ article.content }}
+
+{% endif %}
+{% endfor %}
