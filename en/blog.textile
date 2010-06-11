@@ -9,7 +9,7 @@ permalink: blog
 {% for article in site.categories.blog %}
 {% if article.locale == page.locale %}
 
-h3. <span>{{ article.date | date: '%m/%d/%Y' }}</span> - {{ article.title }} 
+h3. <span>{{ article.date | date: '%m/%d/%Y' }}</span> - <a href="{{ article.url }}">{{ article.title }}</a>
 
 {{ article.content }}
 

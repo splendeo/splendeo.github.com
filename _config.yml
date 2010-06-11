@@ -17,6 +17,7 @@ locales:
     - "Projects": projects
     - "Blog": blog
 
+permalink: pretty
 auto: true
 server: true
 lsi: false

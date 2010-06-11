@@ -2,7 +2,7 @@
 layout: post
 title: Prueba
 locale: es
-en: blog/2010/06/01/test.html
+en: test
 ---
 
 Esto es una primera prueba

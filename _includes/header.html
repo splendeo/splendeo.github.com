@@ -1,24 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <link rel="icon" type="image/x-icon" href="images/p.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/p.ico" />
-
-    <link href="http://github.com/splendeo.atom" rel="alternate" title="Splendeo's Activity" type="application/atom+xml" />
-
-    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
-    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-    <link rel="stylesheet" href="/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
-
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/style.css">
-     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
-
-    <title>{{ site.title }} - {{ page.title }}</title>
-  </head>
+{% include head.html %}
 
   <body>
     <div id="container" class="container">
@@ -29,7 +9,11 @@
             {% assign locale_hash = locale[1] %}
             {% unless locale_name == page.locale %}
               {% if page[locale_name] %}
-                <a href="{{ locale_hash['path'] }}{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                {% if page.layout == 'post' %}
+                  <a href="/blog{{ locale_hash['path'] }}{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                {% else %}
+                  <a href="{{ locale_hash['path'] }}{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                {% endif %}
               {% endif %}
             {% endunless %}
           {% endfor %}
