@@ -10,7 +10,7 @@ a:hover { text-decoration: underline; }
 h1,h2,h3,h4,h5,h6,a {  color: #569DD5; }
 
 body {
-  background: transparent url(/css/images/background.png) repeat;
+  background: transparent url(/css/images/background.png) repeat fixed 0 0;
 }
 
 #header, #content {
@@ -21,7 +21,6 @@ body {
   text-align: center;
   display: block;
 }
-
 
 .container {
   background-color: white;
@@ -36,32 +35,23 @@ body {
 /* navigation */
 
 #navigation {
-  margin: 0;
-  padding: 0;
-  text-align: center;
   background: transparent url(/css/images/navigation-background.png) repeat;
-  display: block;
-  height: 52px;
-  position: relative;
-  overflow: hidden;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0 12px 0;
 }
 
-#navigation li {
-  padding: 0;
+#navigation li{
   margin: 0;
+  padding: 16px 50px;
   list-style-type: none;
-  display: block;
-  float:left;
-  height: 100%;
-  width: 25%;
-  vertical-align: middle;
+  display: inline;
 }
 
 #navigation li a {
   color: #323232;
   font-size: 2em;
-  display: block;
-  margin: 8px 0;
+
 }
 
 #navigation li a:hover{
