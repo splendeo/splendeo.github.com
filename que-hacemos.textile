@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Qué hacemos
-permalink: que-hacemos
 locale: es
 en: what-we-do
 ---

@@ -3,7 +3,6 @@ layout: default
 title: Projects
 locale: en
 es: proyectos
-permalink: projects
 ---
 
 {% for project in site.categories.projects %}

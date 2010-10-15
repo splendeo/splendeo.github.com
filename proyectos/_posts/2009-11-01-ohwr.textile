@@ -2,8 +2,8 @@
 layout: project
 title: OHWR
 locale: es
-en: ohwr
-permalink: /proyectos/ohwr.html
+en: projects/ohwr
+permalink: /proyectos/ohwr
 image: ohwr.png
 ---
 

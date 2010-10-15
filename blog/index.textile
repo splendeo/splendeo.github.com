@@ -3,7 +3,6 @@ layout: default
 title: Blog
 locale: es
 en: blog
-permalink: blog
 ---
 
 {% for article in site.categories.blog %}
