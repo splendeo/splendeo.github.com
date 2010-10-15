@@ -2,7 +2,7 @@
 layout: front
 title: Home
 locale: en
-es: /
+es: ""
 ---
 
 h2. "What we do":/en/what-we-do

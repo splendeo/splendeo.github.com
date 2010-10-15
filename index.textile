@@ -2,7 +2,7 @@
 layout: front
 title: Inicio
 locale: es
-en: /en/
+en: /en
 ---
  
 h2. "Qué hacemos":que-hacemos
@@ -13,10 +13,10 @@ h2. "Quiénes somos":quienes-somos
 
 Conoce nuestra empresa.
 
-h2. "Proyectos":proyectos
+h2. "Proyectos":/proyectos/index.html
 
 Ejemplos de nuestro trabajo.
 
-h2. "Blog":blog
+h2. "Blog":/blog/index.html
 
 Noticias y novedades de Splendeo.

@@ -32,13 +32,13 @@
                 {% if page.layout == 'post' %}
                   <a href="/blog{{ locale_hash['path'] }}{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
                 {% else %}
-                  <a href="{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                  <a href="{{ page[locale_name] }}/">{{ locale_hash['name'] }}</a>
                 {% endif %}
               {% endif %}
             {% endunless %}
           {% endfor %}
         </div>
 
-        <a id="logo" href="{{ site.locales[page.locale].path }}" title="Splendeo Innovación"><img src="/images/splendeo-logo.png" alt="Splendeo Innovación" /></a>
+        <a id="logo" href="{{ site.locales[page.locale].path }}/" title="Splendeo Innovación"><img src="/images/splendeo-logo.png" alt="Splendeo Innovación" /></a>
 
       </div>
