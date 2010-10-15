@@ -6,16 +6,16 @@ locales:
     navigation:
     - "Qué hacemos": /que-hacemos/
     - "Quiénes somos": /quienes-somos/
-    - "Proyectos": /proyectos/index.html
-    - "Blog": /blog/index.html
+    - "Proyectos": /proyectos/
+    - "Blog": /blog/
   en:
     name: English
     path: /en
     navigation:
     - "What we do": /en/what-we-do/
     - "Who we are": /en/who-we-are/
-    - "Projects": /en/projects/index.html
-    - "Blog": /en/blog/index.html
+    - "Projects": /en/projects/
+    - "Blog": /en/blog/
 
 permalink: pretty
 auto: true

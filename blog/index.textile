@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 locale: es
-en: /en/blog/index.html
+en: /en/blog
 ---
 
 {% for article in site.categories.blog %}

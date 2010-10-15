@@ -49,7 +49,8 @@
             {% for nav in site.locales[page.locale].navigation %}
               {% capture counter %}{{ counter | plus : 1 }}{% endcapture %}
               {% for link in nav %}
-                {% if link[1] == page.url %}
+                {% capture ugly_url %}{{ link[1] }}index.html{% endcapture %}
+                {% if page.url == link[1] or page.url == ugly_url %}
                   {% assign css_class = 'current' %}
                 {% elsif page.layout == 'project' and (link[1] == '/en/projects/index.html' or link[1] == '/proyectos/index.html') %}
                   {% assign css_class = 'current' %}
