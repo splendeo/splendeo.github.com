@@ -13,13 +13,71 @@ body {
   background: transparent url(/css/images/background.png) repeat fixed 0 0;
 }
 
-#header, #content {
+body.default #header, body.post #header, body.project #header {
+  background: transparent url(/css/images/header_background.png) repeat;
+}
+
+#header {
+  height: 209px;
+  position: relative;
+}
+
+#language_switcher{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#content {
   padding: 10px;
 }
 
 #header #logo{
   text-align: center;
   display: block;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+/* navigation */
+
+#navigation {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+li.nav_1 { left: 35px; }
+li.nav_2 { left: 310px; }
+li.nav_3 { left: 555px; }
+li.nav_4 { left: 740px; }
+
+#navigation li{
+  list-style-type: none;
+  display: block;
+  height: 51px;
+  width: 24%;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+}
+
+#navigation li.current {
+  background: transparent url(/css/images/navigation-current-background.png) no-repeat center center;
+}
+
+#navigation li a {
+  color: #323232;
+  font-size: 2em;
+}
+
+#navigation li a:hover{
+  text-decoration: none;
 }
 
 .container {
@@ -35,33 +93,5 @@ body {
   background-color: white;
 }
 
-/* navigation */
 
-#navigation {
-  background: transparent url(/css/images/navigation-background.png) repeat;
-  text-align: center;
-  margin: 0;
-  padding: 4px 0 12px 0;
-}
-
-#navigation li{
-  margin: 0;
-  padding: 16px 50px;
-  list-style-type: none;
-  display: inline;
-}
-
-#navigation li a {
-  color: #323232;
-  font-size: 2em;
-
-}
-
-#navigation li a:hover{
-  text-decoration: none;
-}
-
-#navigation li.current {
-  background: transparent url(/css/images/navigation-current-background.png) no-repeat center center;
-}
 
