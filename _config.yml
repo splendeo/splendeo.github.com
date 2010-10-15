@@ -4,7 +4,7 @@ locales:
     name: Español
     path: ""
     navigation:
-    - "Qué hacemos":/que-hacemos/
+    - "Qué hacemos": /que-hacemos/
     - "Quiénes somos": /quienes-somos/
     - "Proyectos": /proyectos/index.html
     - "Blog": /blog/index.html
