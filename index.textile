@@ -2,7 +2,7 @@
 layout: front
 title: Inicio
 locale: es
-en: ""
+en: /en/
 ---
  
 h2. "Qué hacemos":que-hacemos

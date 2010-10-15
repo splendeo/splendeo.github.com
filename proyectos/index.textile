@@ -2,7 +2,7 @@
 layout: default
 title: Proyectos
 locale: es
-en: projects
+en: /projects/index.html
 ---
 
 {% for project in site.categories.proyectos %}

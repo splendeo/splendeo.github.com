@@ -2,7 +2,7 @@
 layout: project
 title: OHWR
 locale: es
-en: projects/ohwr
+en: /en/projects/ohwr
 permalink: /proyectos/ohwr
 image: ohwr.png
 ---

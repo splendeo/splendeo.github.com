@@ -2,7 +2,7 @@
 layout: project
 title: Storemonitor
 locale: es
-en: projects/storemonitor
+en: /en/projects/storemonitor
 permalink: /proyectos/storemonitor
 image: storemonitor.png
 ---

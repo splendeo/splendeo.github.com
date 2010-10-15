@@ -2,16 +2,16 @@
 {% for nav in site.locales[page.locale].navigation %}
 
   {% for link in nav %}
-    {% if link[1] == page.permalink %}
+    {% if link[1] == page.url %}
       {% assign css_class = 'current' %}
-    {% elsif page.layout == 'project' and link[1] == 'projects' %}
+    {% elsif page.layout == 'project' and (link[1] == '/en/projects/index.html' or link[1] == '/proyectos/index.html') %}
       {% assign css_class = 'current' %}
-    {% elsif page.layout == 'project' and link[1] == 'proyectos' %}
+    {% elsif page.layout == 'post' and (link[1] == '/en/blog/index.html' or link[1] == '/blog/index.html') %}
       {% assign css_class = 'current' %}
     {% endif %}
 
     <li class="{{ css_class }}">
-      <a href="{{ site.locales[page.locale].path }}{{ link[1] }}">{{ link[0] }}</a>
+      <a href="{{ link[1] }}">{{ link[0] }}</a>
     </li>
 
     {% assign css_class = nil %}

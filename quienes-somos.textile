@@ -2,7 +2,7 @@
 layout: default
 title: Quiénes somos
 locale: es
-en: who-we-are
+en: /en/who-we-are
 ---
 
 h3. La empresa

@@ -2,20 +2,20 @@ title: Splendeo Innovación
 locales:
   es:
     name: Español
-    path: /
+    path: ""
     navigation:
-    - "Qué hacemos": que-hacemos
-    - "Quiénes somos": quienes-somos
-    - "Proyectos": proyectos
-    - "Blog": blog
+    - "Qué hacemos": /que-hacemos/
+    - "Quiénes somos": /quienes-somos/
+    - "Proyectos": /proyectos/index.html
+    - "Blog": /blog/index.html
   en:
     name: English
-    path: /en/
+    path: /en
     navigation:
-    - "What we do": what-we-do
-    - "Who we are": who-we-are
-    - "Projects": projects
-    - "Blog": blog
+    - "What we do": /en/what-we-do/
+    - "Who we are": /en/who-we-are/
+    - "Projects": /en/projects/index.html
+    - "Blog": /en/blog/index.html
 
 permalink: pretty
 auto: true

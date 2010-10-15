@@ -2,8 +2,8 @@
 layout: project
 title: Storemonitor
 locale: en
-es: proyectos/storemonitor.html
-permalink: /en/projects/storemonitor.html
+es: /proyectos/storemonitor
+permalink: /en/projects/storemonitor
 image: storemonitor.png
 ---
 

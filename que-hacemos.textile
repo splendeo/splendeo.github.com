@@ -2,7 +2,7 @@
 layout: default
 title: Qué hacemos
 locale: es
-en: what-we-do
+en: /en/what-we-do
 ---
 
 h3. Aplicaciones web

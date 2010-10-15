@@ -2,21 +2,21 @@
 layout: front
 title: Home
 locale: en
-es: ""
+es: /
 ---
 
-h2. "What we do":what-we-do
+h2. "What we do":/en/what-we-do
 
 We create productive & easy to use web applications.
 
-h2. "Who we are":who-we-are
+h2. "Who we are":/en/who-we-are
 
 Meet our company.
 
-h2. "Projects":projects
+h2. "Projects":/en/projects/index.html
 
 Samples of our work.
 
-h2. "Blog":blog
+h2. "Blog":/en/blog/index.html
 
 News and events related with Splendeo.
