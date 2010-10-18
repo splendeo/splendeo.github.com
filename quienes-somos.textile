@@ -4,22 +4,26 @@ title: Quiénes somos
 en: /en/who-we-are
 ---
 
-h3. La empresa
+Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
-3 amigos se juntaron un día porque pensaban que existe otra forma de usar la web. Así que crearon una empresa, donde cada uno cubre una ámbito empresarial, gracias a su experiencia previa y/o formación. Nos complementamos y aprendemos en el proceso.
+Hemos creado varios productos innovadores y tratamos de incoporar de forma constante más talento a nuestro equipo.
 
-Estamos en Madrid, pero atendemos a clientes internacionales.
+h3. Socios
 
-h3. El equipo
+h4(#egarcia). Enrique García
 
-h4. Francisco Juan
+Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español. Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum y continua programando profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
 
-Juan es un apellido. Francisco es Ingeniero Aeronáutico y muy curioso. Lleva 4 años diseñando y programando aplicaciones web usando varias tecnologías. Tiene experiencia tratando con los clientes. Es experto en usabilidad.
+"LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
 
-h4. Enrique Roibás
+h4(#fjuan). Francisco de Juan
 
-Enrique es licenciado en Administración y dirección de empresas. Le gustan las empresas de nueva creación. Tiene experiencia en control de costes, gestión financiera y análisis de procesos. Enólogo de la empresa.
+Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor. Diseña y programa aplicaciones web usando diversas tecnologías desde el año 2008. Tiene experiencia tratando con los clientes y es experto en usabilidad. En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los servidores.
 
-h4. Enrique García
+"LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
-Enrique es Ingeniero en Informática. Habla fluidamente inglés, francés y español. Empezó programando en el Sinclair Spectrum 48k, y lleva haciendolo profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas.
+h4(#eroibas). Enrique Roibás
+
+Enrique es licenciado en Administración y Dirección de Empresas y tiene experiencia en control de costes, gestión financiera y análisis de procesos. En Splendeo es responsable de definir e implantar nuestra estrategia empresarial.
+
+"LinkedIn":http://es.linkedin.com/in/enriqueroibas
