@@ -21,10 +21,10 @@ body {
 body #header {
   height: 209px;
   position: relative;
-  background: transparent url(/css/images/header_background.png) repeat;
+  background: transparent url(/css/images/header-background.png) repeat;
 }
 
-body.front #header { background: none; }
+body.front #header { background: white; }
 
 .container {
   background-color: white;
@@ -35,13 +35,26 @@ body.front #header { background: none; }
   -box-shadow: 0px 5px 10px #666;
 }
 
-#header #logo{
-  text-align: center;
-  display: block;
-  width: 80%;
-  margin: 0 auto;
+body.front .container {
+  background: white url(/css/images/front-container-background.png) repeat-x bottom;
+}
+
+#header h1{
+  width: 239px;
+  margin: 0px auto;
   position: relative;
-  top: 10px;
+  top: 40px;
+}
+
+#header h1 a {
+  padding: 98px 0 0 0;
+  display: block;
+  overflow: hidden;
+  background-image: url(/css/images/splendeo-logo.png);
+  background-repeat: no-repeat;
+  height: 0px !important;
+  height /**/:98px;
+  width: 239px;
 }
 
 #language_switcher{
@@ -93,7 +106,6 @@ li.nav_4 { left: 740px; }
 
 #content {
   padding: 10px;
-  background-color: white;
 }
 
 #footer {

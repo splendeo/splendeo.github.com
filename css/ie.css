@@ -7,3 +7,7 @@
   background: transparent url(/css/images/navigation-current-background.gif) no-repeat center center;
 }
 
+#header h1 a {
+  background-image: url(/css/images/splendeo-logo.gif);
+}
+
