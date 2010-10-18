@@ -19,15 +19,20 @@
 
     <title>{{ site.title }} - {{ page.title }}</title>
   </head>
+  
+  {% comment %}Calculate the current page's locale{% endcomment %}
+  {% assign page_locale = 'es' %}
+  {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
+  {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
-  <body class="{{ page.layout }}">
+  <body class="{{ page.layout }} {{ page_locale }}">
     <div id="container" class="container">
       <div id="header">
         <div id="language_switcher">
           {% for locale in site.locales %}
             {% assign locale_name = locale[0] %}
             {% assign locale_hash = locale[1] %}
-            {% unless locale_name == page.locale %}
+            {% unless locale_name == page_locale %}
               {% if page[locale_name] %}
                 {% if page.layout == 'post' %}
                   <a href="/blog{{ locale_hash['path'] }}{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
@@ -40,14 +45,13 @@
         </div>
         
         <div id='logo'>
-          <a href="{{ site.locales[page.locale].path }}/" title="Splendeo Innovación"><img src="/images/splendeo-logo.png" alt="Splendeo Innovación" /></a>
+          <a href="{{ site.locales[page_locale].path }}/" title="Splendeo Innovación"><img src="/images/splendeo-logo.png" alt="Splendeo Innovación" /></a>
         </div>
 
         {% unless page.layout == 'front' %}
           <ul id="navigation">
-            {% assign counter = 0 %}
-            {% for nav in site.locales[page.locale].navigation %}
-              {% capture counter %}{{ counter | plus : 1 }}{% endcapture %}
+            {% for nav in site.locales[page_locale].navigation %}
+              {% assign counter = forloop.index %}
               {% for link in nav %}
                 {% capture ugly_url %}{{ link[1] }}index.html{% endcapture %}
                 {% if page.url == link[1] or page.url == ugly_url %}

@@ -5,31 +5,34 @@ blue (links, h1, etc): 569DD5
 
 a { text-decoration: none; }
 
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: none;
+  color: #FD4A1D;
+}
 
-h1,h2,h3,h4,h5,h6,a { color: #569DD5; }
+h1,h2,h3,h4,h5,h6,a {
+  color: #559ed5;
+}
 
 body {
   background: transparent url(/css/images/background.png) repeat fixed 0 0;
 }
 
-body.default #header, body.post #header, body.project #header {
+body #header {
+  height: 209px;
+  position: relative;
   background: transparent url(/css/images/header_background.png) repeat;
 }
 
-#header {
-  height: 209px;
-  position: relative;
-}
+body.front #header { background: none; }
 
-#language_switcher{
-  position: absolute;
-  left: 10px;
-  top: 10px;
-}
-
-#content {
-  padding: 10px;
+.container {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 10px #666;
+  -moz-box-shadow: 0px 5px 10px #666;
+  -box-shadow: 0px 5px 10px #666;
 }
 
 #header #logo{
@@ -38,6 +41,12 @@ body.default #header, body.post #header, body.project #header {
   width: 80%;
   margin: 0 auto;
   position: relative;
+  top: 10px;
+}
+
+#language_switcher{
+  position: absolute;
+  left: 10px;
   top: 10px;
 }
 
@@ -74,24 +83,57 @@ li.nav_4 { left: 740px; }
 #navigation li a {
   color: #323232;
   font-size: 2em;
+  padding-left: 10px;
+  background: transparent url(/css/images/navigation-bullet.png) no-repeat 0 0.6em;
 }
 
 #navigation li a:hover{
-  text-decoration: none;
+  color: #FF3819;
 }
 
-.container {
+#content {
+  padding: 10px;
   background-color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  -webkit-box-shadow: 0px 5px 10px #666;
-  -moz-box-shadow: 0px 5px 10px #666;
-  -box-shadow: 0px 5px 10px #666;
 }
 
-#content{
-  background-color: white;
+#footer {
+  padding: 0px 10px;
 }
+
+#footer a{
+  color: #6c6c6c;
+}
+
+#footer_text{
+  float: right;
+}
+
+#footer ul{
+  float:left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer ul li{
+  list-style-type: none;
+  padding: 0px 6px;
+  display: inline;
+  background: transparent url(/css/images/footer-navigation-separator.png) no-repeat right 3px;
+}
+
+#footer ul li.first{
+  padding-left: 0px;
+}
+
+#footer ul li.last{
+  padding-right: 0px;
+  background: none;
+}
+
+#footer ul li.current a{ font-weight: bold; }
+
+
 
 
 

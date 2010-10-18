@@ -8,6 +8,10 @@ locales:
     - "Quiénes somos": /quienes-somos/
     - "Proyectos": /proyectos/
     - "Blog": /blog/
+    footer:
+      text: Copyright &copy; Splendeo Innovación 2010
+      legal_link:
+      - "Política de privacidad": /legal/
   en:
     name: English
     path: /en
@@ -16,6 +20,10 @@ locales:
     - "Who we are": /en/who-we-are/
     - "Projects": /en/projects/
     - "Blog": /en/blog/
+    footer:
+      text: Copyright &copy; Splendeo Innovación 2010
+      legal_link:
+      - "Privacy policy": /en/legal/
 
 permalink: pretty
 auto: true
