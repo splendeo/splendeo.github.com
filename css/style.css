@@ -135,7 +135,7 @@ li.nav_4 { left: 730px; }
   list-style-type: none;
   padding: 0px 6px;
   display: inline;
-  background: transparent url('/css/images/footer-navigation-separator.png') no-repeat right 3px;
+  background: transparent url('/css/images/footer-navigation-separator.png') no-repeat right 5px;
 }
 
 #footer ul li.first{
@@ -156,7 +156,7 @@ li.nav_4 { left: 730px; }
 div.front {
   height: 30em;
   position: relative;
-  padding: 10px;
+  padding: 0 0 0 4px;
 }
 div.front div, div.front div div {
   height: 15em;
