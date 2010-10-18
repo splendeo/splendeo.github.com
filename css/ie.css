@@ -11,3 +11,8 @@
   background-image: url(/css/images/splendeo-logo.gif);
 }
 
+div.front div.who-we-are a.image { background-image: url('/css/images/front/who-we-are.gif'); }
+div.front div.what-we-do a.image { background-image: url('/css/images/front/what-we-do.gif'); }
+div.front div.projects a.image   { background-image: url('/css/images/front/projects.gif'); }
+div.front div.blog a.image       { background-image: url('/css/images/front/blog.gif'); }
+

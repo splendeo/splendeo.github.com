@@ -3,25 +3,30 @@ blue (links, h1, etc): 569DD5
 
 */
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+  color: #559ed5;
+}
 
 a:hover {
   text-decoration: none;
   color: #FD4A1D;
 }
 
-h1,h2,h3,h4,h5,h6,a {
-  color: #559ed5;
+h1,h2,h3,h4,h5,h6{
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #323232;
 }
 
 body {
-  background: transparent url(/css/images/background.png) repeat fixed 0 0;
+  background: transparent url('/css/images/background.png') repeat fixed 0 0;
+  font-family: Verdana, Geneva, Kalimati, sans-serif;
 }
 
 body #header {
   height: 209px;
   position: relative;
-  background: transparent url(/css/images/header-background.png) repeat;
+  background: transparent url('/css/images/header-background.png') repeat;
 }
 
 body.front #header { background: white; }
@@ -36,7 +41,7 @@ body.front #header { background: white; }
 }
 
 body.front .container {
-  background: white url(/css/images/front-container-background.png) repeat-x bottom;
+  background: white url('/css/images/front-container-background.png') repeat-x bottom;
 }
 
 #header h1{
@@ -50,7 +55,7 @@ body.front .container {
   padding: 98px 0 0 0;
   display: block;
   overflow: hidden;
-  background-image: url(/css/images/splendeo-logo.png);
+  background-image: url('/css/images/splendeo-logo.png');
   background-repeat: no-repeat;
   height: 0px !important;
   height /**/:98px;
@@ -75,9 +80,9 @@ body.front .container {
 }
 
 li.nav_1 { left: 35px; }
-li.nav_2 { left: 310px; }
-li.nav_3 { left: 555px; }
-li.nav_4 { left: 740px; }
+li.nav_2 { left: 300px; }
+li.nav_3 { left: 540px; }
+li.nav_4 { left: 730px; }
 
 #navigation li{
   list-style-type: none;
@@ -90,14 +95,13 @@ li.nav_4 { left: 740px; }
 }
 
 #navigation li.current {
-  background: transparent url(/css/images/navigation-current-background.png) no-repeat center center;
+  background: transparent url('/css/images/navigation-current-background.png') no-repeat center center;
 }
 
 #navigation li a {
   color: #323232;
-  font-size: 2em;
   padding-left: 10px;
-  background: transparent url(/css/images/navigation-bullet.png) no-repeat 0 0.6em;
+  background: transparent url('/css/images/navigation-bullet.png') no-repeat 0 0.6em;
 }
 
 #navigation li a:hover{
@@ -109,7 +113,7 @@ li.nav_4 { left: 740px; }
 }
 
 #footer {
-  padding: 0px 10px;
+  padding: 10px;
 }
 
 #footer a{
@@ -131,7 +135,7 @@ li.nav_4 { left: 740px; }
   list-style-type: none;
   padding: 0px 6px;
   display: inline;
-  background: transparent url(/css/images/footer-navigation-separator.png) no-repeat right 3px;
+  background: transparent url('/css/images/footer-navigation-separator.png') no-repeat right 3px;
 }
 
 #footer ul li.first{
@@ -146,6 +150,44 @@ li.nav_4 { left: 740px; }
 #footer ul li.current a{ font-weight: bold; }
 
 
+/* Page-exclusive styles start here */
+
+/* Front page */
+div.front {
+  height: 30em;
+  position: relative;
+  padding: 10px;
+}
+div.front div, div.front div div {
+  height: 15em;
+  position: relative;
+}
+div.front div div {
+  margin: 10px;
+}
+div.front a.image {
+  padding: 60px 0 0 0;
+  display: block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 0px !important;
+  height /**/:60px;
+  width: 181px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+div.front div.who-we-are a.image { background-image: url('/css/images/front/who-we-are.png'); }
+div.front div.what-we-do a.image { background-image: url('/css/images/front/what-we-do.png'); }
+div.front div.projects a.image   { background-image: url('/css/images/front/projects.png'); }
+div.front div.blog a.image       { background-image: url('/css/images/front/blog.png'); }
+div.front h2 { font-size: 1.7em; }
+div.front h2 a{
+  color: #323232;
+}
+div.front a.subtitle {
+  color: #747474;
+}
 
 
 

@@ -3,19 +3,50 @@ layout: front
 title: Inicio
 en: /en
 ---
- 
-h2. "Qué hacemos":que-hacemos
 
-Hacemos apliaciones web útiles y fáciles de usar.
+<div class='front'>
+  <div class='span-5 what-we-do'>
+    <div>
 
-h2. "Quiénes somos":quienes-somos
+h2. "Qué hacemos":/que-hacemos/
 
-Conoce nuestra empresa.
+"(subtitle)Hacemos apliaciones web útiles y fáciles de usar.":/que-hacemos/
 
-h2. "Proyectos":/proyectos/index.html
+"(image)Qué hacemos":/que-hacemos/
 
-Ejemplos de nuestro trabajo.
+    </div>
+  </div>
+  <div class='span-5 prepend-1 who-we-are'>
+    <div>
 
-h2. "Blog":/blog/index.html
+h2. "Quiénes somos":/quienes-somos/
 
-Noticias y novedades de Splendeo.
+"(subtitle)Conoce nuestra empresa.":/quienes-somos/
+
+"(image)Quiénes somos":/quienes-somos/
+
+    </div>
+  </div>
+  <div class='span-5 prepend-1 projects'>
+    <div>
+
+h2. "Proyectos":/proyectos/
+
+"(subtitle)Ejemplos de nuestro trabajo.":/proyectos/
+
+"(image)Proyectos":/proyectos/
+
+    </div>
+  </div>
+  <div class='span-5 prepend-1 last blog'>
+    <div>
+
+h2. "Blog":/blog/
+
+"(subtitle)Noticias y novedades de Splendeo.":/blog/
+
+"(image)Blog":/blog/
+
+    </div>
+  </div>
+</div>

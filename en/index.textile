@@ -4,18 +4,49 @@ title: Home
 es: ""
 ---
 
-h2. "What we do":/en/what-we-do
+<div class='front'>
+  <div class='span-5 what-we-do'>
+    <div>
 
-We create productive & easy to use web applications.
+h2. "What we do":/en/what-we-do/
 
-h2. "Who we are":/en/who-we-are
+"(subtitle)We create productive & easy to use web applications.":/en/what-we-do/
 
-Meet our company.
+"(image)What we do":/en/what-we-do/
 
-h2. "Projects":/en/projects/index.html
+    </div>
+  </div>
+  <div class='span-5 prepend-1 who-we-are'>
+    <div>
 
-Samples of our work.
+h2. "Who we are":/en/who-we-are/
 
-h2. "Blog":/en/blog/index.html
+"(subtitle)Meet our company.":/en/who-we-are/
 
-News and events related with Splendeo.
+"(image)Who we are":/en/who-we-are/
+
+    </div>
+  </div>
+  <div class='span-5 prepend-1 projects'>
+    <div>
+
+h2. "Projects":/en/projects/
+
+"(subtitle)Samples of our work.":/en/projects/
+
+"(image)Projects":/en/projects/
+
+    </div>
+  </div>
+  <div class='span-5 prepend-1 last blog'>
+    <div>
+
+h2. "Blog":/en/blog/
+
+"(subtitle)News and events related with Splendeo.":/en/blog/
+
+"(image)Blog":/en/blog/
+
+    </div>
+  </div>
+</div>
