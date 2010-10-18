@@ -113,7 +113,12 @@ li.nav_4 { left: 730px; }
 }
 
 #footer {
-  padding: 10px;
+  padding: 10px 0;
+}
+
+#footer_white{
+  background-color: white;
+  padding: 0 10px;
 }
 
 #footer a{
