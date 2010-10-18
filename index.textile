@@ -1,7 +1,6 @@
 ---
 layout: front
 title: Inicio
-locale: es
 en: /en
 ---
  

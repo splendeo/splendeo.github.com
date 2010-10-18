@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Projects
-locale: en
 es: /proyectos
 ---
 

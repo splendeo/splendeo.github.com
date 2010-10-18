@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Quiénes somos
-locale: es
 en: /en/who-we-are
 ---
 

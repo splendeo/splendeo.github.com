@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Qué hacemos
-locale: es
 en: /en/what-we-do
 ---
 
