@@ -4,68 +4,72 @@ title: Legal notice
 es: /aviso-legal
 ---
 
-h3. Aplicaciones web
+Visiting of accessing this website implies the acceptation of the legal terms of use that that are present on "http://splendeo.es/aviso-legal":http://www.splendeo.es/en/legal-notice.
 
-bq. "Revisa este excel y mándamelo de vuelta."
+# "About Splendeo Innovación, SL":#about
+# "Content license":#license
+# "Collaborators sending content to this site":#collabotator-content
+# "User's responsibility":#user-responsability
+# "Exclusion of warranties":#disclaimer
+# "Limitation of liability":#limitation-of-liability
+# "Privacy":#privacy
+# "Applicable law":#applicable-law
 
-Nuestra filosofía es: todo el mundo usa la web. Es un medio universal de comunicación.
+h3(#about). About Splendeo Innovación, SL
 
-Utilizar una página web para controlar un flujo de trabajo:
+Splendeo Innovación, SL (*Splendeo* from now on) provides free information to its visitors. "splendeo.es":http://splendeo.es is a web site created and maintained by Splendeo, who runs with its running expenses.
 
-* Facilita la compartición de datos entre usuarios
-* Deslocaliza la información
-* Añade seguridad
+By visiting and using this site, you accept the fact that its owner reserves the rights to modify or suspend the available pages, the web site, or the data offered on it, at any moment, without warning and without any kind of responsibility with its users. This way, Splendeo is not accountable for the erasure of data, failure on data storage, content accuracy and other circumstances relative to the information at "splendeo.es":http://www.splendeo.es.
 
-h3. Fáciles de usar
+Splendeo is a limited liability company registered at the _Registro Mercantil de Madrid_, volume 26.364, page 50, section 8, section M-475074, inscription 1.
 
-bq. "¿Dónde tengo que hacer click? ¡He perdido mis datos!"
+h3(#license). Content license
 
-Nosotros seguimos unas directivas de diseño bastante 
+Splendeo will use for the content, unless explicitly specified, the license "Creative Commons - Attribution":http://creativecommons.org/licenses/by/3.0/.
 
-* Seguimos los estándares marcados por el W3C.
-* Nuestros elementos clickables se diferencian visualmente del contenido.
-* Utilizamos un botón (y sólamente uno) para cada acción.
-* Mostramos un diálogo de confirmación antes de borrar cualquier cosa.
+h3(#collabotator-content). Collaborators sending content to this site
 
-h3. Útiles
+Without prejudice to what is expressed on the prior paragraph, by sending any content to this website you:
 
-bq. "No es lo que pido, sino lo que quiero."
-
-Analizamos el problema y las expectativas del cliente y:
-
-* Desarrollamos una aplicación ajustada a sus necesidades o bien
-* Encontramos la solución ya existente que mejor se ajuste
-
-h3. Código abierto
-
-En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
-
-El código abierto nos permite:
-
-* Añadir más calidad, control y libertad a la hora de aportar soluciones.
-* Menor coste para nosotros significa menos coste para nuestros clientes.
-
-Algunos ejemplos de las tecnologías de código abierto que utilizamos en Splendeo:
-
-* "Ruby on Rails":http://rubyonrails.org
-* "Apache":http://apache.org
-* "Postgresql":http://postgresql.org
-* "Ubuntu":http://www.ubuntu.com
-
-h3. Optimización para buscadores (SEO)
-
-Las claves para el éxito son: estilo, estructura y relevancia.
-
-Nosotros sabemos cómo aplicarlas en cualquier sitio web, ya sea existente o de nueva creación.
-
-h3. Mobile
-
-Los dispositivos móbiles cada vez tienen más protagonismo - para algunos sitios web ya son el target principal.
-
-Nosotros sabemos hacer que su página web funcione correctamente en un navegador mobile.
-
-h3. Etc
-
-Hacemos más cosas. ¡Pregúntenos!
+* Accept granting global, perpetual, non-exclusive rights and license to use, show, reproduce, modify, adapt, publish, distribute, represent, promote, archive, translate and create recompilation and derived works from the previously mentioned information, or part of it, without perceiving any author's rights. This license will apply to any media, technology, or distribution way.
+* Guarantee that you possess all the legal, moral, or any other kind of rights that may be necessary in order to grant Splendeo the license specified on the previous section.
+* You agree that Splendeo has the right (but not the obligation) of refusing or constricting access to any content offered, at any moment and for any reason, with or without warning to you, at Splendeo's discretion.
 
 
+If you think that your intellectual property has been used in violation of your rights, please contact us at "support@splendeo.es":mailto:support@splendeo.es.
+
+h3(#user-responsability). User's Responsibility
+
+
+The user is aware of his exclusive responsibility for his usage of the web "splendeo.es":splendeo.es, exempting Splendeo and its collaborators from any kind of lawsuit or reclamation. This includes legal expenses, even if not mandatory, of a third person, due to or as a consequence of the user's conduct or his connection with this website, the contents it offers, his violation of these Terms of Use or any other violation of other parties' rights.
+
+To the effect of what is exposed on articles 248.3, 270 and 286 of the Spanish Penal Code, modified by the _Ley Orgánica 15/2003_, of november the 25th, Splendeo declares that this website does not provide devices or software that can be used to commit fraud against real, intellectual or industrial property. This website does not provide information about ways of getting unauthorized access to auditive or televised radio emissions, other services given electronically, or devices or software unauthorized on other Member States of the European Union designed to that effect, neither encourages its users to achieve such unauthorized access.
+
+The user must use properly the website and its content, conforming to the applicable legislation. The user must not make an unauthorized or fraudulent use of the website or its content, with illegal ends or effects, such as the mentioned on the previous paragraph, limiting the use of the obtained information to educational or experimental ends.
+
+The website owners declines responsibility of other data, websites or files accessible through links on the website, according to the _Derecho a la Libertad de Expresión e Información_, given that external pages and files fall under the responsibility of their respective owners. In consequence, this page neither approves or shares ownership of the products, contents, services, information, data, files or other kind of material hosted on such pages, neither has control or responsibility over their quality, legality, utility or warranties of use. If a competent organ declares the illegality of any part, demanding its erasure or limiting the access to it, and Splendeo. If a competent administration declare that some content is illegal and Splendeo is notified timely, any required links will be removed immediately.
+
+h3(#disclaimer). Exclusion of Warranties
+
+The user understands that using this site and its content is under his own risk. The site is offered "as is", and Splendeo declines all warranties of any kind, explicit or implicit, including, but not limited to, warranties of commerce, convenience for particular purposes and of no infraction.
+
+Splendeo doesn't offer any warranty, implicit or explicit, about the continuos access to the web, errors, virus, precision, security, confidence, in any quality and also that the content is safe in all senses. You understand and accept that Splendeo and its collaborators don't offer professional advise of any kind using this web and that the use of this information is made by your own understanding.
+
+h3(#limitation-of-liability). Limitation of liability
+
+The user accepts that Splendeo will not be responsible of any direct, indirect, extraordinary, incidental, critic or compensated damage, including (but not limited to) damages due to the lost of benefits, data, or other intangible lost, even if Splendeo has notified the user about the possibility of such events, as a result of (1) the use or lack of possibility of using the website, (2) the cost of replacing the goods and/or services as a result of any other operation done via the website, (3) an unauthorized access or the alterations on the data transmission, (4) declarations or behaviors of third parties on the website, or (5) any other business related with the website.
+
+
+h3(#privacy). Privacy
+
+Splendeo doesn't store personal information about its users, not even the name, email or IPs.
+
+The servers where this site is hosted reside at the "GitHub Inc":http://github.com company. Splendeo acts in all times conforming to the technical and organizational possibilities of said company, whose terms and conditions of use and privacy are available at the provider website. The user is aware of this circumstance and accepts it completely, admitting explicitly such conditions. Moreover, the user accepts that Splendeo's technical providers and this privacy policy may suffer modifications, which would be announced publicly on this website.
+
+h3(#applicable-law). Applicable law
+
+By using this website you accept these Terms of Use and any other dispute relative to the usage of this website will be interpreted according to the current laws on the place of residence of this website's owner:
+
+Splendeo Innovación, SL
+c/ Cidro, 3
+28044 - Madrid
