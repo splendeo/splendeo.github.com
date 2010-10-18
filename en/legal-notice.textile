@@ -1,0 +1,71 @@
+---
+layout: default
+title: Legal notice
+es: /aviso-legal
+---
+
+h3. Aplicaciones web
+
+bq. "Revisa este excel y mándamelo de vuelta."
+
+Nuestra filosofía es: todo el mundo usa la web. Es un medio universal de comunicación.
+
+Utilizar una página web para controlar un flujo de trabajo:
+
+* Facilita la compartición de datos entre usuarios
+* Deslocaliza la información
+* Añade seguridad
+
+h3. Fáciles de usar
+
+bq. "¿Dónde tengo que hacer click? ¡He perdido mis datos!"
+
+Nosotros seguimos unas directivas de diseño bastante 
+
+* Seguimos los estándares marcados por el W3C.
+* Nuestros elementos clickables se diferencian visualmente del contenido.
+* Utilizamos un botón (y sólamente uno) para cada acción.
+* Mostramos un diálogo de confirmación antes de borrar cualquier cosa.
+
+h3. Útiles
+
+bq. "No es lo que pido, sino lo que quiero."
+
+Analizamos el problema y las expectativas del cliente y:
+
+* Desarrollamos una aplicación ajustada a sus necesidades o bien
+* Encontramos la solución ya existente que mejor se ajuste
+
+h3. Código abierto
+
+En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
+
+El código abierto nos permite:
+
+* Añadir más calidad, control y libertad a la hora de aportar soluciones.
+* Menor coste para nosotros significa menos coste para nuestros clientes.
+
+Algunos ejemplos de las tecnologías de código abierto que utilizamos en Splendeo:
+
+* "Ruby on Rails":http://rubyonrails.org
+* "Apache":http://apache.org
+* "Postgresql":http://postgresql.org
+* "Ubuntu":http://www.ubuntu.com
+
+h3. Optimización para buscadores (SEO)
+
+Las claves para el éxito son: estilo, estructura y relevancia.
+
+Nosotros sabemos cómo aplicarlas en cualquier sitio web, ya sea existente o de nueva creación.
+
+h3. Mobile
+
+Los dispositivos móbiles cada vez tienen más protagonismo - para algunos sitios web ya son el target principal.
+
+Nosotros sabemos hacer que su página web funcione correctamente en un navegador mobile.
+
+h3. Etc
+
+Hacemos más cosas. ¡Pregúntenos!
+
+
