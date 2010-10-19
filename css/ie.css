@@ -2,6 +2,11 @@
   IE- specific rules
 */
 
+/* rotation on the contact link */
+#contact_link {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 /* use a gif instead of a transparent png */
 #navigation li.current {
   background: transparent url(/css/images/navigation-current-background.gif) no-repeat center center;
@@ -15,4 +20,6 @@ div.front div.who-we-are a.image { background-image: url('/css/images/front/who-
 div.front div.what-we-do a.image { background-image: url('/css/images/front/what-we-do.gif'); }
 div.front div.projects a.image   { background-image: url('/css/images/front/projects.gif'); }
 div.front div.blog a.image       { background-image: url('/css/images/front/blog.gif'); }
+
+
 

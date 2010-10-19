@@ -1,5 +1,8 @@
 <!DOCTYPE HTML>
 
+{% assign page_locale = 'es' %}
+{% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
+{% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -15,7 +18,9 @@
 
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/style.css">
-     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+    <link rel="stylesheet" href="/css/colorbox.css">
 
     <title>{{ site.title }} - {{ page.title }}</title>
     
@@ -31,17 +36,21 @@
       })();
     </script>
     
-    <!-- JQuery & JQuery validator plugin -->
+    <!-- JQuery & JQuery plugins -->
     <script src="/js/jquery-1.4.3.min.js"></script>
     <script src="/js/jquery.validate-1.7.min.js"></script>
-
+    <script src="/js/jquery.colorbox-1.3.11.min.js"></script> 
   </head>
-  
-  {% assign page_locale = 'es' %}
-  {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
-  {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
   <body class="{{ page.layout }} {{ page_locale }}">
+    {% unless page.layout == 'contact-form' %}
+      <a id="contact_link"
+         href="{{ site.locales[page_locale].contact.link.url }}"
+         onclick="$.colorbox({  width:'60%', href:'{{ site.locales[page_locale].contact.link.ajax }}' }); return false;"
+         title="{{ site.locales[page_locale].contact.link.text }}"
+      >{{ site.locales[page_locale].contact.link.text }}</a>
+    {% endunless %}
+
     <div id="container" class="container">
       <div id="header">
         <div id="language_switcher">
@@ -85,6 +94,7 @@
             {% endfor %}
           </ul>
         {% endunless %}
-      
+        
+
       </div>
 

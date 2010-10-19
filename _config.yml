@@ -27,6 +27,10 @@ locales:
         help: Escribe tu comentario o pregunta aquí.
         error: Por favor rellena el Cuerpo del Mensaje.
       submit: Enviar
+      link:
+        text: Contacto
+        url: /contacto/
+        ajax: /contacto-ajax/
 
   en:
     name: English
@@ -55,6 +59,10 @@ locales:
         help: Enter your complete comment or question here.
         error: Please fill in the Message Body.
       submit: Submit
+      link:
+        text: Contact
+        url: /en/contact/
+        ajax: /en/contact-ajax/
 
 permalink: pretty
 auto: true

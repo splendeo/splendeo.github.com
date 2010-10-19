@@ -68,6 +68,30 @@ body.front .container {
   top: 10px;
 }
 
+#contact_link {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 7em;
+  height: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 5px 20px 2px;
+  color: white;
+  background: transparent url('/css/images/contact-link-background.png') 0 0 repeat;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(-90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(-90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(-90deg);
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 /* navigation */
 
 #navigation {
@@ -160,6 +184,7 @@ body.contact-form #content {
   width: 80%;
   margin: 0 auto;
 }
+form#ss-form { height: 511px; }
 form#ss-form label { display: block; }
 form#ss-form label.title { font-weight: bold; }
 form#ss-form label span.required-asterisk { color: red; }
@@ -167,13 +192,29 @@ form#ss-form label.help {
   font-weight: normal;
   color: gray;
 }
+form#ss-form label.error{
+  border: 0px solid none;
+  background-color: #FBC2C4;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  position: absolute;
+  right: 11px;
+  top: 26px;
+  text-align: right;
+}
 form#ss-form div.form-entry{
   padding: 5px;
+  position: relative;
 }
-form#ss-form input, form#ss-form textarea, form#ss-form label.error {
+form#ss-form input, form#ss-form textarea {
   width: 99%;
   padding: 2px 0;
   border-width: 1px;
+}
+form#ss-form input.error, form#ss-form textarea.error {
+  border-color: #FBC2C4;
+  background-color: white;
 }
 form#ss-form div.buttons{
   width: 50%;
