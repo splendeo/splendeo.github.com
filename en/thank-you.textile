@@ -1,0 +1,11 @@
+---
+layout: default
+es: /en/gracias
+---
+
+h2. Thank you for your email
+
+We'll review it and send you an answer shortly.
+
+Best regards,
+  The Splendeo Innovación team

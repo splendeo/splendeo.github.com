@@ -155,7 +155,30 @@ li.nav_4 { left: 730px; }
 
 #footer ul li.current a{ font-weight: bold; }
 
-
+/* Contact form styles */
+body.contact-form #content {
+  width: 80%;
+  margin: 0 auto;
+}
+form#ss-form label { display: block; }
+form#ss-form label.title { font-weight: bold; }
+form#ss-form label span.required-asterisk { color: red; }
+form#ss-form label.help {
+  font-weight: normal;
+  color: gray;
+}
+form#ss-form div.form-entry{
+  padding: 5px;
+}
+form#ss-form input, form#ss-form textarea, form#ss-form label.error {
+  width: 99%;
+  padding: 2px 0;
+  border-width: 1px;
+}
+form#ss-form div.buttons{
+  width: 50%;
+  margin: 0 auto;
+}
 /* Page-exclusive styles start here */
 
 /* Front page */

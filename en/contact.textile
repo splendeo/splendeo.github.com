@@ -1,0 +1,6 @@
+---
+layout: contact-form
+es: /contacto
+---
+
+{% include contact-form.html %}

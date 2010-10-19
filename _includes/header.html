@@ -31,9 +31,12 @@
       })();
     </script>
     
+    <!-- JQuery & JQuery validator plugin -->
+    <script src="/js/jquery-1.4.3.min.js"></script>
+    <script src="/js/jquery.validate-1.7.min.js"></script>
+
   </head>
   
-  {% comment %}Calculate the current page's locale{% endcomment %}
   {% assign page_locale = 'es' %}
   {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
   {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}

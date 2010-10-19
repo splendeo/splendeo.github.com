@@ -12,6 +12,22 @@ locales:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
       legal_link:
       - "Aviso legal": "/aviso-legal/"
+    contact:
+      thank_you_url: /gracias/
+      email:
+        title: Tu dirección de correo
+        help: Necesitamos tu dirección para poder responderte. No la utilizaremos para ningún otro fin.
+        error: Por favor escribe una dirección de correo válida.
+      header:
+        title: Asunto del Mensaje
+        help: Escribe aquí un título para tu mensaje.
+        error: Por favor rellena el Asunto del Mensaje.
+      body:
+        title: Cuerpo del Mensaje
+        help: Escribe tu comentario o pregunta aquí.
+        error: Por favor rellena el Cuerpo del Mensaje.
+      submit: Enviar
+
   en:
     name: English
     path: /en
@@ -24,6 +40,21 @@ locales:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
       legal_link:
       - "Legal notice": "/en/legal-notice/"
+    contact:
+      thank_you_url: /en/thank-you/
+      email:
+        title: Your email address
+        help: We'll use it exclusively to answer to your email. We will not use it for any other purpose.
+        error: Please enter a valid email address.
+      header:
+        title: Message Header
+        help: Enter the title of your message here.
+        error: Please provide a Message Header.
+      body:
+        title: Message Body
+        help: Enter your complete comment or question here.
+        error: Please fill in the Message Body.
+      submit: Submit
 
 permalink: pretty
 auto: true
