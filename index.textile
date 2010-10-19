@@ -4,49 +4,28 @@ title: Inicio
 en: /en
 ---
 
-<div class='front'>
-  <div class='span-5 what-we-do'>
-    <div>
+notextile. <a class='what-we-do' href="/que-hacemos/"><div>
 
-h2. "Qué hacemos":/que-hacemos/
+h2. Qué hacemos
 
-"(subtitle)Hacemos apliaciones web útiles y fáciles de usar.":/que-hacemos/
+Hacemos apliaciones web útiles y fáciles de usar.
 
-"(image)Qué hacemos":/que-hacemos/
+notextile. </div></a><a class='who-we-are' href="/quienes-somos/"><div>
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 who-we-are'>
-    <div>
+h2. Quiénes somos
 
-h2. "Quiénes somos":/quienes-somos/
+Conoce nuestra empresa.
 
-"(subtitle)Conoce nuestra empresa.":/quienes-somos/
+notextile. </div></a><a class='projects' href="/proyectos/"><div>
 
-"(image)Quiénes somos":/quienes-somos/
+h2. Proyectos
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 projects'>
-    <div>
+Ejemplos de nuestro trabajo.
 
-h2. "Proyectos":/proyectos/
+notextile. </div></a><a class='blog' href="/blog/"><div>
 
-"(subtitle)Ejemplos de nuestro trabajo.":/proyectos/
+h2. Blog
 
-"(image)Proyectos":/proyectos/
+Noticias y novedades de Splendeo.
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 last blog'>
-    <div>
-
-h2. "Blog":/blog/
-
-"(subtitle)Noticias y novedades de Splendeo.":/blog/
-
-"(image)Blog":/blog/
-
-    </div>
-  </div>
-</div>
+notextile. </div></a>

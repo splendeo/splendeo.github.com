@@ -4,49 +4,29 @@ title: Home
 es: ""
 ---
 
-<div class='front'>
-  <div class='span-5 what-we-do'>
-    <div>
+notextile. <a class='what-we-do' href="/en/what-we-do/"><div>
 
-h2. "What we do":/en/what-we-do/
+h2. What we do
 
-"(subtitle)We create productive & easy to use web applications.":/en/what-we-do/
+We create productive & easy to use web applications.
 
-"(image)What we do":/en/what-we-do/
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 who-we-are'>
-    <div>
+notextile. </div></a><a class='who-we-are' href="/en/who-we-are/"><div>
 
-h2. "Who we are":/en/who-we-are/
+h2. Who we are
 
-"(subtitle)Meet our company.":/en/who-we-are/
+Meet our company.
 
-"(image)Who we are":/en/who-we-are/
+notextile. </div></a><a class='projects' href="/en/projects/"><div>
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 projects'>
-    <div>
+h2. Projects
 
-h2. "Projects":/en/projects/
+Samples of our work.
 
-"(subtitle)Samples of our work.":/en/projects/
+notextile. </div></a><a class='blog' href="/en/blog/"><div>
 
-"(image)Projects":/en/projects/
+h2. Blog
 
-    </div>
-  </div>
-  <div class='span-5 prepend-1 last blog'>
-    <div>
+News and events related with Splendeo.
 
-h2. "Blog":/en/blog/
-
-"(subtitle)News and events related with Splendeo.":/en/blog/
-
-"(image)Blog":/en/blog/
-
-    </div>
-  </div>
-</div>
+notextile. </div></a>

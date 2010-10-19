@@ -110,6 +110,7 @@ li.nav_4 { left: 730px; }
 
 #content {
   padding: 10px;
+  position: relative;
 }
 
 #footer {
@@ -158,39 +159,44 @@ li.nav_4 { left: 730px; }
 /* Page-exclusive styles start here */
 
 /* Front page */
-div.front {
+body.front #content {
   height: 30em;
   position: relative;
   padding: 0 0 0 4px;
 }
-div.front div, div.front div div {
-  height: 15em;
-  position: relative;
-}
-div.front div div {
-  margin: 10px;
-}
-div.front a.image {
-  padding: 60px 0 0 0;
+body.front #content a {
   display: block;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  height: 0px !important;
-  height /**/:60px;
-  width: 181px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 20px;
+  padding: 12px;
+  border: 3px solid transparent;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
-div.front div.who-we-are a.image { background-image: url('/css/images/front/who-we-are.png'); }
-div.front div.what-we-do a.image { background-image: url('/css/images/front/what-we-do.png'); }
-div.front div.projects a.image   { background-image: url('/css/images/front/projects.png'); }
-div.front div.blog a.image       { background-image: url('/css/images/front/blog.png'); }
-div.front h2 { font-size: 1.7em; }
-div.front h2 a{
+body.front #content a:hover{ border-color: #EEE; }
+
+body.front #content a.what-we-do { left: 35px;  }
+body.front #content a.who-we-are { left: 255px; }
+body.front #content a.projects   { left: 475px; }
+body.front #content a.blog       { left: 700px; }
+
+body.front #content div {
+  height: 15em;
+  width: 181px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+body.front #content a.what-we-do div { background-image: url('/css/images/front/who-we-are.png'); }
+body.front #content a.who-we-are div { background-image: url('/css/images/front/what-we-do.png'); }
+body.front #content a.projects   div { background-image: url('/css/images/front/projects.png'); }
+body.front #content a.blog       div { background-image: url('/css/images/front/blog.png'); }
+
+body.front a h2 {
+  font-size: 1.7em;
   color: #323232;
 }
-div.front a.subtitle {
+body.front a p {
   color: #747474;
 }
 
