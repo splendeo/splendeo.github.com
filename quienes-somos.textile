@@ -14,16 +14,16 @@ h4(#egarcia). Enrique García
 
 Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español. Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum y continua programando profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
 
-"LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+"Curriculum":#egarcia | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
 
 h4(#fjuan). Francisco de Juan
 
 Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor. Diseña y programa aplicaciones web usando diversas tecnologías desde el año 2008. Tiene experiencia tratando con los clientes y es experto en usabilidad. En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los servidores.
 
-"LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+"Curriculum":#fjuan | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
 h4(#eroibas). Enrique Roibás
 
-Enrique es licenciado en Administración y Dirección de Empresas y tiene experiencia en control de costes, gestión financiera y análisis de procesos. En Splendeo es responsable de definir e implantar nuestra estrategia empresarial.
+Enrique es licenciado en Administración y Dirección de Empresas y tiene experiencia en control de costes, gestión financiera y análisis de procesos. En Splendeo es responsable de definir e implantar la estrategia empresarial.
 
-"LinkedIn":http://es.linkedin.com/in/enriqueroibas
+"Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas

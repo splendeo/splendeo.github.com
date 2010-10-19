@@ -4,6 +4,8 @@ title: Qué hacemos
 en: /en/what-we-do
 ---
 
+Nuestra metodología consiste en resolver los problemas uno a uno, en diversas iteraciones, y por un equipo realmente implicado.
+
 h3. Aplicaciones web
 
 bq. "Revisa este excel y mándamelo de vuelta."

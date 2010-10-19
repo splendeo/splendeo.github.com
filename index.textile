@@ -8,7 +8,7 @@ notextile. <a class='what-we-do' href="/que-hacemos/"><div>
 
 h2. Qué hacemos
 
-Hacemos apliaciones web útiles y fáciles de usar.
+Hacemos aplicaciones web útiles y fáciles de usar.
 
 notextile. </div></a><a class='who-we-are' href="/quienes-somos/"><div>
 
