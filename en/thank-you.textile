@@ -1,6 +1,6 @@
 ---
 layout: default
-es: /en/gracias
+es: /gracias
 ---
 
 h2. Thank you for your email
