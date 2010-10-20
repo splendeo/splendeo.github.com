@@ -1,0 +1,26 @@
+/*
+  IE6- specific rules
+*/
+
+/* position of the contact link */
+#contact_link {
+  position: absolute;
+}
+
+
+/* front navigation fix for ie 6 */
+body.front #content a {
+  border-color: pink;
+  filter: chroma(color=pink);
+}
+
+/* use a gif instead of a transparent png */
+#navigation li.current {
+  background: transparent url(/css/images/navigation-current-background.gif) no-repeat center center;
+}
+
+div.front div.who-we-are a.image { background-image: url('/css/images/front/who-we-are.gif'); }
+div.front div.what-we-do a.image { background-image: url('/css/images/front/what-we-do.gif'); }
+div.front div.projects a.image   { background-image: url('/css/images/front/projects.gif'); }
+div.front div.blog a.image       { background-image: url('/css/images/front/blog.gif'); }
+

@@ -55,7 +55,7 @@ body.front .container {
   padding: 98px 0 0 0;
   display: block;
   overflow: hidden;
-  background-image: url('/css/images/splendeo-logo.png');
+  background-image: url('/css/images/splendeo-logo-white-background.png');
   background-repeat: no-repeat;
   height: 0px !important;
   height /**/:98px;
@@ -70,8 +70,9 @@ body.front .container {
 
 #contact_link {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 50%;
+  left: 0;
   width: 7em;
   height: 2em;
   text-align: center;
@@ -238,7 +239,7 @@ body.front #content a {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-body.front #content a:hover{ border-color: #EEE; }
+body.front #content a:hover{ border-color: #DDD; }
 
 body.front #content a.what-we-do { left: 35px;  }
 body.front #content a.who-we-are { left: 255px; }
