@@ -74,24 +74,22 @@
 
         {% unless page.layout == 'front' %}
           <ul id="navigation">
-            {% for nav in site.locales[page_locale].navigation %}
-              {% assign counter = forloop.index %}
-              {% for link in nav %}
-                {% capture ugly_url %}{{ link[1] }}index.html{% endcapture %}
-                {% if page.url == link[1] or page.url == ugly_url %}
-                  {% assign css_class = 'current' %}
-                {% elsif page.layout == 'project' and (link[1] == '/en/projects/index.html' or link[1] == '/proyectos/index.html') %}
-                  {% assign css_class = 'current' %}
-                {% elsif page.layout == 'post' and (link[1] == '/en/blog/index.html' or link[1] == '/blog/index.html') %}
-                  {% assign css_class = 'current' %}
-                {% endif %}
+            {% for link in site.locales[page_locale].navigation %}
+              {% assign is_current = false %}
+              {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
+              {% if page.url == link.url or page.url == ugly_url %}
+                {% assign is_current = true %}
+              {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
+                {% assign is_current = true %}
+              {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
+                {% assign is_current = true %}
+              {% endif %}
 
-                <li class="{{ css_class }} nav_{{ counter }}">
-                  <h2><a href="{{ link[1] }}">{{ link[0] }}</a></h2>
-                </li>
+              <li class="{{ link.class }}">
+                <a class="{% if is_current %}current{% endif %}"href="{{ link.url }}"><h2>{{ link.text }}</h2></a>
+              </li>
 
-                {% assign css_class = nil %}
-              {% endfor %}
+              {% assign css_class = nil %}
             {% endfor %}
           </ul>
         {% endunless %}

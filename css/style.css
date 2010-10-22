@@ -24,12 +24,10 @@ body {
 }
 
 body #header {
-  height: 209px;
+  height: 200px;
   position: relative;
-  background: transparent url('/css/images/header-background.png') repeat;
+  background-color: white;
 }
-
-body.front #header { background: white; }
 
 .container {
   background-color: white;
@@ -37,10 +35,8 @@ body.front #header { background: white; }
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 5px 10px #666;
   -moz-box-shadow: 0px 5px 10px #666;
-  -box-shadow: 0px 5px 10px #666;
-}
-
-body.front .container {
+  -o-box-shadow: 0px 5px 10px #666;
+  box-shadow: 0px 5px 10px #666;
   background: white url('/css/images/front-container-background.png') repeat-x bottom;
 }
 
@@ -64,8 +60,8 @@ body.front .container {
 
 #language_switcher{
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 30px;
+  top: 20px;
 }
 
 #contact_link {
@@ -104,47 +100,82 @@ body.front .container {
   width: 100%;
 }
 
-li.nav_1 { left: 35px; }
-li.nav_2 { left: 300px; }
-li.nav_3 { left: 540px; }
-li.nav_4 { left: 730px; }
+#navigation li a h2 {
+  font-size: 1.3em;
+  padding: 0 2px 0 10px;
+  margin: 0;
+  background: transparent url('/css/images/navigation-bullet.png') no-repeat 0 0.6em;
+  display: inline;
+}
 
 #navigation li{
   list-style-type: none;
   display: block;
-  height: 51px;
-  width: 24%;
+  width: 136px;
   position: absolute;
   bottom: 0;
-  padding-top: 10px;
+  padding: 0;
+  margin: 0;
 }
 
-#navigation li.current {
-  background: transparent url('/css/images/navigation-current-background.png') no-repeat center center;
-}
+#navigation li.what-we-do { left: 100px;  }
+#navigation li.who-we-are { left: 300px; }
+#navigation li.projects   { left: 500px; }
+#navigation li.blog       { left: 700px; }
 
 #navigation li a {
   color: #323232;
-  padding-left: 10px;
-  background: transparent url('/css/images/navigation-bullet.png') no-repeat 0 0.6em;
+  height: 30px;
+  width: 136px;
+  display: block;
+  text-align: right;
 }
+
+#navigation li a, #navigation li a h2 {
+  color: #AAA;
+}
+
+#navigation li a:hover, #navigation li a:hover h2,
+#navigation li a.current, #navigation li a.current h2 {
+  color: #323232;
+}
+
+#navigation li.who-we-are a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
+#navigation li.what-we-do a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
+#navigation li.projects   a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
+#navigation li.blog       a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
+
+#navigation li.who-we-are a.current { background: transparent url('/css/images/navigation/who-we-are-current.png') no-repeat left bottom ; }
+#navigation li.what-we-do a.current { background: transparent url('/css/images/navigation/what-we-do-current.png') no-repeat left bottom ; }
+#navigation li.projects   a.current { background: transparent url('/css/images/navigation/projects-current.png') no-repeat left bottom ; }
+#navigation li.blog       a.current { background: transparent url('/css/images/navigation/blog-current.png') no-repeat left bottom ; }
+
+#navigation li.who-we-are a:hover { background: transparent url('/css/images/navigation/who-we-are-hover.png') no-repeat left bottom ; }
+#navigation li.what-we-do a:hover { background: transparent url('/css/images/navigation/what-we-do-hover.png') no-repeat left bottom ; }
+#navigation li.projects   a:hover { background: transparent url('/css/images/navigation/projects-hover.png') no-repeat left bottom ; }
+#navigation li.blog       a:hover { background: transparent url('/css/images/navigation/blog-hover.png') no-repeat left bottom ; }
+
 
 #navigation li a:hover{
   color: #FF3819;
 }
 
 #content {
-  padding: 10px;
+  padding: 20px 0;
   position: relative;
 }
 
+#sidebar {
+  background-color: #ddd;
+}
+
 #footer {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 #footer_white{
   background-color: white;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 #footer a{

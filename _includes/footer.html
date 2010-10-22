@@ -7,25 +7,21 @@
             {% endfor %}
           </div>
           <ul>
-            {% for nav in site.locales[page_locale].navigation %}
-              {% assign is_last = forloop.last %}
-              {% assign is_first = forloop.first %}
-              {% for link in nav %}
-                {% capture ugly_url %}{{ link[1] }}index.html{% endcapture %}
-                {% if page.url == link[1] or page.url == ugly_url %}
-                  {% assign css_class = 'current' %}
-                {% elsif page.layout == 'project' and (link[1] == '/en/projects/index.html' or link[1] == '/proyectos/index.html') %}
-                  {% assign css_class = 'current' %}
-                {% elsif page.layout == 'post' and (link[1] == '/en/blog/index.html' or link[1] == '/blog/index.html') %}
-                  {% assign css_class = 'current' %}
-                {% endif %}
+            {% for link in site.locales[page_locale].navigation %}
+              {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
+              {% if page.url == link.url or page.url == ugly_url %}
+                {% assign css_class = 'current' %}
+              {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
+                {% assign css_class = 'current' %}
+              {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
+                {% assign css_class = 'current' %}
+              {% endif %}
 
-                <li class="{{ css_class }}{% if is_first %} first{% endif %}{% if is_last %} last{% endif %}">
-                  <a href="{{ link[1] }}">{{ link[0] }}</a>
-                </li>
+              <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}">
+                <a href="{{ link.url }}">{{ link.text }}</a>
+              </li>
 
-                {% assign css_class = nil %}
-              {% endfor %}
+              {% assign css_class = nil %}
             {% endfor %}
           </ul>
           <div class='clear'></div>
