@@ -7,5 +7,5 @@ permalink: /proyectos/storemonitor
 image: storemonitor.png
 ---
 
-Loren impsun dolor sit amet
+"e-StoreMonitor":http://www.e-storemonitor.com es una aplicación web desarrollada para Colgate-Palmolive Iberia que permite a los departamentos de Marketing y Ventas realizar el seguimiento de los lineales de productos en grandes superficies, supermercados y perfumerías de España y Portugal. Esta aplicación almacena las imágenes tomadas por comerciales desde una PDA y permite a los usuarios, usando un motor de búsqueda de funcionamiento similar a Google, realizar el seguimiento de las tiendas de interés.
 

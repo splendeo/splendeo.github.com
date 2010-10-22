@@ -6,32 +6,39 @@ en: /en/what-we-do
 
 <div class="prepend-1 span-18">
 
-h2. Qué hacemos
+h2. "Qué hacemos":/que-hacemos/
+
+Creamos aplicaciones web para mejorar el acceso a la información y ahorrar costes a nuestros clientes.
 
 Nuestra metodología consiste en resolver los problemas uno a uno, en diversas iteraciones, y por un equipo realmente implicado.
 
+
 h3. Aplicaciones web
 
-bq. "Revisa este excel y mándamelo de vuelta."
+Las aplicaciones web tienen las mismas funciones que las tradicionales con las siguientes ventajas:
 
-Nuestra filosofía es: todo el mundo usa la web. Es un medio universal de comunicación.
+* permiten aceder a la información, de una manera segura, desde cualquier ordenador, móvil o PDA conectados a Internet.
+* se reduce el coste de IT, externalizando servidores y reduciendo el personal necesario
+* las actualizaciones de funcionalidad son procesos más sencillos.
+* mayor fiabilidad: si tu ordenador se rompe, podrás acceder a todos los datos  y funcionalidad desde otro ordenador
 
-Utilizar una página web para controlar un flujo de trabajo:
+En la práctica, la migración a aplicaciones web le permite mejorar su gestión actual y reducir su coste en servicio informático.
 
-* Facilita la compartición de datos entre usuarios
-* Deslocaliza la información
-* Añade seguridad
 
 h3. Fáciles de usar
 
-bq. "¿Dónde tengo que hacer click? ¡He perdido mis datos!"
+Utilizando técnicas de diseño especializadas, conseguimos que nuestras aplicaciones sean muy intuitivas.
 
-Nosotros seguimos unas directivas de diseño bastante 
+Las aplicaciones no pueden ser un problema añadido para el usuario, por lo que creamos herramientas que simplifican el trabajo.
 
-* Seguimos los estándares marcados por el W3C.
+Nuestros diseños se caracterizan por:
+
+* En la primera visualización el usuario debe ser capaz de ponerse a trabajar.
+* Utilizar un botón (y sólamente uno) para cada acción.
 * Nuestros elementos clickables se diferencian visualmente del contenido.
-* Utilizamos un botón (y sólamente uno) para cada acción.
-* Mostramos un diálogo de confirmación antes de borrar cualquier cosa.
+* Mostramos ayudas y diálogos que aportan al uso de la aplicación.
+
+Realmente podrá empezar a utilizar nuestras aplicaciones desde el primer día.
 
 h3. Útiles
 
@@ -77,7 +84,5 @@ Hacemos más cosas. ¡Pregúntenos!
 </div>
 
 <div class="prepend-1 span-4 last"  id="sidebar">
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </div>

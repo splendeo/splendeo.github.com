@@ -4,11 +4,19 @@ title: Quiénes somos
 en: /en/who-we-are
 ---
 
-Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
+<div class="prepend-1 span-22">
 
-Hemos creado varios productos innovadores y tratamos de incoporar de forma constante más talento a nuestro equipo.
+h2. "Quiénes somos":/quienes-somos/
+
+Splendeo Innovación es una empresa de desarrollo de software y consultoría tecnológica, que nace con el objetivo de resolver de una manera brillante los problemas cotidianos del tratamiento de la información en los procesos empresariales.
+
+Nuestra filosofía se basa en dos pilares fundamentales: desarrollar un equipo de trabajo ágil y con talento y utilizar software de código abierto (Open Source)
+
+Actualmente formamos parte del programa "Madrid Emprende":http://madridemprende.esmadrid.com/ del Ayuntamiento de Madrid y estamos creado varios productos innovadores.
 
 h3. Socios
+
+Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
 h4(#egarcia). Enrique García
 
@@ -27,3 +35,5 @@ h4(#eroibas). Enrique Roibás
 Enrique es licenciado en Administración y Dirección de Empresas y tiene experiencia en control de costes, gestión financiera y análisis de procesos. En Splendeo es responsable de definir e implantar la estrategia empresarial.
 
 "Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
+
+</div>

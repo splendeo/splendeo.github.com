@@ -8,24 +8,24 @@ notextile. <a class='what-we-do' href="/que-hacemos/"><div>
 
 h2. Qué hacemos
 
-Hacemos aplicaciones web útiles y fáciles de usar.
+Aplicaciones web útiles y fáciles de usar
 
 notextile. </div></a><a class='who-we-are' href="/quienes-somos/"><div>
 
 h2. Quiénes somos
 
-Conoce nuestra empresa.
+Un equipo con mucho talento y creatividad
 
 notextile. </div></a><a class='projects' href="/proyectos/"><div>
 
 h2. Proyectos
 
-Ejemplos de nuestro trabajo.
+Ideas innovadoras aplicadas al mundo empresarial
 
 notextile. </div></a><a class='blog' href="/blog/"><div>
 
 h2. Blog
 
-Noticias y novedades de Splendeo.
+Noticias y novedades sobre Splendeo
 
 notextile. </div></a>
