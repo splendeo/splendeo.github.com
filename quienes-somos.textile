@@ -32,6 +32,8 @@ Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor. Diseña
 
 h4(#eroibas). Enrique Roibás
 
+Enrique es licenciado en Administración y Dirección de Empresas, MBA por el Instituto de Empresa y Censor Jurado de Cuentas. Con experiencia profesional en control de gestiónen en el sector del gran consumo y desarrollando auditorias financieras en el sector de servicios empresariales. En Splendeo es responsable de definir e implantar la estrategia empresarial.
+
 Enrique es licenciado en Administración y Dirección de Empresas y tiene experiencia en control de costes, gestión financiera y análisis de procesos. En Splendeo es responsable de definir e implantar la estrategia empresarial.
 
 "Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
