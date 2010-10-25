@@ -18,6 +18,16 @@ h1,h2,h3,h4,h5,h6{
   color: #323232;
 }
 
+.caps {
+  font-size:1em;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height:1%;
+  padding:0 2px;
+  text-transform: capitalize;
+}
+
 body {
   background: transparent url('/css/images/background.png') repeat fixed 0 0;
   font-family: Verdana, Geneva, Kalimati, sans-serif;
