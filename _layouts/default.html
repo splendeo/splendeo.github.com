@@ -1,7 +1,9 @@
 {% include header.html %}
 
-  <div id="content">
+  <div id="content" {% if page.has_sidebar %}class="has_sidebar"{% endif %}>
+    <div class="prepend-1 {% if page.has_sidebar %}span-18{% else %}span-22{% endif %}">
     {{ content }}
+    </div>
     <div class='clear'></div>
   </div>
 

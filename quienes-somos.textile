@@ -4,8 +4,6 @@ title: Quiénes somos
 en: /en/who-we-are
 ---
 
-<div class="prepend-1 span-22">
-
 h2. "Quiénes somos":/quienes-somos/
 
 Splendeo Innovación es una empresa de desarrollo de software y consultoría tecnológica, que nace con el objetivo de resolver de una manera brillante los problemas cotidianos del tratamiento de la información en los procesos empresariales.
@@ -36,4 +34,3 @@ Enrique es licenciado en Administración y Dirección de Empresas, MBA por el In
 
 "Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
 
-</div>

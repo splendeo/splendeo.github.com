@@ -4,8 +4,6 @@ title: Who we are
 es: /quienes-somos
 ---
 
-<div class="prepend-1 span-22">
-
 h2. "Who we are":/en/who-we-are/
 
 Splendeo was founded in Madrid bringing together three partners with expertise in software development, usability and enterprise processes optimization.
@@ -32,4 +30,3 @@ Enrique has a Degree in Business Administration and has experience in costs cont
 
 "LinkedIn":http://es.linkedin.com/in/enriqueroibas
 
-</div>

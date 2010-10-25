@@ -161,12 +161,12 @@ body #header {
 }
 
 #content {
-  padding: 20px 0;
+  margin: 20px 0;
   position: relative;
 }
 
-#sidebar {
-  background-color: #ddd;
+#content.has_sidebar {
+  background: transparent url('/css/images/sidebar-background.png') right repeat-y;
 }
 
 #footer {
