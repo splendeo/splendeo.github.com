@@ -2,23 +2,14 @@
 {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
 {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
-<script>
-  var submitted=false;
-  $(document).ready(function(){
-    $("#ss-form").validate();
-  });
-</script>
-
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
- onload="if(submitted) { window.location='{{ site.locales[page_locale].contact.thank_you_url }}';}"></iframe>
-
-<form action="https://spreadsheets.google.com/formResponse?formkey=dFdYSG9SaS1EMjdrc3c2LXY2d0hBbWc6MQ&amp;ifq"
-      method="post"
-      id="ss-form"
-      target="hidden_iframe"
-      onsubmit="submitted=true;">
-  <input type="hidden" name="pageNumber" value="0">
-  <input type="hidden" name="backupCache" value="">
+<form action="https://spreadsheets.google.com/formResponse?formkey=dFdYSG9SaS1EMjdrc3c2LXY2d0hBbWc6MQ&ifq"
+  id="ss-form"
+  target="hidden_iframe"
+  method="POST"
+  onsubmit="mark_as_submitted();"
+>
+  <input type="hidden" name="pageNumber" value="0"></input>
+  <input type="hidden" name="backupCache" value=""></input>
   <div class="form-entry">
     <label class="title" for="entry_0">{{ site.locales[page_locale].contact.email.title }} <span class="required-asterisk">*</span>
     </label>
@@ -53,3 +44,15 @@
     <input type="submit" name="submit" value="{{ site.locales[page_locale].contact.submit }}">
   </div>
 </form>
+
+<div id="thank-you" style="display:none;">
+  {{ site.locales[page_locale].contact.thank_you.text | textilize }}
+</div>
+
+<iframe
+  id="hidden_iframe"
+  name="hidden_iframe"
+  style="display:none;"
+  onload="show_thank_you_if_submitted();">
+></iframe>
+

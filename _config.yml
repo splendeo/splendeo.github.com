@@ -21,7 +21,15 @@ locales:
       legal_link:
       - "Aviso legal": "/aviso-legal/"
     contact:
-      thank_you_url: /gracias/
+      thank_you:
+        url: /gracias/
+        text: |
+          h2. Gracias por tu email
+
+          Nuestro equipo lo revisará en breve; te enviaremos una respuesta tan pronto como sea posible.
+
+          Un saludo,
+            El equipo de Splendeo Innovación
       email:
         title: Tu dirección de correo
         help: Necesitamos tu dirección para poder responderte. No la utilizaremos para ningún otro fin.
@@ -62,7 +70,16 @@ locales:
       legal_link:
       - "Legal notice": "/en/legal-notice/"
     contact:
-      thank_you_url: /en/thank-you/
+      thank_you:
+        url: /en/thank-you/
+        text: |
+          h2. Thank you for your email
+
+          Our team will review it and send you an answer as shortly.
+
+          Best regards,
+            Splendeo Innovación
+
       email:
         title: Your email address
         help: We'll use it exclusively to answer to your email. We will not use it for any other purpose.

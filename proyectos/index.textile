@@ -13,7 +13,7 @@ h2. {{ project.title }}
 
   {{ project.content}}
   
-  {% if project.image != nil %}
+  {% if project.image %}
     !/images/{{ project.image }}!
   {% endif %}
   
