@@ -36,7 +36,11 @@ body {
 body #header {
   height: 200px;
   position: relative;
-  background-color: white;
+  background: white url('/css/images/header-background.png') repeat-x bottom center;
+}
+
+body.front #header {
+  background-image: none;
 }
 
 .container {
@@ -51,21 +55,24 @@ body #header {
 }
 
 #header h1{
-  width: 239px;
+  width: 244px;
   margin: 0px auto;
   position: relative;
-  top: 40px;
+  top: 42px;
 }
 
 #header h1 a {
   padding: 98px 0 0 0;
   display: block;
   overflow: hidden;
-  background-image: url('/css/images/splendeo-logo-white-background.png');
   background-repeat: no-repeat;
   height: 0px !important;
   height /**/:98px;
-  width: 239px;
+  width: 244px;
+}
+
+body.front #header h1 a {
+  background-image: url('/css/images/splendeo-logo-white-background.png');
 }
 
 #language_switcher{
@@ -280,15 +287,26 @@ body.front #content a {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-body.front #content a:hover{ border-color: #DDD; }
+body.front #content a:hover{
+  border-color: #DDD;
+  -webkit-box-shadow: 4px 4px 4px #666;
+  -moz-box-shadow: 4px 4px 4px #666;
+  -o-box-shadow: 4px 4px 4px #666;
+  box-shadow: 4px 4px 4px #666;
+}
+body.front #content li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 body.front #content a.what-we-do { left: 35px;  }
 body.front #content a.who-we-are { left: 255px; }
-body.front #content a.projects   { left: 475px; }
+body.front #content a.projects   { left: 480px; }
 body.front #content a.blog       { left: 700px; }
 
 body.front #content div {
-  height: 15em;
+  height: 13em;
   width: 181px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -301,6 +319,7 @@ body.front #content a.blog       div { background-image: url('/css/images/front/
 body.front a h2 {
   font-size: 1.7em;
   color: #323232;
+  margin-bottom: 0.5em;
 }
 body.front a p {
   color: #747474;

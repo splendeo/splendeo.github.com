@@ -4,29 +4,29 @@ title: Home
 es: ""
 ---
 
-notextile. <a class='what-we-do' href="/en/what-we-do/"><div>
+notextile. <ul><li><a class='what-we-do' href="/en/what-we-do/"><div>
 
 h2. What we do
 
 We create productive & easy to use web applications.
 
 
-notextile. </div></a><a class='who-we-are' href="/en/who-we-are/"><div>
+notextile. </div></a></li><li><a class='who-we-are' href="/en/who-we-are/"><div>
 
 h2. Who we are
 
 Meet our company.
 
-notextile. </div></a><a class='projects' href="/en/projects/"><div>
+notextile. </div></a></li><li><a class='projects' href="/en/projects/"><div>
 
 h2. Projects
 
 Samples of our work.
 
-notextile. </div></a><a class='blog' href="/en/blog/"><div>
+notextile. </div></a></li><li><a class='blog' href="/en/blog/"><div>
 
 h2. Blog
 
 News and events related with Splendeo.
 
-notextile. </div></a>
+notextile. </div></a></li></ul>

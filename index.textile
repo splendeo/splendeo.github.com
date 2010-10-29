@@ -4,28 +4,28 @@ title: Inicio
 en: /en
 ---
 
-notextile. <a class='what-we-do' href="/que-hacemos/"><div>
+notextile. <ul><li><a class='what-we-do' href="/que-hacemos/"><div>
 
 h2. Qué hacemos
 
 Aplicaciones web útiles y fáciles de usar
 
-notextile. </div></a><a class='who-we-are' href="/quienes-somos/"><div>
+notextile. </div></a></li><li><a class='who-we-are' href="/quienes-somos/"><div>
 
 h2. Quiénes somos
 
 Un equipo con mucho talento y creatividad
 
-notextile. </div></a><a class='projects' href="/proyectos/"><div>
+notextile. </div></a></li><li><a class='projects' href="/proyectos/"><div>
 
 h2. Proyectos
 
 Ideas innovadoras aplicadas al mundo empresarial
 
-notextile. </div></a><a class='blog' href="/blog/"><div>
+notextile. </div></a></li><li><a class='blog' href="/blog/"><div>
 
 h2. Blog
 
 Noticias y novedades sobre Splendeo
 
-notextile. </div></a>
+notextile. </div></a></li></ul>
