@@ -157,21 +157,24 @@ body.front #header h1 a {
   color: #323232;
 }
 
-#navigation li.who-we-are a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
-#navigation li.what-we-do a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
-#navigation li.projects   a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
-#navigation li.blog       a { background: transparent url('/css/images/navigation/inactive.png') no-repeat left bottom ; }
+#navigation li.who-we-are a { background: transparent url('/css/images/navigation/who-we-are.gif') no-repeat left bottom ; }
+#navigation li.what-we-do a { background: transparent url('/css/images/navigation/what-we-do.gif') no-repeat left bottom ; }
+#navigation li.projects   a { background: transparent url('/css/images/navigation/projects.gif') no-repeat left bottom ; }
+#navigation li.blog       a { background: transparent url('/css/images/navigation/blog.gif') no-repeat left bottom ; }
 
-#navigation li.who-we-are a.current { background: transparent url('/css/images/navigation/who-we-are-current.png') no-repeat left bottom ; }
-#navigation li.what-we-do a.current { background: transparent url('/css/images/navigation/what-we-do-current.png') no-repeat left bottom ; }
-#navigation li.projects   a.current { background: transparent url('/css/images/navigation/projects-current.png') no-repeat left bottom ; }
-#navigation li.blog       a.current { background: transparent url('/css/images/navigation/blog-current.png') no-repeat left bottom ; }
+#navigation li.who-we-are a.current,
+#navigation li.what-we-do a.current,
+#navigation li.projects   a.current,
+#navigation li.blog       a.current {
+  background-position: left -30px ;
+}
 
-#navigation li.who-we-are a:hover { background: transparent url('/css/images/navigation/who-we-are-hover.png') no-repeat left bottom ; }
-#navigation li.what-we-do a:hover { background: transparent url('/css/images/navigation/what-we-do-hover.png') no-repeat left bottom ; }
-#navigation li.projects   a:hover { background: transparent url('/css/images/navigation/projects-hover.png') no-repeat left bottom ; }
-#navigation li.blog       a:hover { background: transparent url('/css/images/navigation/blog-hover.png') no-repeat left bottom ; }
-
+#navigation li.who-we-are a:hover,
+#navigation li.what-we-do a:hover,
+#navigation li.projects   a:hover,
+#navigation li.blog       a:hover {
+  background-position: left top ;
+}
 
 #navigation li a:hover{
   color: #FF3819;
