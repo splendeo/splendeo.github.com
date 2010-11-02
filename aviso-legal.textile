@@ -4,8 +4,6 @@ title: Aviso legal
 en: /en/legal-notice
 ---
 
-<div class="prepend-1 span-22">
-
 h2. Aviso legal
 
 La visita o acceso a este sitio web exige la aceptación de los términos de uso que en cada momento se encuentren vigentes en "http://splendeo.es/aviso-legal/":http://splendeo.es/aviso-legal/.
@@ -75,4 +73,3 @@ Splendeo Innovación, SL
 c/ Cidro, 3
 28044 - Madrid
 
-</div>

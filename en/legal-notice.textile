@@ -4,6 +4,8 @@ title: Legal notice
 es: /aviso-legal
 ---
 
+h2. Legal notice
+
 Visiting of accessing this website implies the acceptation of the legal terms of use that that are present on "http://splendeo.es/aviso-legal":http://www.splendeo.es/en/legal-notice.
 
 # "About Splendeo Innovación, SL":#about
