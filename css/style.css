@@ -174,9 +174,6 @@ body.front #header h1 a {
 #navigation li.projects   a:hover,
 #navigation li.blog       a:hover {
   background-position: left top ;
-}
-
-#navigation li a:hover{
   color: #FF3819;
 }
 
@@ -187,10 +184,6 @@ body.front #header h1 a {
 
 #content.has_sidebar {
   background: transparent url('/css/images/sidebar-background.png') right repeat-y;
-}
-
-.main {
-  padding: 5px 40px;
 }
 
 #footer {
