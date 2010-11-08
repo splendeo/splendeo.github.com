@@ -12,25 +12,54 @@ Nuestra filosofía se basa en dos pilares fundamentales: desarrollar un equipo d
 
 Actualmente formamos parte del programa "Madrid Emprende":http://madridemprende.esmadrid.com/ del Ayuntamiento de Madrid y estamos creado varios productos innovadores.
 
-h3. Socios
+h2. Socios
 
 Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
-h4(#egarcia). Enrique García
+notextile. <ul id='partners'><li>
 
-Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español. Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum y continua programando profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría). Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
+h3(#fjuan). Francisco de Juan
 
-"Curriculum":#egarcia | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor.
 
-h4(#fjuan). Francisco de Juan
+Diseña y programa aplicaciones web usando diversas tecnologías desde el año 2008.
 
-Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor. Diseña y programa aplicaciones web usando diversas tecnologías desde el año 2008. Tiene experiencia tratando con los clientes y es experto en usabilidad. En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los servidores.
+Tiene experiencia tratando con los clientes y es experto en usabilidad.
+
+En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los servidores.
+
+!/images/fjuan-small.png!
 
 "Curriculum":#fjuan | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
-h4(#eroibas). Enrique Roibás
+notextile. </li><li>
 
-Enrique es licenciado en Administración y Dirección de Empresas, MBA por el Instituto de Empresa y Censor Jurado de Cuentas. Con experiencia profesional en control de gestión en el sector del gran consumo y desarrollando auditorias financieras en el sector de servicios empresariales. En Splendeo es responsable de definir e implantar la estrategia empresarial.
+h3(#egarcia). Enrique García
+
+Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español.
+
+Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum y continúa programando profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría).
+
+Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
+
+!/images/egarcia-small.png!
+
+"Curriculum":#egarcia | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+
+notextile. </li><li>
+
+h3(#eroibas). Enrique Roibás
+
+Enrique es licenciado en Administración y Dirección de Empresas, MBA por el Instituto de Empresa y Censor Jurado de Cuentas.
+
+Con experiencia profesional en control de gestión en el sector del gran consumo y desarrollando auditorias financieras en el sector de servicios empresariales.
+
+En Splendeo es responsable de definir e implantar la estrategia empresarial.
+
+!/images/eroibas-small.png!
 
 "Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
+
+notextile. </li></ul><div class='clear'></div>
+
 

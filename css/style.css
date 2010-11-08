@@ -186,6 +186,15 @@ body.front #header h1 a {
   background: transparent url('/css/images/sidebar-background.png') right repeat-y;
 }
 
+#content h2 {
+  border: 1px solid #ddd;
+  padding: 2px 5px;
+}
+
+#content h2 a {
+  color: black;
+}
+
 #footer {
   padding: 20px 0;
 }
@@ -324,6 +333,33 @@ body.front a h2 {
 body.front a p {
   color: #747474;
 }
+
+/* Who we are */
+
+ul#partners {
+  height: 860px;
+}
+
+ul#partners, ul#partners li {
+  list-style-type: none;
+  margin: 80px 0;
+  padding: 0;
+  position: relative;
+}
+
+ul#partners li p {
+  width: 70%;
+}
+
+ul#partners img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
 
 
 
