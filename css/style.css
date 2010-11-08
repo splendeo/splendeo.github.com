@@ -191,6 +191,11 @@ body.front #header h1 a {
   padding: 2px 5px;
 }
 
+body.front #content h2 {
+  border: none;
+  padding: 0;
+}
+
 #content h2 a {
   color: black;
 }
