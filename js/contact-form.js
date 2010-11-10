@@ -8,6 +8,7 @@ function show_thank_you_if_submitted(){
 
 function activate_contact_form_validation(){
   $("#ss-form").validate();
+  $("#thank-you").hide();
 }
 
 function show_contact_form(href){

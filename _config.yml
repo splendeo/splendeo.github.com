@@ -34,7 +34,7 @@ locales:
         title: Tu dirección de correo
         help: Necesitamos tu dirección para poder responderte. No la utilizaremos para ningún otro fin.
         error: Por favor escribe una dirección de correo válida.
-      header:
+      subject:
         title: Asunto del Mensaje
         help: Escribe aquí un título para tu mensaje.
         error: Por favor rellena el Asunto del Mensaje.

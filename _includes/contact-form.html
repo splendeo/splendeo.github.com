@@ -2,7 +2,7 @@
 {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
 {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
-<form action="https://spreadsheets.google.com/formResponse?formkey=dFdYSG9SaS1EMjdrc3c2LXY2d0hBbWc6MQ&ifq"
+<form action="http://contact.splendeo.es/"
   id="ss-form"
   target="hidden_iframe"
   method="POST"
@@ -11,32 +11,32 @@
   <input type="hidden" name="pageNumber" value="0"></input>
   <input type="hidden" name="backupCache" value=""></input>
   <div class="form-entry">
-    <label class="title" for="entry_0">{{ site.locales[page_locale].contact.email.title }} <span class="required-asterisk">*</span>
+    <label class="title" for="email_address">{{ site.locales[page_locale].contact.email.title }} <span class="required-asterisk">*</span>
     </label>
-    <label class="help" for="entry_0">
+    <label class="help" for="email_address">
       {{ site.locales[page_locale].contact.email.help }}
     </label>
-    <input type="text" class="required email" name="entry.0.single" value="" id="entry_0"
+    <input type="text" class="required email" name="email_address" value="" id="email_address"
            title="{{ site.locales[page_locale].contact.email.error }}"></input>
   </div>
   <div class="form-entry">
-    <label class="title" for="entry_1">
-      {{ site.locales[page_locale].contact.header.title }} <span class="required-asterisk">*</span>
+    <label class="title" for="email_subject">
+      {{ site.locales[page_locale].contact.subject.title }} <span class="required-asterisk">*</span>
     </label>
-    <label class="help" for="entry_1">
-      {{ site.locales[page_locale].contact.header.help }}
+    <label class="help" for="email_subject">
+      {{ site.locales[page_locale].contact.subject.help }}
     </label>
-    <input type="text" class="required" name="entry.1.single" value="" id="entry_1"
-           title="{{ site.locales[page_locale].contact.header.error }}"></input>
+    <input type="text" class="required" name="email_subject" value="" id="email_subject"
+           title="{{ site.locales[page_locale].contact.subject.error }}"></input>
   </div>
   <div class="form-entry">
-    <label class="title" for="entry_2">
+    <label class="title" for="email_body">
       {{ site.locales[page_locale].contact.body.title }}<span class="required-asterisk">*</span>
     </label>
-    <label class="help" for="entry_2">
+    <label class="help" for="email_body">
       {{ site.locales[page_locale].contact.body.help }}
     </label>
-    <textarea class="required" name="entry.2.single" id="entry_2"
+    <textarea class="required" name="email_body" id="email_body"
               title="{{ site.locales[page_locale].contact.body.error }}"
     ></textarea>
   </div>
