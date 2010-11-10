@@ -41,9 +41,12 @@
     ></textarea>
   </div>
   <div class="buttons">
-    <input type="submit" name="submit" value="{{ site.locales[page_locale].contact.submit }}">
+    <input type="submit" name="submit" value="{{ site.locales[page_locale].contact.submit }}"
+     onclick="show_ajax_indicator_big(); return true;">
   </div>
 </form>
+
+<div id="ajax-indicator-big" style="display:none;"></div>
 
 <div id="thank-you" style="display:none;">
   {{ site.locales[page_locale].contact.thank_you.text | textilize }}

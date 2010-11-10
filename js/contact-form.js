@@ -2,12 +2,18 @@ var submitted=false;
 
 function show_thank_you_if_submitted(){
   if(submitted) {
-    $("#ss-form").fadeOut('slow', function(){ $('#thank-you').show(); });
+    $("#ajax-indicator-big").fadeOut('slow', function(){ $('#thank-you').show(); });
   }
+}
+
+function show_ajax_indicator_big(){
+  $("#ss-form").hide();
+  $("#ajax-indicator-big").show();
 }
 
 function activate_contact_form_validation(){
   $("#ss-form").validate();
+  $("#ajax-indicator-big").hide();
   $("#thank-you").hide();
 }
 

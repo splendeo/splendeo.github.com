@@ -247,7 +247,7 @@ body.contact-form #content {
   width: 80%;
   margin: 0 auto;
 }
-form#ss-form { height: 511px; }
+form#ss-form { height: 520px; }
 form#ss-form label { display: block; }
 form#ss-form label.title { font-weight: bold; }
 form#ss-form label span.required-asterisk { color: red; }
@@ -282,6 +282,10 @@ form#ss-form input.error, form#ss-form textarea.error {
 form#ss-form div.buttons{
   width: 50%;
   margin: 0 auto;
+}
+#ajax-indicator-big {
+  height: 520px;
+  background: white url('/css/images/ajax-indicator-big.gif') no-repeat center center;
 }
 /* Page-exclusive styles start here */
 
