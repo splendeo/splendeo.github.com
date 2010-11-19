@@ -30,7 +30,7 @@ En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los se
 
 !/images/fjuan-small.png!
 
-"Curriculum":#fjuan | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+"Curriculum":/files/francisco-de-juan.es.pdf | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
 notextile. </li><li>
 
@@ -44,7 +44,7 @@ Es experto en gestión de las expectativas y se encarga de aplicar los diseños 
 
 !/images/egarcia-small.png!
 
-"Curriculum":#egarcia | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+"Curriculum":/files/enrique-garcia-cota.es.pdf | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
 
 notextile. </li><li>
 
@@ -58,7 +58,7 @@ En Splendeo es responsable de definir e implantar la estrategia empresarial.
 
 !/images/eroibas-small.png!
 
-"Curriculum":#eroibas | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
+"Curriculum":/files/enrique-roibas-lago.es.pdf | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
 
 notextile. </li></ul><div class='clear'></div>
 

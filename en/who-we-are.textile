@@ -6,27 +6,51 @@ es: /quienes-somos
 
 h2. "Who we are":/en/who-we-are/
 
-Splendeo was founded in Madrid bringing together three partners with expertise in software development, usability and enterprise processes optimization.
+Splendeo Innovación is a software development and technological consultancy company. Its objective is boldly solving some of the problems business process problems derived from the information management.
 
-We've already created some engaging products and we're constantly trying to incorporate more talent to our team.
+Our phylosophy has two big pilars: agile, talented development and use of Open Source Software (OSS)
+
+Currently we have engaged "Madrid Emprende":http://madridemprende.esmadrid.com/ , an initiative of the Madrid City Council for innovative companies.
+
 
 h3. Partners
 
-h4(#egarcia). Enrique García
+Splendeo was founded in 2009 by 3 partners with experience in software, usability and process optimization.
 
-Enrique is a Computer Scientist that speaks fluently English, French and Spanish. He started programming the "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum, and hasn't stopped programming since them, except for a brief encounters with the consultancy world). He's an expert on managing expectations and is responsible of applying the graphic design to Splendeo's software.
+notextile. <ul id='partners'><li>
 
-"LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+h3(#fjuan). Francisco de Juan
 
-h4(#fjuan). Francisco de Juan
+Francisco is a very enterprising Aeronautical Engineer. He's designing and developing web applications using several technologies since 2008.
 
-Francisco is a very enterprising Aeronautical Engineer. He's designing and developing web applications using several technologies since 2008. He's got experience dealing with clients and is an usability expert. He's also the person responsible for Splendeo's server architecture and maintenance plans.
+He's got experience dealing with clients and is an usability expert. He's also the person responsible for Splendeo's server architecture and maintenance plans.
 
-"LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+"Resume":/files/francisco-de-juan.en.pdf | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
-h4(#eroibas). Enrique Roibás
+!/images/fjuan-small.png!
 
-Enrique has a Degree in Business Administration and has experience in costs control, financial management and process analysis. At Splendeo he's responsible of defining and applying our business strategy.
+notextile. </li><li>
 
-"LinkedIn":http://es.linkedin.com/in/enriqueroibas
+h3(#egarcia). Enrique García
 
+Enrique is a Computer Scientist that speaks fluently English, French and Spanish.
+
+He started programming the "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum, and hasn't stopped programming since them, except for a brief encounters with the consultancy world).
+
+He's an expert on managing expectations and is responsible of applying the graphic design to Splendeo's software.
+
+"Resume":/files/enrique-garcia-cota.en.pdf | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+
+!/images/egarcia-small.png!
+
+notextile. </li><li>
+
+h3(#eroibas). Enrique Roibás
+
+Enrique has a Degree in Business Administration and has experience in costs control, financial management and process analysis.
+
+In Splendeo he's responsible of defining and applying our business strategy.
+
+"Resume":/files/enrique-roibas-lago.es.pdf | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
+
+!/images/eroibas-small.png!

@@ -103,3 +103,7 @@ auto: true
 server: true
 lsi: false
 pygments: true
+
+exclude: private
+
+
