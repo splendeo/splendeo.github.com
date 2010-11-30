@@ -4,6 +4,31 @@ title: Qué hacemos
 en: /en/what-we-do
 has_sidebar: true
 ---
+{% include sidebar-start.html %}
+
+h3. %Código abierto%
+
+En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
+
+* "Ruby on Rails":http://rubyonrails.org
+* "Apache":http://apache.org
+* "Postgresql":http://postgresql.org
+* "Ubuntu":http://www.ubuntu.com
+
+h3. %SEO%
+
+Las claves para el éxito son: estilo, estructura y relevancia.
+
+Nosotros sabemos cómo aplicarlas en cualquier sitio web, ya sea existente o de nueva creación.
+
+h3. %Mobile%
+
+Los dispositivos móbiles cada vez tienen más protagonismo - para algunos sitios web ya son el objetivo principal.
+
+Nosotros sabemos hacer que su página web funcione correctamente en un navegador móvil.
+
+{% include sidebar-end.html %}
+
 
 h2. "Qué hacemos":/que-hacemos/
 
@@ -47,38 +72,8 @@ Analizamos el problema y las expectativas del cliente y:
 * Desarrollamos una aplicación ajustada a sus necesidades o bien
 * Encontramos la solución ya existente que mejor se ajuste
 
-h3. Código abierto
-
-En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
-
-El código abierto nos permite:
-
-* Añadir más calidad, control y libertad a la hora de aportar soluciones.
-* Menor coste para nosotros significa menos coste para nuestros clientes.
-
-Algunos ejemplos de las tecnologías de código abierto que utilizamos en Splendeo:
-
-* "Ruby on Rails":http://rubyonrails.org
-* "Apache":http://apache.org
-* "Postgresql":http://postgresql.org
-* "Ubuntu":http://www.ubuntu.com
-
-h3. Optimización para buscadores (SEO)
-
-Las claves para el éxito son: estilo, estructura y relevancia.
-
-Nosotros sabemos cómo aplicarlas en cualquier sitio web, ya sea existente o de nueva creación.
-
-h3. Mobile
-
-Los dispositivos móbiles cada vez tienen más protagonismo - para algunos sitios web ya son el target principal.
-
-Nosotros sabemos hacer que su página web funcione correctamente en un navegador mobile.
-
 h3. Etc
 
 Hacemos más cosas. ¡Pregúntenos!
 
-{% include sidebar-start.html %}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{% include sidebar-end.html %}
+

@@ -4,11 +4,8 @@
 {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
 {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
-  <div id="content">
-    <div class="prepend-1 span-22">
+  <div class='main'>
     {{ site.locales[page_locale].contact.thank_you.text | textilize }}
-    </div>
-    <div class='clear'></div>
   </div>
 
 {% include footer.html %}

@@ -11,12 +11,7 @@
 
     <link href="http://github.com/splendeo.atom" rel="alternate" title="Splendeo's Activity" type="application/atom+xml" />
 
-    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
-    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-    <link rel="stylesheet" href="/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
-
-    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/oocss/all.css" type="text/css" media="all">
     <link rel="stylesheet" href="/css/style.css">
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <!--[if IE 6]><link rel="stylesheet" href="/css/ie6.css" type="text/css" media="screen, projection"><![endif]-->
@@ -53,11 +48,9 @@
          onclick="show_contact_form('{{ site.locales[page_locale].contact.link.ajax }}'); return false;"
          title="{{ site.locales[page_locale].contact.link.text }}"
       >{{ site.locales[page_locale].contact.link.text }}</a>
-
     {% endunless %}
-
-    <div id="container" class="container">
-      <div id="header">
+    <div class="page">
+      <div class="head">
         <div id="language_switcher">
           {% for locale in site.locales %}
             {% assign locale_name = locale[0] %}
@@ -99,5 +92,6 @@
         {% endunless %}
         
 
-      </div>
+      </div> <!-- .head -->
+      <div class="body">
 

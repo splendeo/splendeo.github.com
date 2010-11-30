@@ -31,22 +31,22 @@ h1,h2,h3,h4,h5,h6{
 body {
   background: transparent url('/css/images/background.png') repeat fixed 0 0;
   font-family: Verdana, Geneva, Kalimati, sans-serif;
+  padding: 20px 0;
+  line-height: 1.5;
 }
 
-body #header {
+body .page .head {
   height: 200px;
   position: relative;
   background: white url('/css/images/header-background.png') repeat-x bottom center;
 }
 
-body.front #header {
+body.front .page .head {
   background-image: none;
 }
 
-.container {
+.page {
   background-color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
   -webkit-box-shadow: 0px 5px 10px #666;
   -moz-box-shadow: 0px 5px 10px #666;
   -o-box-shadow: 0px 5px 10px #666;
@@ -54,14 +54,14 @@ body.front #header {
   background: white url('/css/images/front-container-background.png') repeat-x bottom;
 }
 
-#header h1{
+.page .head h1{
   width: 244px;
   margin: 0px auto;
   position: relative;
   top: 42px;
 }
 
-#header h1 a {
+.page .head h1 a {
   padding: 98px 0 0 0;
   display: block;
   overflow: hidden;
@@ -71,7 +71,7 @@ body.front #header {
   width: 244px;
 }
 
-body.front #header h1 a {
+body.front .page .head h1 a {
   background-image: url('/css/images/splendeo-logo-white-background.png');
 }
 
@@ -177,30 +177,56 @@ body.front #header h1 a {
   color: #FF3819;
 }
 
-#content {
+.page .body {
   margin: 20px 0;
   position: relative;
 }
 
-#content.has_sidebar {
-  background: transparent url('/css/images/sidebar-background.png') right repeat-y;
+.page .main {
+  padding: 0 20px;
 }
 
-#content h2 {
+.page .body h2 {
   border: 1px solid #ddd;
   padding: 2px 5px;
 }
 
-body.front #content h2 {
+body.front .page .body h2 {
   border: none;
   padding: 0;
 }
 
-#content h2 a {
+.page .body h2 a {
   color: black;
 }
 
-#footer {
+/* Sidebar */ 
+.splendeo-sidebar {
+  background-color: #dddddd;
+  padding: 20px 0;
+  font-size: 0.8em;
+  width: 200px;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.splendeo-sidebar h3 span {
+  background-color: black;
+  color: #dddddd;
+  padding: 2px 3px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* footer */
+
+.foot {
   padding: 20px 0;
 }
 
@@ -209,7 +235,7 @@ body.front #content h2 {
   padding: 0 30px;
 }
 
-#footer a{
+.foot a{
   color: #6c6c6c;
 }
 
@@ -217,30 +243,29 @@ body.front #content h2 {
   float: right;
 }
 
-#footer ul{
-  float:left;
+.foot ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#footer ul li{
+.foot ul li{
   list-style-type: none;
   padding: 0px 6px;
   display: inline;
   background: transparent url('/css/images/footer-navigation-separator.png') no-repeat right 5px;
 }
 
-#footer ul li.first{
+.foot ul li.first{
   padding-left: 0px;
 }
 
-#footer ul li.last{
+.foot ul li.last{
   padding-right: 0px;
   background: none;
 }
 
-#footer ul li.current a{ font-weight: bold; }
+.foot ul li.current a{ font-weight: bold; }
 
 /* Contact form styles */
 body.contact-form #content {
@@ -290,12 +315,12 @@ form#ss-form div.buttons{
 /* Page-exclusive styles start here */
 
 /* Front page */
-body.front #content {
+body.front .page .body {
   height: 30em;
   position: relative;
   padding: 0 0 0 4px;
 }
-body.front #content a {
+body.front .page .body a {
   display: block;
   position: absolute;
   top: 20px;
@@ -305,42 +330,44 @@ body.front #content a {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-body.front #content a:hover{
+body.front .page .body a:hover{
   border-color: #DDD;
   -webkit-box-shadow: 4px 4px 4px #666;
   -moz-box-shadow: 4px 4px 4px #666;
   -o-box-shadow: 4px 4px 4px #666;
   box-shadow: 4px 4px 4px #666;
 }
-body.front #content li {
+body.front .page .body li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-body.front #content a.what-we-do { left: 35px;  }
-body.front #content a.who-we-are { left: 255px; }
-body.front #content a.projects   { left: 480px; }
-body.front #content a.blog       { left: 700px; }
+body.front .page .body a.what-we-do { left: 35px;  }
+body.front .page .body a.who-we-are { left: 255px; }
+body.front .page .body a.projects   { left: 480px; }
+body.front .page .body a.blog       { left: 700px; }
 
-body.front #content div {
-  height: 13em;
+body.front .page .body div {
+  height: 12.5em;
   width: 181px;
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-body.front #content a.what-we-do div { background-image: url('/css/images/front/who-we-are.png'); }
-body.front #content a.who-we-are div { background-image: url('/css/images/front/what-we-do.png'); }
-body.front #content a.projects   div { background-image: url('/css/images/front/projects.png'); }
-body.front #content a.blog       div { background-image: url('/css/images/front/blog.png'); }
+body.front .page .body a.what-we-do div { background-image: url('/css/images/front/who-we-are.png'); }
+body.front .page .body a.who-we-are div { background-image: url('/css/images/front/what-we-do.png'); }
+body.front .page .body a.projects   div { background-image: url('/css/images/front/projects.png'); }
+body.front .page .body a.blog       div { background-image: url('/css/images/front/blog.png'); }
 
 body.front a h2 {
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #323232;
-  margin-bottom: 0.5em;
+  margin: 0 0 0.7em 0;
 }
 body.front a p {
   color: #747474;
+  margin: 5px 0;
+  font-size: 0.95em;
 }
 
 /* Who we are */
