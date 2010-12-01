@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6{
   text-transform: capitalize;
 }
 
+/* body */
+
 body {
   background: transparent url('/css/images/background.png') repeat fixed 0 0;
   font-family: Verdana, Geneva, Kalimati, sans-serif;
@@ -203,9 +205,9 @@ body.front .page .body h2 {
 /* Sidebar */ 
 .splendeo-sidebar {
   background-color: #dddddd;
-  padding: 20px 0;
+  padding: 10px;
   font-size: 0.8em;
-  width: 200px;
+  width: 180px;
   -webkit-border-top-left-radius: 20px;
   -moz-border-radius-topleft: 20px;
   border-top-left-radius: 20px;
@@ -214,14 +216,13 @@ body.front .page .body h2 {
   border-bottom-left-radius: 20px;
 }
 
-.splendeo-sidebar h3 span {
-  background-color: black;
-  color: #dddddd;
-  padding: 2px 3px;
+.splendeo-sidebar p, .splendeo-sidebar ul {  margin: 5px 0 10px 0; }
+
+.page .splendeo-sidebar h2 {
+  color: #666;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  margin: 15px 0 5px 0;
+  padding: 0;
 }
 
 /* footer */
@@ -393,6 +394,51 @@ ul#partners img {
   top: 0;
 }
 
+/* What we do */
+
+.splendeo-sidebar a {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 0px !important;
+}
+
+a.osi, a.seo, a.mobile {
+  width: 180px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-top: 100px;
+}
+
+a.osi{ background-image: url(/css/images/sidebar/osi_standard_logo.jpg); }
+a.seo{ background-image: url(/css/images/sidebar/seo.png); }
+a.mobile{  background-image: url(/css/images/sidebar/mobile.png); }
+
+ul.osi-list{
+  margin: 0;
+  padding: 0;
+  height: 54px;
+}
+
+ul.osi-list li {
+  display: inline;
+  margin-right: 4px;
+  float: left;
+}
+
+ul.osi-list li.last { margin-right: 0; }
+
+ul.osi-list li a {
+  width: 42px;
+  padding-top: 54px;
+}
+
+.splendeo-sidebar a.ror        { background-image: url(/css/images/sidebar/rails_logo.gif); }
+.splendeo-sidebar a.apache     { background-image: url(/css/images/sidebar/apache_logo.gif); }
+.splendeo-sidebar a.postgresql { background-image: url(/css/images/sidebar/postgresql_logo.gif); }
+.splendeo-sidebar a.ubuntu     { background-image: url(/css/images/sidebar/ubuntu_logo.gif); }
 
 
 

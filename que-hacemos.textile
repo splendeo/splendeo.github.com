@@ -6,37 +6,43 @@ has_sidebar: true
 ---
 {% include sidebar-start.html %}
 
-h3. %Código abierto%
+h2. Código abierto
+
+"(osi)www.opensource.org(Open Source Initiative)":http://www.opensource.org/
 
 En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
 
-* "Ruby on Rails":http://rubyonrails.org
-* "Apache":http://apache.org
-* "Postgresql":http://postgresql.org
-* "Ubuntu":http://www.ubuntu.com
+Algunas de las tecnologías de código abierto que utilizamos son:
 
-h3. %SEO%
+(osi-list)* "(ror)Ruby on Rails(Ruby on Rails)":http://rubyonrails.org
+* "(apache)Apache(Apache)":http://apache.org
+* "(postgresql)PostgreSQL(PostgreSQL)":http://postgresql.org
+*(last) "(ubuntu)Ubuntu(Ubuntu)":http://www.ubuntu.com
 
-Las claves para el éxito son: estilo, estructura y relevancia.
+h2. SEO
 
-Nosotros sabemos cómo aplicarlas en cualquier sitio web, ya sea existente o de nueva creación.
+"(seo)SEO(Posicionamiento en buscadores(SEO))":http://es.wikipedia.org/wiki/Posicionamiento_en_buscadores
 
-h3. %Mobile%
+Sabemos cómo optimizar páginas para que mejoren en los buscadores.
 
-Los dispositivos móbiles cada vez tienen más protagonismo - para algunos sitios web ya son el objetivo principal.
+Nuestras claves en SEO son: *estilo*, *estructura* y *relevancia*.
+
+h2. Móviles
+
+"(mobile)Móviles(Páginas preparadas para dispositivos móviles)":http://www.jquerymobile.com
+
+Los dispositivos móviles cada vez tienen más protagonismo - para algunos sitios web ya son el objetivo principal.
 
 Nosotros sabemos hacer que su página web funcione correctamente en un navegador móvil.
 
 {% include sidebar-end.html %}
 
 
-h2. "Qué hacemos":/que-hacemos/
-
 Creamos aplicaciones web para mejorar el acceso a la información y ahorrar costes a nuestros clientes.
 
 Nuestra metodología consiste en resolver los problemas uno a uno, en diversas iteraciones, y por un equipo realmente implicado.
 
-h3. Aplicaciones web
+h2. Aplicaciones web
 
 Las aplicaciones web tienen las mismas funciones que las tradicionales con las siguientes ventajas:
 
@@ -48,7 +54,7 @@ Las aplicaciones web tienen las mismas funciones que las tradicionales con las s
 En la práctica, la migración a aplicaciones web le permite mejorar su gestión actual y reducir su coste en servicio informático.
 
 
-h3. Fáciles de usar
+h2. Fáciles de usar
 
 Utilizando técnicas de diseño especializadas, conseguimos que nuestras aplicaciones sean muy intuitivas.
 
@@ -63,7 +69,7 @@ Nuestros diseños se caracterizan por:
 
 Realmente podrá empezar a utilizar nuestras aplicaciones desde el primer día.
 
-h3. Útiles
+h2. Útiles
 
 bq. "No es lo que pido, sino lo que quiero."
 
@@ -72,7 +78,7 @@ Analizamos el problema y las expectativas del cliente y:
 * Desarrollamos una aplicación ajustada a sus necesidades o bien
 * Encontramos la solución ya existente que mejor se ajuste
 
-h3. Etc
+h2. Etc
 
 Hacemos más cosas. ¡Pregúntenos!
 
