@@ -412,9 +412,9 @@ a.osi, a.seo, a.mobile {
   padding-top: 100px;
 }
 
-a.osi{ background-image: url(/css/images/sidebar/osi_standard_logo.jpg); }
-a.seo{ background-image: url(/css/images/sidebar/seo.png); }
-a.mobile{  background-image: url(/css/images/sidebar/mobile.png); }
+a.osi{ background-image: url(/images/what-we-do/osi_standard_logo.jpg); }
+a.seo{ background-image: url(/images/what-we-do/seo.png); }
+a.mobile{  background-image: url(/images/what-we-do/mobile.png); }
 
 ul.osi-list{
   margin: 0;
@@ -435,10 +435,10 @@ ul.osi-list li a {
   padding-top: 54px;
 }
 
-.splendeo-sidebar a.ror        { background-image: url(/css/images/sidebar/rails_logo.gif); }
-.splendeo-sidebar a.apache     { background-image: url(/css/images/sidebar/apache_logo.gif); }
-.splendeo-sidebar a.postgresql { background-image: url(/css/images/sidebar/postgresql_logo.gif); }
-.splendeo-sidebar a.ubuntu     { background-image: url(/css/images/sidebar/ubuntu_logo.gif); }
+.splendeo-sidebar a.ror        { background-image: url(/images/what-we-do/rails_logo.gif); }
+.splendeo-sidebar a.apache     { background-image: url(/images/what-we-do/apache_logo.gif); }
+.splendeo-sidebar a.postgresql { background-image: url(/images/what-we-do/postgresql_logo.gif); }
+.splendeo-sidebar a.ubuntu     { background-image: url(/images/what-we-do/ubuntu_logo.gif); }
 
 
 
