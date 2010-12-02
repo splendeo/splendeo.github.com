@@ -3,6 +3,7 @@ layout: default
 title: Qué hacemos
 en: /en/what-we-do
 has_sidebar: true
+body_class: what-we-do
 ---
 {% include sidebar-start.html %}
 
@@ -38,52 +39,52 @@ Nosotros sabemos hacer que su página web funcione correctamente en un navegador
 {% include sidebar-end.html %}
 
 
-Creamos aplicaciones web para mejorar el acceso a la información y ahorrar costes a nuestros clientes.
+p(intro). En Splendeo desarrollamos nuestros productos siguiendo un principio muy sencillo:
 
-Nuestra metodología consiste en resolver los problemas uno a uno, en diversas iteraciones, y por un equipo realmente implicado.
+notextile. <dl><dd id='w'><a href="#w"><span>
 
+h2. Aplicaciones *+Web+*
 
+bq. ¿Por qué web?
 
+notextile. </span></a></dd><dd id='i'><a href="#i"><span>
 
+h2. Aplicaciones *+Intuitivas+*
 
-h2. Aplicaciones Web
+bq. ¿Sabré utilizar la aplicación?
 
-Las aplicaciones web tienen las mismas funciones que las tradicionales con las siguientes ventajas:
+notextile. </span></dd><dd id='n'><a href="#n"><span>
 
-* permiten aceder a la información, de una manera segura, desde cualquier ordenador, móvil o PDA conectados a Internet.
-* se reduce el coste de IT, externalizando servidores y reduciendo el personal necesario
-* las actualizaciones de funcionalidad son procesos más sencillos.
-* mayor fiabilidad: si tu ordenador se rompe, podrás acceder a todos los datos  y funcionalidad desde otro ordenador
+h2. Aplicaciones *+Necesarias+*
 
-En la práctica, la migración a aplicaciones web le permite mejorar su gestión actual y reducir su coste en servicio informático.
+bq. ¿Hará mi aplicación todo lo que necesito?
 
+notextile. </span></a></dd></dl>
 
-h2. Intuitivas
+h2(#w). Aplicaciones Web
 
-Utilizando técnicas de diseño especializadas, conseguimos que nuestras aplicaciones sean muy intuitivas.
+En comparación con las aplicaciones tradicionales, las aplicaciones web son:
 
-Las aplicaciones no pueden ser un problema añadido para el usuario, por lo que creamos herramientas que simplifican el trabajo.
+* Más accesibles: desde cualquier ordenador, móvil o pda con Internet.
+* Más baratas y fáciles de mantener: usted no tiene que encargarse de ningún mantenimiento.
+* Más fiables: sus datos están seguros en un servidor dedicado.
 
-Nuestros diseños se caracterizan por:
+h2(#i). Aplicaciones Intuitivas
 
-* En la primera visualización el usuario debe ser capaz de ponerse a trabajar.
-* Utilizar un botón (y sólamente uno) para cada acción.
-* Nuestros elementos clickables se diferencian visualmente del contenido.
-* Mostramos ayudas y diálogos que aportan al uso de la aplicación.
+Somos expertos en hacer aplicaciones que el usuario entienda fácilmente.
 
-Realmente podrá empezar a utilizar nuestras aplicaciones desde el primer día.
+* Póngase a trabajar desde el primer momento.
+* Hay un botón (y sólamente uno) para cada acción.
+* Nuestros botones se identifican fácilmente.
 
-h2. Necesarias
+h2(#n). Aplicaciones Necesarias
 
-bq. "No es lo que pido, sino lo que quiero."
+Somos expertos en satisfacer espectativas. Para cada nuevo proyecto:
 
-Analizamos el problema y las expectativas del cliente y:
+* Encontramos una solución ya existente que se ajuste.
+* O desarrollamos una aplicación a medida.
+* O le diremos que lo que nos pide no es posible.
 
-* Desarrollamos una aplicación ajustada a sus necesidades o bien
-* Encontramos la solución ya existente que mejor se ajuste
-
-h2. Etc
-
-Hacemos más cosas. ¡Pregúntenos!
+p(contact). Hacemos más cosas. <a onclick="show_contact_form('/contacto-ajax/'); return false;" href="/contacto/">¡Pregúntenos!</a>
 
 
