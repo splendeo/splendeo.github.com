@@ -373,22 +373,22 @@ body.front a p {
 
 /* Who we are */
 
-ul#partners {
+body.who-we-are ul.partners {
   height: 860px;
 }
 
-ul#partners, ul#partners li {
+body.who-we-are ul.partners, body.who-we-are ul.partners li {
   list-style-type: none;
   margin: 80px 0;
   padding: 0;
   position: relative;
 }
 
-ul#partners li p {
+body.who-we-are ul.partners li p {
   width: 70%;
 }
 
-ul#partners img {
+body.who-we-are ul.partners img {
   position: absolute;
   right: 0;
   top: 0;
@@ -396,7 +396,7 @@ ul#partners img {
 
 /* What we do */
 
-.splendeo-sidebar a {
+body.what-we-do .splendeo-sidebar a {
   display: block;
   padding: 0;
   overflow: hidden;
@@ -404,41 +404,42 @@ ul#partners img {
   height: 0px !important;
 }
 
-a.osi, a.seo, a.mobile {
+body.what-we-do a.osi, body.what-we-do a.seo, body.what-we-do a.mobile {
   width: 180px;
+  padding-top: 100px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
-  padding-top: 100px;
 }
 
-a.osi{ background-image: url(/images/what-we-do/osi_standard_logo.jpg); }
-a.seo{ background-image: url(/images/what-we-do/seo.png); }
-a.mobile{  background-image: url(/images/what-we-do/mobile.png); }
+body.what-we-do a.osi    { background-image: url(/images/what-we-do/osi_standard_logo.jpg); }
+body.what-we-do a.seo    { background-image: url(/images/what-we-do/seo.png); }
+body.what-we-do a.mobile { background-image: url(/images/what-we-do/mobile.png); }
 
-ul.osi-list{
+body.what-we-do .splendeo-sidebar ul {
   margin: 0;
   padding: 0;
   height: 54px;
 }
 
-ul.osi-list li {
+body.what-we-do .splendeo-sidebar li{
   display: inline;
   margin-right: 4px;
   float: left;
 }
 
-ul.osi-list li.last { margin-right: 0; }
+body.what-we-do .splendeo-sidebar li.last { margin-right: 0; }
 
-ul.osi-list li a {
+body.what-we-do .splendeo-sidebar li a {
   width: 42px;
   padding-top: 54px;
 }
 
-.splendeo-sidebar a.ror        { background-image: url(/images/what-we-do/rails_logo.gif); }
-.splendeo-sidebar a.apache     { background-image: url(/images/what-we-do/apache_logo.gif); }
-.splendeo-sidebar a.postgresql { background-image: url(/images/what-we-do/postgresql_logo.gif); }
-.splendeo-sidebar a.ubuntu     { background-image: url(/images/what-we-do/ubuntu_logo.gif); }
+body.what-we-do .splendeo-sidebar a.ror        { background-image: url(/images/what-we-do/rails_logo.gif); }
+body.what-we-do .splendeo-sidebar a.apache     { background-image: url(/images/what-we-do/apache_logo.gif); }
+body.what-we-do .splendeo-sidebar a.postgresql { background-image: url(/images/what-we-do/postgresql_logo.gif); }
+body.what-we-do .splendeo-sidebar a.ubuntu     { background-image: url(/images/what-we-do/ubuntu_logo.gif); }
 
 
 

@@ -41,7 +41,7 @@
     <script src="/js/contact-form.js"></script>
   </head>
 
-  <body class="{{ page.layout }} {{ page_locale }}">
+  <body class="{{ page.layout }} {{ page_locale }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     {% unless page.layout == 'contact-form' %}
       <a id="contact_link"
          href="{{ site.locales[page_locale].contact.link.url }}"
