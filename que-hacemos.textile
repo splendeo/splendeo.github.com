@@ -42,7 +42,11 @@ Creamos aplicaciones web para mejorar el acceso a la información y ahorrar cost
 
 Nuestra metodología consiste en resolver los problemas uno a uno, en diversas iteraciones, y por un equipo realmente implicado.
 
-h2. Aplicaciones web
+
+
+
+
+h2. Aplicaciones Web
 
 Las aplicaciones web tienen las mismas funciones que las tradicionales con las siguientes ventajas:
 
@@ -54,7 +58,7 @@ Las aplicaciones web tienen las mismas funciones que las tradicionales con las s
 En la práctica, la migración a aplicaciones web le permite mejorar su gestión actual y reducir su coste en servicio informático.
 
 
-h2. Fáciles de usar
+h2. Intuitivas
 
 Utilizando técnicas de diseño especializadas, conseguimos que nuestras aplicaciones sean muy intuitivas.
 
@@ -69,7 +73,7 @@ Nuestros diseños se caracterizan por:
 
 Realmente podrá empezar a utilizar nuestras aplicaciones desde el primer día.
 
-h2. Útiles
+h2. Necesarias
 
 bq. "No es lo que pido, sino lo que quiero."
 
