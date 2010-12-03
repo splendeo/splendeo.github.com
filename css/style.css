@@ -422,7 +422,7 @@ body.what-we-do .splendeo-sidebar a {
   height: 0px !important;
 }
 
-body.what-we-do a.osi, body.what-we-do a.seo, body.what-we-do a.mobile {
+body.what-we-do a.osi, body.what-we-do a.seo, body.what-we-do a.mobile, body.what-we-do a.splendeo-at-github {
   width: 180px;
   padding-top: 100px;
   -webkit-border-radius: 5px;
@@ -434,15 +434,20 @@ body.what-we-do a.osi, body.what-we-do a.seo, body.what-we-do a.mobile {
 body.what-we-do a.osi    { background-image: url(/images/what-we-do/osi_standard_logo.jpg); }
 body.what-we-do a.seo    { background-image: url(/images/what-we-do/seo.png); }
 body.what-we-do a.mobile { background-image: url(/images/what-we-do/mobile.png); }
+body.what-we-do a.splendeo-at-github { 
+  background-image: url(/images/what-we-do/splendeo@github.png);
+  padding-top: 30px;
+}
 
-body.what-we-do .splendeo-sidebar ul.osi {
+body.what-we-do ul.osi-list {
   margin: 0;
   padding: 0;
   height: 54px;
   list-style-type: none;
+  display: block;
 }
 
-body.what-we-do .splendeo-sidebar li{
+body.what-we-do .splendeo-sidebar li {
   display: inline;
   margin: 0 4px 0 0;
   float: left;
