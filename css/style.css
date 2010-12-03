@@ -53,7 +53,7 @@ body.front .page .head {
   -moz-box-shadow: 0px 5px 10px #666;
   -o-box-shadow: 0px 5px 10px #666;
   box-shadow: 0px 5px 10px #666;
-  background: white url('/css/images/front-container-background.png') repeat-x bottom;
+  background: white url('/css/images/bottom-background.png') repeat-x bottom;
 }
 
 .page .head h1{
