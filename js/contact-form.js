@@ -12,7 +12,12 @@ function show_ajax_indicator_big(){
 }
 
 function activate_contact_form_validation(){
-  $("#ss-form").validate();
+  $("#ss-form").validate( {
+    submitHandler: function(form){
+      show_ajax_indicator_big();
+      form.submit();
+    }
+  });
   $("#ajax-indicator-big").hide();
   $("#thank-you").hide();
 }

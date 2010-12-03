@@ -296,12 +296,35 @@ form#ss-form input.error, form#ss-form textarea.error {
   background-color: white;
 }
 form#ss-form div.buttons{
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
+form#ss-form div.buttons input {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #58F #249 #249 #58F;
+  background: #26A;
+  color: white;
+  font-size: 1.4em;
+  
+  padding: 10px;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+form#ss-form div.buttons input:active {
+  padding: 12px 10px 8px 10px;
+  border-color: #249 #58F #58F #249;
+}
+
 #ajax-indicator-big {
   height: 520px;
   background: white url('/css/images/ajax-indicator-big.gif') no-repeat center center;
+}
+#thank-you {
+  padding: 130px 50px;
 }
 /* Page-exclusive styles start here */
 
