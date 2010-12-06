@@ -1,0 +1,9 @@
+---
+layout: post
+title: Prueba
+locale: es
+en: test
+---
+
+Esto es una primera prueba
+
