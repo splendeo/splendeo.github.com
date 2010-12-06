@@ -16,6 +16,7 @@ a:hover {
 h1,h2,h3,h4,h5,h6{
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #323232;
+  margin-top: 20px;
 }
 
 .caps {
@@ -185,7 +186,7 @@ body.front .page .head h1 a {
 }
 
 .page .main {
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 .page .body h2 a {
@@ -469,10 +470,6 @@ body.what-we-do .splendeo-sidebar a.ubuntu     { background-image: url(/images/w
 
 body.what-we-do p.intro { text-align: center; }
 body.what-we-do p.contact { margin-top: 80px; }
-
-body.what-we-do .main {
-  padding: 40px;
-}
 
 body.what-we-do dl {
   background: url(/images/what-we-do/win.png) no-repeat 0 0;

@@ -1,0 +1,14 @@
+---
+layout: project
+title: Innofisio
+locale: es
+en: /en/projects/innofisio
+permalink: /proyectos/innofisio
+image: innofisio.png
+---
+
+Página web básica para una clínica de fisioterapia, Innofisio.
+
+* Cliente: "Innofisio":http://www.innofisio.com
+* Aplicación relizada con "Drupal":http://drupal.org
+* Tiempo de desarrollo: 1 semana

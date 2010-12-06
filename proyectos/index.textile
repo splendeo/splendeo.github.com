@@ -3,22 +3,41 @@ layout: default
 title: Proyectos
 en: /en/projects
 has_sidebar: true
+body_class: projects
 ---
 
-h2. "Proyectos":/proyectos/
+{% include sidebar-start.html %}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{% include sidebar-end.html %}
 
 {% for project in site.categories.proyectos %}
 
 h2. {{ project.title }}
 
-  {{ project.content}}
+{% if project.intro %}{{ project.intro | textilize }}{% endif %}
+
+{% if project.image %}
+
+notextile. <div class="media">
+
+  !(img)/images/projects/{{ project.image }}!
+
+notextile. <div class="bd">
+
+{{ project.content }}
+
+notextile. </div></div>
   
-  {% if project.image %}
-    !/images/{{ project.image }}!
-  {% endif %}
-  
+{% else %}
+
+{{ project.content }}
+
+{% endif %}
+
 {% endfor %}
 
-{% include sidebar-start.html %}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{% include sidebar-end.html %}
+Además hemos realizado otras aplicaciones con como las del "Programa de Investigación y Doctorado":http://www2.montes.upm.es/invest_doct/ de la ETSI de Montes de la Universidad Politécnica de Madrid, o páginas de aprendizaje interno para Colgate-Palmolive.
+
+
+
+

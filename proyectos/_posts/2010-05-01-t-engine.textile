@@ -5,6 +5,15 @@ locale: es
 en: /en/projects/t-engine
 permalink: /proyectos/t-engine
 image: t-engine.png
+intro: T-engine es plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario impartidos en Hospitales y Centros de Salud de todo el territorio español.
 ---
 
-T-engine es plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario. Esta aplicación se desarrolló para "Think-in Pharma Services SL":http://www.thinkinpharma.com/, para dar soporte a cursos oficiales impartidos en Hospitales y Centros de Salud de todo el territorio español como, por ejemplo,  "cuidadosenfermeria.org":http://www.cuidadosenfermeria.org y "talleresanemia.es":http://www.talleresanemia.es
+* Cliente: "Think-in Pharma Services SL":http://www.thinkinpharma.com/
+* Aplicación a medida ("Ruby on Rails":http://rubyonralis.org)
+* Desarollo inicial: 5 semanas.
+* Desarrollo de cada nuevo curso: 2 semanas.
+
+Utilizada en:
+* "talleresanemia.es":http://www.talleresanemia.es
+* "cuidadosenfermeria.org":http://www.cuidadosenfermeria.org 
+

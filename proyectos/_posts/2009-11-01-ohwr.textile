@@ -7,5 +7,12 @@ permalink: /proyectos/ohwr
 image: ohwr.png
 ---
 
-El "Open Hardware Repository":http://www.ohwr.org del CERN nos solicitó la implantación de una herramienta de gestión de proyectos que permitiera seguir el desarrollo de los mismos utilizando listas de correo, wikis y repositorios de código, entre otras características. Splendeo realizó el análisis tecnológico de soluciones existentes y adaptó "Redmine":http://www.redmine.org a los requerimientos del CERN.
+El "Open Hardware Repository (ohwr)":http://www.ohwr.org es una aplicación de gestión de proyectos.
+
+* Cliente: "CERN":http://www.cern.ch
+* Software: "Redmine":http://www.redmine.org
+* Forums, Wikis, Tickets e incidencias
+* Desarrollo de plug-ins a medida
+* Repositorios "git":http://git-scm.com/ y "subversion":http://subversion.apache.org/
+
 
