@@ -4,6 +4,7 @@ title: OHWR
 locale: es
 en: /en/projects/ohwr
 permalink: /proyectos/ohwr
+link: http://www.ohwr.org
 image: ohwr.png
 ---
 

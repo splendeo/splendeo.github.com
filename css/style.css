@@ -536,7 +536,14 @@ body.what-we-do dd blockquote p {
 
 body.what-we-do dd a:hover span { display: block; }
 
+/* projects - body */
 
+body.projects .body img {
+  -webkit-box-shadow: 0px 5px 10px #666;
+  -moz-box-shadow: 0px 5px 10px #666;
+  -o-box-shadow: 0px 5px 10px #666;
+  box-shadow: 0px 5px 10px #666;
+}
 
 
 

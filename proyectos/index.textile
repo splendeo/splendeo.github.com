@@ -20,7 +20,7 @@ h2. {{ project.title }}
 
 notextile. <div class="media">
 
-  !(img)/images/projects/{{ project.image }}!
+  "(img). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
 
 notextile. <div class="bd">
 

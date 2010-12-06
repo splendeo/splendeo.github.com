@@ -4,6 +4,7 @@ title: Storemonitor
 locale: es
 en: /en/projects/storemonitor
 permalink: /proyectos/storemonitor
+link: http://www.e-storemonitor.com
 image: storemonitor.png
 intro: '"Storemonitor":http://www.e-storemonitor.com es una aplicación de gestión de fotografías de tiendas para el control del surtido.'
 ---

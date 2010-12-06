@@ -4,6 +4,7 @@ title: Hotel Castellar
 locale: es
 en: /en/projects/hotel-castellar
 permalink: /proyectos/hotel-castellar
+link: http://www.hotelcastellar.es
 image: hotel-castellar.png
 ---
 

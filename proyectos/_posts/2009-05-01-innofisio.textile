@@ -3,6 +3,7 @@ layout: project
 title: Innofisio
 locale: es
 en: /en/projects/innofisio
+link: http://www.innofisio.com
 permalink: /proyectos/innofisio
 image: innofisio.png
 ---

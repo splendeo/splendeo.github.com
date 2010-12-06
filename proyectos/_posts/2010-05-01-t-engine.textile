@@ -4,6 +4,7 @@ title: t-engine
 locale: es
 en: /en/projects/t-engine
 permalink: /proyectos/t-engine
+link: http://www.talleresanemia.es
 image: t-engine.png
 intro: T-engine es plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario impartidos en Hospitales y Centros de Salud de todo el territorio español.
 ---
