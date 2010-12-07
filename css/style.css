@@ -420,28 +420,7 @@ body.front a p {
   font-size: 0.95em;
 }
 
-/* Who we are */
-
-body.who-we-are ul.partners {
-  height: 860px;
-}
-
-body.who-we-are ul.partners, body.who-we-are ul.partners li {
-  list-style-type: none;
-  margin: 80px 0;
-  padding: 0;
-  position: relative;
-}
-
-body.who-we-are ul.partners li p {
-  width: 70%;
-}
-
-body.who-we-are ul.partners img {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+.non-marginal { margin: 0; }
 
 /* What we do */
 

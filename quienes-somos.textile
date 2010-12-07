@@ -17,7 +17,11 @@ h2. Socios
 
 Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
-notextile. <ul class='partners'><li>
+<div class="media non-marginal">
+
+ !(imgExt)/images/who-we-are/fjuan.png!
+
+<div class="bd">
 
 h3(#fjuan). Francisco de Juan
 
@@ -29,11 +33,13 @@ Tiene experiencia tratando con los clientes y es experto en usabilidad.
 
 En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los servidores.
 
-!/images/who-we-are/fjuan.png!
-
 "Curriculum":/files/francisco-de-juan.es.pdf | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
-notextile. </li><li>
+</div></div><div class="media non-marginal">
+
+ !(imgExt)/images/who-we-are/egarcia.png!
+
+<div class="bd">
 
 h3(#egarcia). Enrique García
 
@@ -43,11 +49,13 @@ Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/Z
 
 Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
 
-!/images/who-we-are/egarcia.png!
-
 "Curriculum":/files/enrique-garcia-cota.es.pdf | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
 
-notextile. </li><li>
+</div></div><div class="media non-marginal">
+
+ !(imgExt)/images/who-we-are/eroibas.png!
+
+<div class="bd">
 
 h3(#eroibas). Enrique Roibás
 
@@ -57,10 +65,10 @@ Con experiencia profesional en control de gestión en el sector del gran consumo
 
 En Splendeo es responsable de definir e implantar la estrategia empresarial.
 
-!/images/who-we-are/eroibas.png!
-
 "Curriculum":/files/enrique-roibas-lago.es.pdf | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
 
-notextile. </li></ul><div class='clear'></div>
+</div></div>
+
+<div style="height: 80px"></div>
 
 
