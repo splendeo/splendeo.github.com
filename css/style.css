@@ -216,6 +216,36 @@ body.front .page .head h1 a {
   padding: 0;
 }
 
+.image-link {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 0px !important;
+}
+
+.big-link {
+  width: 180px;
+  padding-top: 100px;
+}
+
+.wide-link {
+  width: 180px;
+  padding-top: 30px;
+}
+
+.tech-link {
+  width: 42px;
+  padding-top: 54px;
+}
+
+.rounded-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /* footer */
 
 .foot {
@@ -413,34 +443,9 @@ body.who-we-are ul.partners img {
   top: 0;
 }
 
-/* What we do - sidebar */
+/* What we do */
 
-body.what-we-do .splendeo-sidebar a {
-  display: block;
-  padding: 0;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  height: 0px !important;
-}
-
-body.what-we-do a.osi, body.what-we-do a.seo, body.what-we-do a.mobile, body.what-we-do a.splendeo-at-github {
-  width: 180px;
-  padding-top: 100px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-}
-
-body.what-we-do a.osi    { background-image: url(/images/what-we-do/osi_standard_logo.jpg); }
-body.what-we-do a.seo    { background-image: url(/images/what-we-do/seo.png); }
-body.what-we-do a.mobile { background-image: url(/images/what-we-do/mobile.png); }
-body.what-we-do a.splendeo-at-github { 
-  background-image: url(/images/what-we-do/splendeo@github.png);
-  padding-top: 30px;
-}
-
-body.what-we-do ul.osi-list {
+.osi-list {
   margin: 0;
   padding: 0;
   height: 54px;
@@ -448,30 +453,18 @@ body.what-we-do ul.osi-list {
   display: block;
 }
 
-body.what-we-do .splendeo-sidebar li {
+.osi-list li {
   display: inline;
   margin: 0 4px 0 0;
   float: left;
 }
 
-body.what-we-do .splendeo-sidebar li.last { margin-right: 0; }
+.osi-list li.last { margin-right: 0; }
 
-body.what-we-do .splendeo-sidebar li a {
-  width: 42px;
-  padding-top: 54px;
-}
+.centered { text-align: center; }
+.spaced { margin-top: 80px; }
 
-body.what-we-do .splendeo-sidebar a.ror        { background-image: url(/images/what-we-do/rails_logo.gif); }
-body.what-we-do .splendeo-sidebar a.apache     { background-image: url(/images/what-we-do/apache_logo.gif); }
-body.what-we-do .splendeo-sidebar a.postgresql { background-image: url(/images/what-we-do/postgresql_logo.gif); }
-body.what-we-do .splendeo-sidebar a.ubuntu     { background-image: url(/images/what-we-do/ubuntu_logo.gif); }
-
-/* What we do - body */
-
-body.what-we-do p.intro { text-align: center; }
-body.what-we-do p.contact { margin-top: 80px; }
-
-body.what-we-do dl {
+.win-container {
   background: url(/images/what-we-do/win.png) no-repeat 0 0;
 	width: 600px;
   height: 360px;
@@ -479,27 +472,27 @@ body.what-we-do dl {
 	margin: 30px auto 0 auto;
 }
 
-body.what-we-do dd {
+.win-container dd {
   position: absolute;
   margin: 0;
   padding: 0;
 }
 
-body.what-we-do dd a {
+.win-container dd a {
   display: block;
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: black;
   width: 180px; 
-  height: 374px;
+  height: 200px;
 }
 
-body.what-we-do dd#w { left:  50px; top: 95px; }
-body.what-we-do dd#i { left: 232px; top: 63px; }
-body.what-we-do dd#n { left: 380px; top: 33px; }
+.win-container .w { left:  50px; top: 95px; }
+.win-container .i { left: 232px; top: 63px; }
+.win-container .n { left: 380px; top: 33px; }
 
-body.what-we-do .page .body dd h2 {
+.win-title {
   margin: -50px 0 0 -66px;
   border: none;
   text-align: center;
@@ -507,34 +500,31 @@ body.what-we-do .page .body dd h2 {
   font-size: 1.5em;
 }
 
-body.what-we-do h2#w { background: url(/images/what-we-do/w.png) no-repeat 0 0; padding-left: 35px; }
-body.what-we-do h2#i { background: url(/images/what-we-do/i.png) no-repeat 0 0; padding-left: 35px; }
-body.what-we-do h2#n { background: url(/images/what-we-do/n.png) no-repeat 0 0; padding-left: 35px; }
-
-body.what-we-do dd span { 
-  display: none;
-}
-
-body.what-we-do dd blockquote {
+.win-question {
   margin: 100px auto;
   text-align: center;
+  padding: 5px;
 }
 
-body.what-we-do dd blockquote p {
+.big-left-icon { 
+  padding-left: 35px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.underline { text-decoration: underline; }
+.bold      { font-weight: bold; }
+
+.show-on-hover { display: none; }
+.show-on-hover:hover { display: block; }
+a:hover .show-on-hover { display: block; }
+
+.translucent-bg {
   background: rgb(221, 221, 221);       /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(221, 221, 221, 0.6); /* RGBa with 0.6 opacity */
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD); /* For IE 5.5 - 7*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD)"; /* For IE 8*/
-  
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  
-  padding: 5px;
 }
-
-body.what-we-do dd a:hover span { display: block; }
 
 /* projects - body */
 

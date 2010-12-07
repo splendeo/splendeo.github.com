@@ -9,24 +9,24 @@ body_class: what-we-do
 
 h2. Código abierto
 
-"(osi)www.opensource.org(Open Source Initiative)":http://www.opensource.org/
+<a href="http://www.opensource.org" title="Open Source Initiative" style="background-image: url(/images/what-we-do/osi_standard_logo.jpg)" class="image-link big-link rounded-5">Open Source Initiative</a>
 
 En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
 
 Puede ver el código fuente de algunos de nuestros proyectos (incluida esta página) en:
 
-"(splendeo-at-github)Splendeo@Github(Splendeo@Github)":http://github.com/splendeo
+<a href="http://github.com/splendeo" title="Splendeo@Github" style="background-image: url(/images/what-we-do/splendeo@github.png)" class="image-link wide-link rounded-5">Open Source Initiative</a>
 
 Tecnologías que utilizamos:
 
-(osi-list)* "(ror)Ruby on Rails(Ruby on Rails)":http://rubyonrails.org
-* "(apache)Apache(Apache)":http://apache.org
-* "(postgresql)PostgreSQL(PostgreSQL)":http://postgresql.org
-*(last) "(ubuntu)Ubuntu(Ubuntu)":http://www.ubuntu.com
+(osi-list)* <a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/what-we-do/rails_logo.gif)" class="image-link tech-link">Ruby on Rails</a>
+* <a href="http://apache.org" title="Apache" style="background-image: url(/images/what-we-do/apache_logo.gif" class="image-link tech-link">Apache</a>
+* <a href="http://postgresql.org" title="PostgreSQL" style="background-image: url(/images/what-we-do/postgresql_logo.gif)" class="image-link tech-link">PostgreSQL</a>
+*(last) <a href="http://www.ubuntu.com" title="Ubuntu" style="background-image: url(/images/what-we-do/ubuntu_logo.gif)" class="image-link tech-link">Ubuntu</a>
 
-h2. SEO
+h2. Posicionamiento (SEO)
 
-"(seo)SEO(Posicionamiento en buscadores(SEO))":http://es.wikipedia.org/wiki/Posicionamiento_en_buscadores
+<a href="http://es.wikipedia.org/wiki/Posicionamiento_en_buscadores" title="Posicionamiento en buscadores(SEO)" style="background-image: url(/images/what-we-do/seo.png)" class="image-link big-link rounded-5">Posicionamiento en buscadores(SEO)</a>
 
 Sabemos cómo optimizar páginas para que mejoren en los buscadores.
 
@@ -34,38 +34,38 @@ Nuestras claves en SEO son: *estilo*, *estructura* y *relevancia*.
 
 h2. Móviles
 
-"(mobile)Móviles(Páginas preparadas para dispositivos móviles)":http://www.jquerymobile.com
+<a href="http://www.jquerymobile.com" title="Páginas preparadas para dispositivos móviles" style="background-image: url(/images/what-we-do/mobile.png)" class="image-link big-link rounded-5">Páginas preparadas para dispositivos móviles</a>
 
 Los dispositivos móviles cada vez tienen más protagonismo - para algunos sitios web ya son el objetivo principal.
 
-Nosotros sabemos hacer que su página web funcione correctamente en un navegador móvil.
+Nosotros sabemos hacer que su página web funcione correctamente en un navegador móvil - utilizando "JQuery Mobile":http://www.jquerymobile.com .
 
 {% include sidebar-end.html %}
 
 
-p(intro). En Splendeo desarrollamos nuestros productos siguiendo un principio muy sencillo:
+p(centered). En Splendeo desarrollamos nuestros productos siguiendo un principio muy sencillo:
 
-notextile. <dl><dd id='w'><a href="#w"><span>
+notextile. <dl class="win-container"><dd class='w'><a href="#w"><span class="show-on-hover">
 
-h2. Aplicaciones *+Web+*
+h2(win-title). Aplicaciones %(underline bold)Web%
 
-bq. ¿Por qué web?
+p(win-question translucent-bg rounded-5). ¿Por qué web?
 
-notextile. </span></a></dd><dd id='i'><a href="#i"><span>
+notextile. </span></a></dd><dd class='i'><a href="#i"><span class="show-on-hover">
 
-h2. Aplicaciones *+Intuitivas+*
+h2(win-title). Aplicaciones %(underline bold)Intuitivas%
 
-bq. ¿Sabré utilizar la aplicación?
+p(win-question translucent-bg rounded-5). ¿Sabré utilizar la aplicación?
 
-notextile. </span></dd><dd id='n'><a href="#n"><span>
+notextile. </span></dd><dd class='n'><a href="#n"><span class="show-on-hover">
 
-h2. Aplicaciones *+Necesarias+*
+h2(win-title). Aplicaciones %(underline bold)Necesarias%
 
-bq. ¿Hará mi aplicación todo lo que necesito?
+p(win-question translucent-bg rounded-5). ¿Hará mi aplicación todo lo que necesito?
 
 notextile. </span></a></dd></dl>
 
-h2(#w). Aplicaciones Web
+<h2 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)">Aplicaciones <span class="underline">Web</span></h2>
 
 En comparación con las aplicaciones tradicionales, las aplicaciones web son:
 
@@ -73,7 +73,7 @@ En comparación con las aplicaciones tradicionales, las aplicaciones web son:
 * Más baratas y fáciles de mantener: usted no tiene que encargarse de ningún mantenimiento.
 * Más fiables: sus datos están seguros en un servidor dedicado.
 
-h2(#i). Aplicaciones Intuitivas
+<h2 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)">Aplicaciones <span class="underline">Intuitivas</span></h2>
 
 Somos expertos en hacer aplicaciones que el usuario entienda fácilmente.
 
@@ -81,7 +81,7 @@ Somos expertos en hacer aplicaciones que el usuario entienda fácilmente.
 * Hay un botón (y sólamente uno) para cada acción.
 * Nuestros botones se identifican fácilmente.
 
-h2(#n). Aplicaciones Necesarias
+<h2 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)">Aplicaciones <span class="underline">Necesarias</span></h2>
 
 Somos expertos en satisfacer espectativas. Para cada nuevo proyecto:
 
@@ -89,6 +89,6 @@ Somos expertos en satisfacer espectativas. Para cada nuevo proyecto:
 * O desarrollamos una aplicación a medida.
 * O le diremos que lo que nos pide no es posible.
 
-p(contact). Hacemos más cosas. <a onclick="show_contact_form('/contacto-ajax/'); return false;" href="/contacto/">¡Pregúntenos!</a>
+p(spaced). Hacemos más cosas. <a onclick="show_contact_form('/contacto-ajax/'); return false;" href="/contacto/">¡Pregúntenos!</a>
 
 
