@@ -1,14 +1,14 @@
       <div class='clear'></div>
       </div> <!-- .body -->
       <div class="foot">
-        <div id="footer_white">
-          <div id="footer_text">
+        <div class="white-line media">
+          <div class="imgExt">
             {{ site.locales[page_locale].footer.text }}
             {% for legal_link in site.locales[page_locale].footer.legal_link[0] %}
               <a href="{{ legal_link[1] }}">{{ legal_link[0] }}</a>
             {% endfor %}
           </div>
-          <ul class='h-list bar-list'>
+          <ul class='h-list bar-list bd'>
             {% for link in site.locales[page_locale].navigation %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
               {% if page.url == link.url or page.url == ugly_url %}

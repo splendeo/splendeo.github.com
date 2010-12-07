@@ -95,6 +95,11 @@ a:hover .show-on-hover { display: block; }
   box-shadow: 0px 5px 10px #666;
 }
 
+.white-line{
+  background-color: white;
+  padding: 0 30px;
+}
+
 
 /* Image replacement stuff */
 
@@ -300,15 +305,8 @@ body.front .splendeo-logo a { background-image: url('/css/images/splendeo-logo-w
 
 /* footer */
 
-.foot{ padding: 20px 0; }
-
-#footer_white{
-  background-color: white;
-  padding: 0 30px;
-}
-
+.foot{ padding: 10px 0; }
 .foot a{ color: #6c6c6c; }
-#footer_text{ float: right; }
 
 /* Contact form styles */
 body.contact-form #content {
