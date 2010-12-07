@@ -8,7 +8,7 @@
               <a href="{{ legal_link[1] }}">{{ legal_link[0] }}</a>
             {% endfor %}
           </div>
-          <ul>
+          <ul class='h-list bar-list'>
             {% for link in site.locales[page_locale].navigation %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
               {% if page.url == link.url or page.url == ugly_url %}
@@ -19,9 +19,7 @@
                 {% assign css_class = 'current' %}
               {% endif %}
 
-              <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}">
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </li>
+              <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}"><a href="{{ link.url }}">{{ link.text }}</a></li>
 
               {% assign css_class = nil %}
             {% endfor %}

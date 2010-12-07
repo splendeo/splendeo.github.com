@@ -29,6 +29,98 @@ h1,h2,h3,h4,h5,h6{
   text-transform: capitalize;
 }
 
+/* re-usable classes */
+
+.rounded-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.non-marginal { margin: 0; }
+
+.big-left-icon { 
+  padding-left: 35px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.underline { text-decoration: underline; }
+.bold      { font-weight: bold; }
+.current   { font-weight: bold; }
+.centered  { text-align: center; }
+.spaced    { margin-top: 80px; }
+
+.show-on-hover { display: none; }
+.show-on-hover:hover { display: block; }
+a:hover .show-on-hover { display: block; }
+
+.v-list li{
+  display: block;
+  margin: 4px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.h-list li{
+  display: inline;
+  margin: 0 4px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.bar-list li{
+  margin: 0;
+  padding: 0 6px 0 0;
+  background: transparent url('/css/images/bar-separator.png') no-repeat right 3px;
+}
+.bar-list .first, .bar-list > :first-child{ padding-left: 0px; }
+.bar-list .last, .bar-list > :last-child{
+  padding-right: 0px;
+  background: none;
+}
+
+.translucent-bg {
+  background: rgb(221, 221, 221);       /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(221, 221, 221, 0.6); /* RGBa with 0.6 opacity */
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD); /* For IE 5.5 - 7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD)"; /* For IE 8*/
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 5px 10px #666;
+  -moz-box-shadow: 0px 5px 10px #666;
+  -o-box-shadow: 0px 5px 10px #666;
+  box-shadow: 0px 5px 10px #666;
+}
+
+
+/* Image replacement stuff */
+
+.image-link {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 0px !important;
+}
+
+.big-link {
+  width: 180px;
+  padding-top: 100px;
+}
+
+.wide-link {
+  width: 180px;
+  padding-top: 30px;
+}
+
+.tech-link {
+  width: 42px;
+  padding-top: 54px;
+}
+
 /* body */
 
 body {
@@ -44,35 +136,41 @@ body .page .head {
   background: white url('/css/images/header-background.png') repeat-x bottom center;
 }
 
-body.front .page .head {
-  background-image: none;
-}
+body.front .page .head { background-image: none; }
 
 .page {
   background-color: white;
   background: white url('/css/images/bottom-background.png') repeat-x bottom;
 }
 
-.page .head h1{
+.page .body {
+  margin: 20px 0;
+  position: relative;
+}
+
+.page .main { padding: 0 40px; }
+
+/* logo links */
+
+.splendeo-logo{
   width: 244px;
   margin: 0px auto;
   position: relative;
   top: 42px;
 }
 
-.page .head h1 a {
+.splendeo-logo a {
   padding: 98px 0 0 0;
   display: block;
   overflow: hidden;
   background-repeat: no-repeat;
   height: 0px !important;
-  height /**/:98px;
   width: 244px;
 }
 
-body.front .page .head h1 a {
-  background-image: url('/css/images/splendeo-logo-white-background.png');
-}
+body.front .splendeo-logo a { background-image: url('/css/images/splendeo-logo-white-background.png'); }
+
+/* Admin links */
 
 #language_switcher{
   position: absolute;
@@ -176,19 +274,6 @@ body.front .page .head h1 a {
   color: #FF3819;
 }
 
-.page .body {
-  margin: 20px 0;
-  position: relative;
-}
-
-.page .main {
-  padding: 0 40px;
-}
-
-.page .body h2 a {
-  color: black;
-}
-
 /* Sidebar */ 
 .splendeo-sidebar {
   background-color: #dddddd;
@@ -203,7 +288,7 @@ body.front .page .head h1 a {
   border-bottom-left-radius: 20px;
 }
 
-.splendeo-sidebar p, .splendeo-sidebar ul {  margin: 5px 0 10px 0; }
+.splendeo-sidebar p, .splendeo-sidebar ul { margin: 5px 0 10px 0; }
 
 .page .splendeo-sidebar h2 {
   color: #666;
@@ -212,78 +297,17 @@ body.front .page .head h1 a {
   padding: 0;
 }
 
-.image-link {
-  display: block;
-  padding: 0;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  height: 0px !important;
-}
-
-.big-link {
-  width: 180px;
-  padding-top: 100px;
-}
-
-.wide-link {
-  width: 180px;
-  padding-top: 30px;
-}
-
-.tech-link {
-  width: 42px;
-  padding-top: 54px;
-}
-
-.rounded-5 {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-}
-
 /* footer */
 
-.foot {
-  padding: 20px 0;
-}
+.foot{ padding: 20px 0; }
 
 #footer_white{
   background-color: white;
   padding: 0 30px;
 }
 
-.foot a{
-  color: #6c6c6c;
-}
-
-#footer_text{
-  float: right;
-}
-
-.foot ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.foot ul li{
-  list-style-type: none;
-  padding: 0px 6px;
-  display: inline;
-  background: transparent url('/css/images/footer-navigation-separator.png') no-repeat right 5px;
-}
-
-.foot ul li.first{
-  padding-left: 0px;
-}
-
-.foot ul li.last{
-  padding-right: 0px;
-  background: none;
-}
-
-.foot ul li.current a{ font-weight: bold; }
+.foot a{ color: #6c6c6c; }
+#footer_text{ float: right; }
 
 /* Contact form styles */
 body.contact-form #content {
@@ -416,15 +440,10 @@ body.front a p {
   font-size: 0.95em;
 }
 
-.non-marginal { margin: 0; }
-
 /* What we do */
 
 .osi-list {
-  margin: 0;
-  padding: 0;
   height: 54px;
-  list-style-type: none;
   display: block;
 }
 
@@ -434,10 +453,7 @@ body.front a p {
   float: left;
 }
 
-.osi-list li.last { margin-right: 0; }
-
-.centered { text-align: center; }
-.spaced { margin-top: 80px; }
+.osi-list li.last, .osi-list > :last-child  { margin-right: 0; }
 
 .win-container {
   background: url(/images/what-we-do/win.png) no-repeat 0 0;
@@ -480,36 +496,6 @@ body.front a p {
   text-align: center;
   padding: 5px;
 }
-
-.big-left-icon { 
-  padding-left: 35px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.underline { text-decoration: underline; }
-.bold      { font-weight: bold; }
-
-.show-on-hover { display: none; }
-.show-on-hover:hover { display: block; }
-a:hover .show-on-hover { display: block; }
-
-.translucent-bg {
-  background: rgb(221, 221, 221);       /* Fallback for web browsers that doesn't support RGBa */
-  background: rgba(221, 221, 221, 0.6); /* RGBa with 0.6 opacity */
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD); /* For IE 5.5 - 7*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD)"; /* For IE 8*/
-}
-
-/* projects */
-
-.shadow {
-  -webkit-box-shadow: 0px 5px 10px #666;
-  -moz-box-shadow: 0px 5px 10px #666;
-  -o-box-shadow: 0px 5px 10px #666;
-  box-shadow: 0px 5px 10px #666;
-}
-
 
 
 

@@ -10,20 +10,24 @@ body_class: projects
 
 h2. De boceto a web
 
+<div style="background-image: url(/images/projects/ps2web.png);" title="De boceto a web" class="big-link rounded-5" ></div>
+
 Transformamos gráficos (Photoshop, jpg, gif...) en una página web, siguiendo todos los estándares del "W3C":http://www.w3.org/ .
 
 h2. CMSs
 
-También realizamos aplicaciones basadas en CMSs.
+En splendeo también podemos realizar aplicaciones con los siguientes "CMSs":http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 
-* Drupal
-* Wordpress
+(v-list)* <a href="http://drupal.org" title="Drupal" style="background-image: url(/images/projects/drupal.png);" class="image-link wide-link rounded-5">Drupal</a>
+* <a href="http://wordpress.org" title="Wordpress" style="background-image: url(/images/projects/wordpress.png);" class="image-link wide-link rounded-5">Wordpress</a>
 
-Sabemos desarrollar temas y módulos para ambos.
+Desarrollamos aplicaciones, templates y módulos.
 
 h2. Desarrollos a medida
 
-Cuando un CRM no es suficiente, podemos desarrollar aplicaciones completamente a medida. Entonces utilizamos Ruby on Rails.
+<a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/projects/ruby-on-rails.png);" class="image-link big-link rounded-5">Ruby on Rails</a>
+
+Cuando un CRM no es suficiente, desarrollamos aplicaciones a medida. Para ello utilizamos "Ruby on Rails":http://rubyonrails.org
 
 {% include sidebar-end.html %}
 
