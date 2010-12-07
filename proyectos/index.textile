@@ -3,7 +3,6 @@ layout: default
 title: Proyectos
 en: /en/projects
 has_sidebar: true
-body_class: projects
 ---
 
 {% include sidebar-start.html %}
@@ -39,15 +38,15 @@ h2. {{ project.title }}
 
 {% if project.image %}
 
-notextile. <div class="media">
+<div class="media">
 
   "(img shadow). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
 
-notextile. <div class="bd">
+<div class="bd">
 
 {{ project.content }}
 
-notextile. </div></div>
+</div></div>
   
 {% else %}
 
