@@ -50,10 +50,6 @@ body.front .page .head {
 
 .page {
   background-color: white;
-  -webkit-box-shadow: 0px 5px 10px #666;
-  -moz-box-shadow: 0px 5px 10px #666;
-  -o-box-shadow: 0px 5px 10px #666;
-  box-shadow: 0px 5px 10px #666;
   background: white url('/css/images/bottom-background.png') repeat-x bottom;
 }
 
@@ -505,9 +501,9 @@ a:hover .show-on-hover { display: block; }
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99DDDDDD, endColorstr=#99DDDDDD)"; /* For IE 8*/
 }
 
-/* projects - body */
+/* projects */
 
-body.projects .body img {
+.shadow {
   -webkit-box-shadow: 0px 5px 10px #666;
   -moz-box-shadow: 0px 5px 10px #666;
   -o-box-shadow: 0px 5px 10px #666;

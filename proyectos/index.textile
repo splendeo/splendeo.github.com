@@ -7,7 +7,24 @@ body_class: projects
 ---
 
 {% include sidebar-start.html %}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+h2. De boceto a web
+
+Transformamos gráficos (Photoshop, jpg, gif...) en una página web, siguiendo todos los estándares del "W3C":http://www.w3.org/ .
+
+h2. CMSs
+
+También realizamos aplicaciones basadas en CMSs.
+
+* Drupal
+* Wordpress
+
+Sabemos desarrollar temas y módulos para ambos.
+
+h2. Desarrollos a medida
+
+Cuando un CRM no es suficiente, podemos desarrollar aplicaciones completamente a medida. Entonces utilizamos Ruby on Rails.
+
 {% include sidebar-end.html %}
 
 {% for project in site.categories.proyectos %}
@@ -20,7 +37,7 @@ h2. {{ project.title }}
 
 notextile. <div class="media">
 
-  "(img). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
+  "(img shadow). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
 
 notextile. <div class="bd">
 
