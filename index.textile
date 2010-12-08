@@ -4,25 +4,26 @@ title: Inicio
 en: /en
 ---
 
-notextile. <ul><li><a class='what-we-do' href="/que-hacemos/"><div>
+
+notextile. <ul class="line front-list"><li class="unit size1of4"><a class="front-link rounded-10" href="/que-hacemos/"><div style="background-image: url('/css/images/front/what-we-do.png');">
 
 h2. Qué hacemos
 
 Aplicaciones web útiles y fáciles de usar
 
-notextile. </div></a></li><li><a class='who-we-are' href="/quienes-somos/"><div>
+notextile. </div></a></li><li class="unit size1of4"><a class="front-link rounded-10" href="/quienes-somos/"><div style="background-image: url('/css/images/front/who-we-are.png');">
 
 h2. Quiénes somos
 
 Un equipo con mucho talento y creatividad
 
-notextile. </div></a></li><li><a class='projects' href="/proyectos/"><div>
+notextile. </div></a></li><li class="unit size1of4"><a class="front-link rounded-10"  href="/proyectos/"><div style="background-image: url('/css/images/front/projects.png');">
 
 h2. Proyectos
 
 Ideas innovadoras aplicadas al mundo empresarial
 
-notextile. </div></a></li><li><a class='blog' href="/blog/"><div>
+notextile. </div></a></li><li class="unit size1of4 lastUnit"><a class="front-link rounded-10" href="/blog/"><div style="background-image: url('/css/images/front/blog.png');">
 
 h2. Blog
 

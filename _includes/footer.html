@@ -9,20 +9,22 @@
             {% endfor %}
           </div>
           <ul class='h-list bar-list bd'>
-            {% for link in site.locales[page_locale].navigation %}
-              {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
-              {% if page.url == link.url or page.url == ugly_url %}
-                {% assign css_class = 'current' %}
-              {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
-                {% assign css_class = 'current' %}
-              {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
-                {% assign css_class = 'current' %}
-              {% endif %}
+            {% unless page.layout == 'front' %}
+              {% for link in site.locales[page_locale].navigation %}
+                {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
+                {% if page.url == link.url or page.url == ugly_url %}
+                  {% assign css_class = 'current' %}
+                {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
+                  {% assign css_class = 'current' %}
+                {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
+                  {% assign css_class = 'current' %}
+                {% endif %}
 
-              <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}"><a href="{{ link.url }}">{{ link.text }}</a></li>
 
-              {% assign css_class = nil %}
-            {% endfor %}
+                {% assign css_class = nil %}
+              {% endfor %}
+            {% endunless %}
           </ul>
           <div class='clear'></div>
         </div> <!-- footer_white -->

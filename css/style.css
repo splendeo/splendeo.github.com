@@ -38,6 +38,13 @@ h1,h2,h3,h4,h5,h6{
   border-radius: 5px;
 }
 
+.rounded-10 {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .non-marginal { margin: 0; }
 
 .big-left-icon { 
@@ -153,7 +160,10 @@ body.front .page .head { background-image: none; }
   position: relative;
 }
 
-.page .main { padding: 0 40px; }
+.page .main {
+  padding: 0 40px;
+  position: relative;
+}
 
 /* logo links */
 
@@ -380,60 +390,43 @@ form#ss-form div.buttons input:active {
 
 /* Front page */
 
-body.front .page .body {
-  height: 30em;
-  position: relative;
-  padding: 0 0 0 4px;
+.front-list {
+  position: relative; 
+  height: 20em;
 }
-body.front .page .body h2 {
-  border: none;
+
+.front-list li {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
-body.front .page .body a {
+
+.front-link {
   display: block;
-  position: absolute;
-  top: 20px;
   padding: 12px;
   border: 3px solid transparent;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
 }
-body.front .page .body a:hover{
+
+.front-link div {
+  height: 12.5em;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.front-link:hover {
   border-color: #DDD;
   -webkit-box-shadow: 4px 4px 4px #666;
   -moz-box-shadow: 4px 4px 4px #666;
   -o-box-shadow: 4px 4px 4px #666;
   box-shadow: 4px 4px 4px #666;
 }
-body.front .page .body li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-body.front .page .body a.what-we-do { left: 35px;  }
-body.front .page .body a.who-we-are { left: 255px; }
-body.front .page .body a.projects   { left: 480px; }
-body.front .page .body a.blog       { left: 700px; }
-
-body.front .page .body div {
-  height: 12.5em;
-  width: 181px;
-  background-repeat: no-repeat;
-  background-position: left bottom;
-}
-body.front .page .body a.what-we-do div { background-image: url('/css/images/front/who-we-are.png'); }
-body.front .page .body a.who-we-are div { background-image: url('/css/images/front/what-we-do.png'); }
-body.front .page .body a.projects   div { background-image: url('/css/images/front/projects.png'); }
-body.front .page .body a.blog       div { background-image: url('/css/images/front/blog.png'); }
-
-body.front a h2 {
+.front-link h2 {
   font-size: 1.6em;
   color: #323232;
   margin: 0 0 0.7em 0;
 }
-body.front a p {
+.front-link p {
   color: #747474;
   margin: 5px 0;
   font-size: 0.95em;
