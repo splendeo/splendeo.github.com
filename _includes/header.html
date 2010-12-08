@@ -63,7 +63,7 @@
         <h1 class="splendeo-logo"><a href="{{ site.locales[page_locale].path }}/" title="Splendeo Innovación">Splendeo Innovación</a></h1>
 
         {% unless page.layout == 'front' %}
-          <ul id="navigation">
+          <ul id="navigation" class="line">
             {% for link in site.locales[page_locale].navigation %}
               {% assign is_current = false %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}

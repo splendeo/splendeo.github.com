@@ -133,34 +133,37 @@ a:hover .show-on-hover { display: block; }
   padding-top: 54px;
 }
 
-/* body */
+/* page-head-body-main */
 
-body {
+html {
   background: transparent url('/css/images/background.png') repeat fixed 0 0;
+}
+
+body { 
   font-family: Verdana, Geneva, Kalimati, sans-serif;
-  padding: 20px 0;
   line-height: 1.5;
+  padding: 20px 0; 
 }
-
-body .page .head {
-  height: 200px;
-  position: relative;
-  background: white url('/css/images/header-background.png') repeat-x bottom center;
-}
-
-body.front .page .head { background-image: none; }
 
 .page {
   background-color: white;
   background: white url('/css/images/bottom-background.png') repeat-x bottom;
 }
 
-.page .body {
+.head {
+  height: 200px;
+  position: relative;
+  background: white url('/css/images/header-background.png') repeat-x bottom center;
+}
+
+body.front .head { background-image: none; }
+
+.body {
   margin: 20px 0;
   position: relative;
 }
 
-.page .main {
+.main {
   padding: 0 40px;
   position: relative;
 }

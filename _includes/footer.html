@@ -20,7 +20,7 @@
                   {% assign css_class = 'current' %}
                 {% endif %}
 
-                <li class="{{ css_class }}{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                <li class="{{ css_class }}unit size1of4{% if forloop.first %} first{% endif %}{% if forloop.last %} last lastUnit{% endif %}"><a href="{{ link.url }}">{{ link.text }}</a></li>
 
                 {% assign css_class = nil %}
               {% endfor %}
