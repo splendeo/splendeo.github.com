@@ -4,7 +4,6 @@ title: Proyectos
 en: /en/projects
 has_sidebar: true
 ---
-
 {% include sidebar-start.html %}
 
 h2. De boceto a web
@@ -26,7 +25,7 @@ h2. Desarrollos a medida
 
 <a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/projects/ruby-on-rails.png);" class="image-link big-link rounded-5">Ruby on Rails</a>
 
-Cuando un CRM no es suficiente, desarrollamos aplicaciones a medida. Para ello utilizamos "Ruby on Rails":http://rubyonrails.org
+Cuando un CMS no es suficiente, desarrollamos aplicaciones a medida. Para ello utilizamos "Ruby on Rails":http://rubyonrails.org
 
 {% include sidebar-end.html %}
 

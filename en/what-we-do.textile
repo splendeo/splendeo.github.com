@@ -5,72 +5,87 @@ es: /que-hacemos
 has_sidebar: true
 ---
 
-h2. "What we do":/en/what-we-do/
-
-h3. Web applications
-
-bq. "Please review the attached excel and send it back to me when done."
-
-Our philosophy is: everyone uses the web. It's a universal communication medium.
-
-Using a website in order to control workflows:
-
-* Eases data sharing between users
-* Unlocalizes information
-* Increases security
-
-h3. Easy to use
-
-bq. "Where should I click? I've lost my data!"
-
-We follow very straightforward design guidelines:
-
-* Respect the W3C standards
-* Our clickable elements are visually differentiable from the content.
-* We use one (and only one) button for each thing
-* Each deletion has a confirmation dialog
-
-h3. Effective
-
-bq. "It's not what I asked for, but it's what I needed."
-
-We analyze our client's *problem* and *expectations* and:
-
-* We develop custom applications adapted to our client's *needs* or
-* We find the best available existing solution
-
-h3. Open Source
-
-We use open source technologies in all our projects. This allows us to be competitive and efficient.
-
-Open Source technologies allow us to have:
-
-* More quality, control and freedom in providing solutions.
-* Less cost for us means less cost for our clients.
-
-Here're some of the technologies we use:
-
-* "Ruby on Rails":http://rubyonrails.org
-* "Apache":http://apache.org
-* "Postgresql":http://postgresql.org
-* "Ubuntu":http://www.ubuntu.com
-
-h3. Search Engine Optimization (SEO)
-
-The keys for sucess here are: style, structure and relevance.
-
-We know how to apply them to any website, new or existing.
-
-h3. Mobile
-
-Mobile devices are increasingly relevant - some websites have them as their main target.
-
-We know how to make your website look and work correctly on a mobile browser.
-
-h3. Etc
-
-We do more things. Ask us!
-
 {% include sidebar-start.html %}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+h2. Open Source
+
+<a href="http://www.opensource.org" title="Open Source Initiative" style="background-image: url(/images/what-we-do/osi_standard_logo.jpg)" class="image-link big-link rounded-5">Open Source Initiative</a>
+
+In Splendeo we use Open Source technologies. This makes us more competitive and efficient.
+
+You can see the source code of our projects (including this website) here:
+
+<a href="http://github.com/splendeo" title="Splendeo@Github" style="background-image: url(/images/what-we-do/splendeo@github.png)" class="image-link wide-link rounded-5">Open Source Initiative</a>
+
+We use the following technologies:
+
+(h-list osi-list)* <a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/what-we-do/rails_logo.gif)" class="image-link tech-link">Ruby on Rails</a>
+* <a href="http://apache.org" title="Apache" style="background-image: url(/images/what-we-do/apache_logo.gif" class="image-link tech-link">Apache</a>
+* <a href="http://postgresql.org" title="PostgreSQL" style="background-image: url(/images/what-we-do/postgresql_logo.gif)" class="image-link tech-link">PostgreSQL</a>
+*(last) <a href="http://www.ubuntu.com" title="Ubuntu" style="background-image: url(/images/what-we-do/ubuntu_logo.gif)" class="image-link tech-link">Ubuntu</a>
+
+h2. SEO
+
+<a href="http://en.wikipedia.org/wiki/Search_engine_optimization" title="Search Engine Optimization (SEO)" style="background-image: url(/images/what-we-do/seo.png)" class="image-link big-link rounded-5">Search Engine Optimization (SEO)</a>
+
+We are experts in optimizing websites so they improve their results on searchers.
+
+Our key points are: *style*, *structure* & *relevancy*.
+
+h2. Mobile
+
+<a href="http://www.jquerymobile.com" title="JQuery Mobile - Websites optimized for mobile devices" style="background-image: url(/images/what-we-do/mobile.png)" class="image-link big-link rounded-5">JQuery Mobile - Websites optimized for mobile devices</a>
+
+Mobile devices are increasingly popular on the web. Some sites are already even targeting them as their main type of browser.
+
+We know how to make websites mobile-ready. We respect web standards and use "JQuery Mobile":http://www.jquerymobile.com.
+
 {% include sidebar-end.html %}
+
+p(centered). In Splendeo we follow a very simple set of directives while developing our products:
+
+notextile. <dl class="win-container"><dd class='w'><a href="#w"><span class="show-on-hover">
+
+h2(win-title). %(underline bold)Web% applications
+
+p(win-question translucent-bg rounded-5). Why web?
+
+notextile. </span></a></dd><dd class='i'><a href="#i"><span class="show-on-hover">
+
+h2(win-title). %(underline bold)Intuitive% applications
+
+p(win-question translucent-bg rounded-5). Will I know how to use it?
+
+notextile. </span></dd><dd class='n'><a href="#n"><span class="show-on-hover">
+
+h2(win-title). %(underline bold)Necessary% applications
+
+p(win-question translucent-bg rounded-5). Will the app do everything I need?
+
+notextile. </span></a></dd></dl>
+
+<h2 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)"><span class="underline">Web</span> applications</h2>
+
+Compared with traditional desktop applications, web applications are:
+
+* More accesible: they are available from every computer, mobile phone or pda through Internet.
+* Cheaper and easier to maintain: you don't have any servers or network to maintain.
+* More reliable: your data is safer on a dedicated server.
+
+<h2 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)"><span class="underline">Intuitive</span> applications</h2>
+
+We are experts in making easily and quickly understandable applications.
+
+* Start working right away
+* One (and only one) button for each task.
+* Our buttons are always easily identifiable.
+
+<h2 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)"><span class="underline">Necessary</span> applications</h2>
+
+We know how to fullfill our client's expectations. For each new project:
+
+* We find any already-made solution that fits with the requirements.
+* Or we develop a new solution.
+* If the time or money constraints are not possible to satisfy, we say so.
+
+p(spaced). Intrigued? We'd like to hear from you. <a onclick="show_contact_form('/en/contact-ajax/'); return false;" href="/en/contact/">Contact us!</a>

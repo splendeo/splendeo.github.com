@@ -5,20 +5,55 @@ es: /proyectos
 has_sidebar: true
 ---
 
-h2. "Projects":/en/projects/
+{% include sidebar-start.html %}
+
+h2. Sketch to Web
+
+<div style="background-image: url(/images/projects/ps2web.png);" title="Sketch to web" class="big-link rounded-5" ></div>
+
+We transform graphics (Photoshop, jpg, gif...) into websites, following the "W3C Standards":http://www.w3.org/ .
+
+h2. CMSs
+
+We also know how to create web applications with the following "CMSs":http://en.wikipedia.org/wiki/Content_management_system :
+
+(v-list)* <a href="http://drupal.org" title="Drupal" style="background-image: url(/images/projects/drupal.png);" class="image-link wide-link rounded-5">Drupal</a>
+* <a href="http://wordpress.org" title="Wordpress" style="background-image: url(/images/projects/wordpress.png);" class="image-link wide-link rounded-5">Wordpress</a>
+
+We also develop templates and modules for them.
+
+h2. Custom development
+
+<a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/projects/ruby-on-rails.png);" class="image-link big-link rounded-5">Ruby on Rails</a>
+
+When CMSs are not enough, we develop custom applications. To do that we use "Ruby on Rails":http://rubyonrails.org
+
+{% include sidebar-end.html %}
 
 {% for project in site.categories.projects %}
 
 h2. {{ project.title }}
 
-  {{ project.content}}
+{% if project.intro %}{{ project.intro | textilize }}{% endif %}
 
-  {% if project.image != nil %}
-    !/images/{{ project.image }}!
-  {% endif %}
+{% if project.image %}
+
+<div class="media">
+
+  "(img shadow). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
+
+<div class="bd">
+
+{{ project.content }}
+
+</div></div>
   
+{% else %}
+
+{{ project.content }}
+
+{% endif %}
+
 {% endfor %}
 
-{% include sidebar-start.html %}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{% include sidebar-end.html %}
+We have alos developed other web applications like "Programa de Investigación y Doctorado":http://www2.montes.upm.es/invest_doct/ for the ETSI de Montes de la Universidad Politécnica de Madrid, or internal training websites for Colgate-Palmolive.

@@ -6,7 +6,7 @@ en: /en/projects/t-engine
 permalink: /proyectos/t-engine
 link: http://www.talleresanemia.es
 image: t-engine.png
-intro: T-engine es plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario impartidos en Hospitales y Centros de Salud de todo el territorio español.
+intro: T-engine es una plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario impartidos en Hospitales y Centros de Salud de todo el territorio español.
 ---
 
 * Cliente: "Think-in Pharma Services SL":http://www.thinkinpharma.com/
@@ -14,7 +14,7 @@ intro: T-engine es plataforma de e-learning adaptada a cursos para el sector far
 * Desarollo inicial: 5 semanas.
 * Desarrollo de cada nuevo curso: 2 semanas.
 
-Utilizada en:
+Ejemplos:
 * "talleresanemia.es":http://www.talleresanemia.es
 * "cuidadosenfermeria.org":http://www.cuidadosenfermeria.org 
 

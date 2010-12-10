@@ -4,29 +4,28 @@ title: Home
 es: ""
 ---
 
-notextile. <ul><li><a class='what-we-do' href="/en/what-we-do/"><div>
+notextile. <ul class="line front-list"><li class="unit size1of4"><a class="front-link rounded-10" href="/en/what-we-do/"><div style="background-image: url('/css/images/front/what-we-do.png');">
 
 h2. What we do
 
-We create productive & easy to use web applications.
+We create web applications that are intuitive and easy to use.
 
-
-notextile. </div></a></li><li><a class='who-we-are' href="/en/who-we-are/"><div>
+notextile. </div></a></li><li class="unit size1of4"><a class="front-link rounded-10" href="/en/who-we-are/"><div style="background-image: url('/css/images/front/who-we-are.png');">
 
 h2. Who we are
 
-Meet our company.
+A very talented and creative team
 
-notextile. </div></a></li><li><a class='projects' href="/en/projects/"><div>
+notextile. </div></a></li><li class="unit size1of4"><a class="front-link rounded-10"  href="/en/projects/"><div style="background-image: url('/css/images/front/projects.png');">
 
 h2. Projects
 
-Samples of our work.
+Innovative ideas materialized into websites.
 
-notextile. </div></a></li><li><a class='blog' href="/en/blog/"><div>
+notextile. </div></a></li><li class="unit size1of4 lastUnit"><a class="front-link rounded-10" href="/en/blog/"><div style="background-image: url('/css/images/front/blog.png');">
 
 h2. Blog
 
-News and events related with Splendeo.
+Splendeo News and events.
 
 notextile. </div></a></li></ul>

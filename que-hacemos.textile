@@ -3,7 +3,6 @@ layout: default
 title: Qué hacemos
 en: /en/what-we-do
 has_sidebar: true
-body_class: what-we-do
 ---
 {% include sidebar-start.html %}
 
@@ -87,8 +86,8 @@ Somos expertos en satisfacer espectativas. Para cada nuevo proyecto:
 
 * Encontramos una solución ya existente que se ajuste.
 * O desarrollamos una aplicación a medida.
-* O le diremos que lo que nos pide no es posible.
+* Si con el tiempo o el dinero disponible no es realizable, lo decimos.
 
-p(spaced). Hacemos más cosas. <a onclick="show_contact_form('/contacto-ajax/'); return false;" href="/contacto/">¡Pregúntenos!</a>
+p(spaced). Estaremos encantados de estudiar su situación <a onclick="show_contact_form('/contacto-ajax/'); return false;" href="/contacto/">¡Contáctenos!</a>
 
 

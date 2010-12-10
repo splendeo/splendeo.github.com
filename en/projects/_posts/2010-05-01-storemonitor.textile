@@ -1,0 +1,18 @@
+---
+layout: project
+title: Storemonitor
+locale: en
+es: /projectos/storemonitor
+permalink: /projects/storemonitor
+link: http://www.e-storemonitor.com
+image: storemonitor.png
+intro: '"Storemonitor":http://www.e-storemonitor.com is a web application for managing pictures of stores and supply control.'
+---
+
+* Client: Colgate-Palmolive Iberia ("ES":http://www.colgate.es + "PT":http://www.colgate.pt)
+* Custom development ("Ruby on Rails":http://rubyonralis.org)
+* 9000 stores in España and Portugal
+* 4000 new pictures every month
+* Automatic imports from other providers.
+* Search and filtering
+* Follow-up reports
