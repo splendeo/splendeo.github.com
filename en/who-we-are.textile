@@ -17,7 +17,7 @@ h3. Partners
 
 Splendeo was founded in 2009 by 3 partners with experience in software, usability and process optimization.
 
-notextile. <ul id='partners'><li>
+notextile. <div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/fjuan.png"></img><div class="bd">
 
 h3(#fjuan). Francisco de Juan
 
@@ -25,11 +25,11 @@ Francisco is a very enterprising Aeronautical Engineer. He's designing and devel
 
 He's got experience dealing with clients and is an usability expert. He's also the person responsible for Splendeo's server architecture and maintenance plans.
 
-"Resume":/files/francisco-de-juan.en.pdf | "LinkedIn":http://es.linkedin.com/in/franciscodejuan | "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+(h-list bar-list)*(first) "Resume":/files/francisco-de-juan.en.pdf
+* "LinkedIn":http://es.linkedin.com/in/franciscodejuan
+*(last) "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
 
-!/images/fjuan-small.png!
-
-notextile. </li><li>
+notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/egarcia.png"></img><div class="bd">
 
 h3(#egarcia). Enrique García
 
@@ -39,11 +39,12 @@ He started programming the "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/
 
 He's an expert on managing expectations and is responsible of applying the graphic design to Splendeo's software.
 
-"Resume":/files/enrique-garcia-cota.en.pdf | "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb | "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+(h-list bar-list)*(first) "Resume":/files/enrique-garcia-cota.en.pdf
+* "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb
+* "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
+*(last) "Github":https://github.com/kikito
 
-!/images/egarcia-small.png!
-
-notextile. </li><li>
+notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 
 h3(#eroibas). Enrique Roibás
 
@@ -51,6 +52,8 @@ Enrique has a Degree in Business Administration and has experience in costs cont
 
 In Splendeo he's responsible of defining and applying our business strategy.
 
-"Resume":/files/enrique-roibas-lago.es.pdf | "LinkedIn":http://es.linkedin.com/in/enriqueroibas
+(h-list bar-list)*(first) "Resume":/files/enrique-roibas-lago.en.pdf
+*(last) "LinkedIn":http://es.linkedin.com/in/enriqueroibas
 
-!/images/eroibas-small.png!
+notextile. </div></div><div style="height: 80px"></div>
+
