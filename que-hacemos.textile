@@ -19,7 +19,7 @@ Puede ver el código fuente de algunos de nuestros proyectos (incluida esta pág
 Tecnologías que utilizamos:
 
 (h-list osi-list)* <a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/what-we-do/rails_logo.gif)" class="image-link tech-link">Ruby on Rails</a>
-* <a href="http://apache.org" title="Apache" style="background-image: url(/images/what-we-do/apache_logo.gif" class="image-link tech-link">Apache</a>
+* <a href="http://apache.org" title="Apache" style="background-image: url(/images/what-we-do/apache_logo.gif)" class="image-link tech-link">Apache</a>
 * <a href="http://postgresql.org" title="PostgreSQL" style="background-image: url(/images/what-we-do/postgresql_logo.gif)" class="image-link tech-link">PostgreSQL</a>
 *(last) <a href="http://www.ubuntu.com" title="Ubuntu" style="background-image: url(/images/what-we-do/ubuntu_logo.gif)" class="image-link tech-link">Ubuntu</a>
 
