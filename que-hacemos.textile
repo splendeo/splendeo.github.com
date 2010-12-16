@@ -7,7 +7,7 @@ has_sidebar: true
 {% include sidebar-start.html %}
 
 h2. Código abierto
- 
+
 <a href="http://www.opensource.org" title="Open Source Initiative" style="background-image: url(/images/what-we-do/osi_standard_logo.jpg)" class="image-link big-link rounded-5">Open Source Initiative</a>
 
 En Splendeo utilizamos tecnologías de código abierto. Esto nos permite ser competitivos y eficientes.
