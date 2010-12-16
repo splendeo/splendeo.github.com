@@ -11,7 +11,7 @@
 
     <link href="http://github.com/splendeo.atom" rel="alternate" title="Splendeo's Activity" type="application/atom+xml" />
 
-    <link rel="stylesheet" href="/css/oocss/all.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/oocss/oocss.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/css/style.css">
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <!--[if IE 6]><link rel="stylesheet" href="/css/ie6.css" type="text/css" media="screen, projection"><![endif]-->
@@ -63,7 +63,7 @@
         <h1 class="splendeo-logo"><a href="{{ site.locales[page_locale].path }}/" title="Splendeo Innovación">Splendeo Innovación</a></h1>
 
         {% unless page.layout == 'front' %}
-          <ul id="navigation" class="line">
+          <ul class="navigation line plain">
             {% for link in site.locales[page_locale].navigation %}
               {% assign is_current = false %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
@@ -75,8 +75,8 @@
                 {% assign is_current = true %}
               {% endif %}
 
-              <li class="{{ link.class }}">
-                <a class="{% if is_current %}current{% endif %}"href="{{ link.url }}"><h2>{{ link.text }}</h2></a>
+              <li class="{{ link.class }} unit size1of4{% if forloop.last %} lastUnit{% endif %}">
+                <a class="rounded-10 {% if is_current %}current{% endif %}" href="{{ link.url }}">{{ link.text }}</a>
               </li>
 
               {% assign css_class = nil %}
