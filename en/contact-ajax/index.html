@@ -1,0 +1,54 @@
+<form action="http://contact.splendeo.es/"
+  id="ss-form"
+  target="hidden_iframe"
+  method="POST"
+  onsubmit="mark_as_submitted();"
+>
+  <input type="hidden" name="pageNumber" value="0"></input>
+  <input type="hidden" name="backupCache" value=""></input>
+<div class="form-entry">
+    <label class="title" for="email_address">Your email address <span class="required-asterisk">*</span>    </label>
+<label class="help" for="email_address">
+We&#8217;ll use it exclusively to answer to your email. We will not use it for any other purpose.
+</label>
+    <input type="text" class="required email" name="email_address" value="" id="email_address"
+           title="Please enter a valid email address."></input>
+</div>
+<div class="form-entry">
+<label class="title" for="email_subject">
+<span class="required-asterisk">*</span>
+</label>
+<label class="help" for="email_subject">
+
+</label>
+    <input type="text" class="required" name="email_subject" value="" id="email_subject"
+           title=""></input>
+</div>
+<div class="form-entry">
+<label class="title" for="email_body">
+Message Body<span class="required-asterisk">*</span>
+</label>
+<label class="help" for="email_body">
+Enter your complete comment or question here.
+</label>
+    <textarea class="required" name="email_body" id="email_body"
+              title="Please fill in the Message Body."
+    ></textarea>
+</div>
+<div class="buttons">
+<input type="submit" name="submit" value="Submit">
+</div>
+</form>
+<div id="ajax-indicator-big" style="display:none;"></div>
+<div id="thank-you" style="display:none;">
+  <h2>Thank you for your email</h2>
+<p>Our team will review it and send you an answer as shortly.</p>
+<p>Best regards,<br />
+  Splendeo Innovación</p>
+</div>
+<p><iframe
+  id="hidden_iframe"
+  name="hidden_iframe"
+  style="display:none;"
+  onload="show_thank_you_if_submitted();"><br />
+&gt;</iframe></p>
