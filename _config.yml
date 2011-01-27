@@ -4,17 +4,13 @@ locales:
     name: Español
     path: ""
     navigation:
-    - class: what-we-do
-      text: Qué hacemos
+    - text: Qué hacemos
       url: /que-hacemos/
-    - class: who-we-are
-      text: Quiénes somos
+    - text: Quiénes somos
       url: /quienes-somos/
-    - class: projects
-      text: Proyectos
+    - text: Proyectos
       url: /proyectos/
-    - class: blog
-      text: Blog
+    - text: Blog
       url: /blog/
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
@@ -53,17 +49,13 @@ locales:
     path: /en
     
     navigation:
-    - class: what-we-do
-      text: What we do
+    - text: What we do
       url: /en/what-we-do/
-    - class: who-we-are
-      text: Who we are
+    - text: Who we are
       url: /en/who-we-are/
-    - class: projects
-      text: Projects
+    - text: Projects
       url: /en/projects/
-    - class: blog
-      text: Blog
+    - text: Blog
       url: /en/blog/
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"

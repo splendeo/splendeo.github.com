@@ -65,18 +65,18 @@
         {% unless page.layout == 'front' %}
           <ul class="navigation line plain">
             {% for link in site.locales[page_locale].navigation %}
-              {% assign is_current = false %}
+              {% assign current = '' %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
               {% if page.url == link.url or page.url == ugly_url %}
-                {% assign is_current = true %}
+                {% assign current = ' current' %}
               {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
-                {% assign is_current = true %}
+                {% assign current = ' current' %}
               {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
-                {% assign is_current = true %}
+                {% assign current = ' current' %}
               {% endif %}
 
-              <li class="{{ link.class }} unit size1of4{% if forloop.last %} lastUnit{% endif %}">
-                <a class="rounded-10 {% if is_current %}current{% endif %}" href="{{ link.url }}">{{ link.text }}</a>
+              <li class="unit size1of4{{current}}{% if forloop.last %} lastUnit{% endif %}">
+                <a class="rounded-10{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
               </li>
 
               {% assign css_class = nil %}

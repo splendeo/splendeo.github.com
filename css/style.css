@@ -3,9 +3,9 @@ blue (links, h1, etc): 569DD5
 
 */
 
-a {
+a, a:visited {
   text-decoration: none;
-  color: #559ed5;
+  color: #005A9C;
 }
 
 a:hover {
@@ -168,7 +168,7 @@ body.front .head { background-image: none; }
 }
 
 .main {
-  padding: 0 40px;
+  padding: 0 40px 130px 40px;
   position: relative;
 }
 
@@ -229,59 +229,27 @@ body.front .splendeo-logo a { background-image: url('/css/images/splendeo-logo-w
 
 .navigation {
   text-align: center;
-  margin: 50px 60px 0 60px;
+  margin: 47px 60px 0 60px;
   padding: 0;
 }
 
 .navigation li{
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 8px 0;
   margin: 0;
+  background: transparent url(/css/images/navigation-background.gif) 0 bottom repeat-x;
+}
+
+.navigation li.current {
+  background: transparent url(/css/images/navigation-background-current.gif) center bottom no-repeat;
 }
 
 .navigation a {
-  color: #559ed5;
-  display: block;
-  text-align: center;
-  margin: 0 10px;
-  padding: 5px;
-  background: white;
-  
-  border: 1px solid #559ed5;
-  font-size: 1.2em;
-}
-
-.navigation .what-we-do a         { border-color: #398D15; color: #398D15; }
-.navigation .what-we-do a.current {
-  background-color: #398D15;
-  background: -webkit-gradient( linear, left bottom, left top, color-stop(0, #91C470), color-stop(0.77, #398D15) );
-  background: -moz-linear-gradient( center bottom, #91C470 0%, #398D15 77% );
-}
-
-.navigation .who-we-are a         { border-color: #DCAB2E; color: #DCAB2E; }
-.navigation .who-we-are a.current {
-  background-color: #DCAB2E;
-  background: -webkit-gradient( linear, left bottom, left top, color-stop(0, #F9E8A4), color-stop(0.77, #DCAB2E) );
-  background: -moz-linear-gradient( center bottom, #F9E8A4 0%, #DCAB2E 77% );
-}
-
-.navigation .projects a           { border-color: #5D9BF8; color: #5D9BF8; }
-.navigation .projects a.current   { 
-  background-color: #5D9BF8;
-  background: -webkit-gradient( linear, left bottom, left top, color-stop(0, #E5F6FD), color-stop(0.77, #5D9BF8) );
-  background: -moz-linear-gradient( center bottom, #E5F6FD 0%, #5D9BF8 77% );
-}
-
-.navigation .blog a           { border-color: #9C0301; color: #9C0301; }
-.navigation .blog a.current   {
-  background-color: #9C0301;
-  background: -webkit-gradient( linear, left bottom, left top, color-stop(0, #f5c6c4), color-stop(0.77, #e60c01) );
-  background: -moz-linear-gradient( center bottom, #f5c6c4 0%, #e60c01 77% );
+  font-size: 120%;
 }
 
 .navigation a.current {
-  color: white;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 
@@ -389,7 +357,6 @@ form#ss-form div.buttons input:active {
 
 .front-list {
   position: relative; 
-  height: 20em;
 }
 
 .front-list li {
