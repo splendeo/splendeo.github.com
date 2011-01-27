@@ -5,19 +5,18 @@ es: /blog
 has_sidebar: false
 ---
 
-h2. "Blog":/en/blog/
+h2. Blog
 
-h3. Coming soon!
+{% for post in site.posts %}
+  {% assign right_locale = false %}
+  {% assign is_blog = false %}
+  {% for category in post.categories %}
+    {% if category == 'en' %}{% assign right_locale = true %}{% endif %}
+    {% if category == 'blog' %}{% assign is_blog = true %}{% endif %}
+  {% endfor %}
+  {% if right_locale and is_blog %}
 
-We're writting new posts. Please come back soon.
+*(blog-li) "%(date){{ post.date | date: '%Y/%m/%d' }}% &raquo; {{ post.title }}":{{ post.url}}
 
-{% for article in site.categories.blog %}
-{% if article.locale == page.locale %}
-
-h3. <span>{{ article.date | date: '%m/%d/%Y' }}</span> - <a href="{{ article.url }}">{{ article.title }}</a>
-
-{{ article.content }}
-
-{% endif %}
-{% endfor %}
-
+  {% endif %}
+{% endfor %} 

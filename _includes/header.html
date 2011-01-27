@@ -51,7 +51,7 @@
             {% unless locale_name == page_locale %}
               {% if page[locale_name] %}
                 {% if page.layout == 'post' %}
-                  <a href="/blog{{ locale_hash['path'] }}{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
+                  <a href="{{ locale_hash['path'] }}/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
                 {% else %}
                   <a href="{{ page[locale_name] }}/">{{ locale_hash['name'] }}</a>
                 {% endif %}

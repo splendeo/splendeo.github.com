@@ -1,9 +1,0 @@
----
-layout: post
-title: Test
-locale: en
-es: prueba
----
-
-This is test 1
-

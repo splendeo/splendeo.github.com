@@ -63,6 +63,11 @@ h1,h2,h3,h4,h5,h6{
 .show-on-hover:hover { display: block; }
 a:hover .show-on-hover { display: block; }
 
+.date {
+  font-size: 80%;
+  color: gray;
+}
+
 .v-list li{
   display: block;
   margin: 4px 0;
@@ -106,7 +111,6 @@ a:hover .show-on-hover { display: block; }
   background-color: white;
   padding: 0 30px;
 }
-
 
 /* Image replacement stuff */
 
