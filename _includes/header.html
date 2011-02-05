@@ -76,7 +76,7 @@
               {% endif %}
 
               <li class="unit size1of4{{current}}{% if forloop.last %} lastUnit{% endif %}">
-                <a class="rounded-10{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+                <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
               </li>
 
               {% assign css_class = nil %}
