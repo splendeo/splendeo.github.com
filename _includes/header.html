@@ -65,7 +65,7 @@
         {% unless page.layout == 'front' %}
           <ul class="navigation line plain">
             {% for link in site.locales[page_locale].navigation %}
-              {% assign current = '' %}
+              {% assign current = nil %}
               {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
               {% if page.url == link.url or page.url == ugly_url %}
                 {% assign current = ' current' %}
