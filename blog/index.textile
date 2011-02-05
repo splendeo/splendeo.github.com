@@ -8,13 +8,13 @@ has_sidebar: false
 h2. Blog
 
 {% for post in site.posts %}
-  {% assign right_locale = 1 %}
-  {% assign is_blog = 0 %}
+  {% capture right_locale %}true{% endcapture %}
+  {% capture is_blog %}false{% endcapture %}
   {% for category in post.categories %}
-    {% if category == 'en' %}{% assign right_locale = 0 %}{% endif %}
-    {% if category == 'blog' %}{% assign is_blog = 1 %}{% endif %}
+    {% if category == 'en' %}{% capture right_locale %}false{% endcapture %}{% endif %}
+    {% if category == 'blog' %}{% capture is_blog %}true{% endcapture %}{% endif %}
   {% endfor %}
-  {% if right_locale == 1 and is_blog == 1 %}
+  {% if right_locale == 'true' and is_blog == 'true' %}
 
 *(blog-li) "%(date){{ post.date | date: '%Y/%m/%d' }}% &raquo; {{ post.title }}":{{ post.url}}
 
