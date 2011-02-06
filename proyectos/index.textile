@@ -29,9 +29,11 @@ Cuando un CMS no es suficiente, desarrollamos aplicaciones a medida. Para ello u
 
 {% include sidebar-end.html %}
 
+h2. Proyectos
+
 {% for project in site.categories.proyectos %}
 
-h2. {{ project.title }}
+h3. {{ project.title }}
 
 {% if project.intro %}{{ project.intro | textilize }}{% endif %}
 

@@ -5,19 +5,21 @@ en: /en/who-we-are
 body_class: who-we-are
 ---
 
+h2. Quiénes somos
+
 Splendeo Innovación es una empresa de desarrollo de software y consultoría tecnológica, que nace con el objetivo de resolver de una manera brillante los problemas cotidianos del tratamiento de la información en los procesos empresariales.
 
 Nuestra filosofía se basa en dos pilares fundamentales: desarrollar un equipo de trabajo ágil y con talento y utilizar software de código abierto (Open Source)
 
 Actualmente formamos parte del programa "Madrid Emprende":http://madridemprende.esmadrid.com/ del Ayuntamiento de Madrid y estamos creado varios productos innovadores.
 
-h2. Socios
+h3. Socios
 
 Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
 notextile. <div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/fjuan.png"></img><div class="bd">
 
-h3(#fjuan). Francisco de Juan
+h4(#fjuan). Francisco de Juan
 
 Francisco es Ingeniero en Aeronáutica y tiene un carácter emprendedor.
 
@@ -33,7 +35,7 @@ En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los se
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/egarcia.png"></img><div class="bd">
 
-h3(#egarcia). Enrique García
+h4(#egarcia). Enrique García
 
 Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español.
 
@@ -48,7 +50,7 @@ Es experto en gestión de las expectativas y se encarga de aplicar los diseños 
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 
-h3(#eroibas). Enrique Roibás
+h4(#eroibas). Enrique Roibás
 
 Enrique es licenciado en Administración y Dirección de Empresas, MBA por el Instituto de Empresa y Censor Jurado de Cuentas.
 

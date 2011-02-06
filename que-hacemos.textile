@@ -41,30 +41,31 @@ Nosotros sabemos hacer que su página web funcione correctamente en un navegador
 
 {% include sidebar-end.html %}
 
+h2. Qué hacemos
 
-p(centered). En Splendeo desarrollamos nuestros productos siguiendo un principio muy sencillo:
+En Splendeo desarrollamos nuestros productos siguiendo un principio muy sencillo:
 
 notextile. <dl class="win-container"><dd class='w'><a href="#w"><span class="show-on-hover">
 
-h2(win-title). Aplicaciones %(underline bold)Web%
+h3(win-title). Aplicaciones %(underline bold)Web%
 
 p(win-question translucent-bg rounded-5). ¿Por qué web?
 
 notextile. </span></a></dd><dd class='i'><a href="#i"><span class="show-on-hover">
 
-h2(win-title). Aplicaciones %(underline bold)Intuitivas%
+h3(win-title). Aplicaciones %(underline bold)Intuitivas%
 
 p(win-question translucent-bg rounded-5). ¿Sabré utilizar la aplicación?
 
 notextile. </span></dd><dd class='n'><a href="#n"><span class="show-on-hover">
 
-h2(win-title). Aplicaciones %(underline bold)Necesarias%
+h3(win-title). Aplicaciones %(underline bold)Necesarias%
 
 p(win-question translucent-bg rounded-5). ¿Hará mi aplicación todo lo que necesito?
 
 notextile. </span></a></dd></dl>
 
-<h2 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)">Aplicaciones <span class="underline">Web</span></h2>
+<h3 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)">Aplicaciones <span class="underline">Web</span></h3>
 
 En comparación con las aplicaciones tradicionales, las aplicaciones web son:
 
@@ -72,7 +73,7 @@ En comparación con las aplicaciones tradicionales, las aplicaciones web son:
 * Más baratas y fáciles de mantener: usted no tiene que encargarse de ningún mantenimiento.
 * Más fiables: sus datos están seguros en un servidor dedicado.
 
-<h2 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)">Aplicaciones <span class="underline">Intuitivas</span></h2>
+<h3 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)">Aplicaciones <span class="underline">Intuitivas</span></h3>
 
 Somos expertos en hacer aplicaciones que el usuario entienda fácilmente.
 
@@ -80,7 +81,7 @@ Somos expertos en hacer aplicaciones que el usuario entienda fácilmente.
 * Hay un botón (y sólamente uno) para cada acción.
 * Nuestros botones se identifican fácilmente.
 
-<h2 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)">Aplicaciones <span class="underline">Necesarias</span></h2>
+<h3 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)">Aplicaciones <span class="underline">Necesarias</span></h3>
 
 Somos expertos en satisfacer espectativas. Para cada nuevo proyecto:
 
