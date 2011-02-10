@@ -16,4 +16,3 @@ El "Open Hardware Repository (ohwr)":http://www.ohwr.org es una aplicación de g
 * Desarrollo de plug-ins a medida
 * Repositorios "git":http://git-scm.com/ y "subversion":http://subversion.apache.org/
 
-
