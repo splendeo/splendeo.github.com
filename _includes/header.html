@@ -8,8 +8,11 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-
-    <link href="http://github.com/splendeo.atom" rel="alternate" title="Splendeo's Activity" type="application/atom+xml" />
+    {% if page_locale == 'es' %}
+    <link href="http://feeds.feedburner.com/splendeo" rel="alternate" title="Splendeo" type="application/atom+xml" />
+    {% else %}
+    <link href="http://feeds.feedburner.com/en/splendeo" rel="alternate" title="Splendeo's blog" type="application/atom+xml" />
+    {% endif %}
 
     <link rel="stylesheet" href="/css/oocss/oocss.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/css/style.css">
