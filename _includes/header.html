@@ -8,6 +8,7 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
     {% if page_locale == 'es' %}
     <link href="http://feeds.feedburner.com/splendeo" rel="alternate" title="Splendeo" type="application/atom+xml" />
     {% else %}
@@ -16,10 +17,11 @@
 
     <link rel="stylesheet" href="/css/oocss/oocss.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/css/style.css">
+    {% unless page.layout == 'contact-form' %}
+      <link rel="stylesheet" href="/css/contact-form.css">
+    {% endunless %}
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <!--[if IE 6]><link rel="stylesheet" href="/css/ie6.css" type="text/css" media="screen, projection"><![endif]-->
-
-    <link rel="stylesheet" href="/css/colorbox.css">
 
     <title>{{ site.title }} - {{ page.title }}</title>
     
@@ -38,10 +40,10 @@
     <!-- JQuery & JQuery plugins -->
     <script src="/js/jquery-1.4.3.min.js"></script>
     <script src="/js/jquery.validate-1.7.min.js"></script>
-    <script src="/js/jquery.colorbox-1.3.11.min.js"></script>
-    
-    <!-- Contact form specific functions -->
-    <script src="/js/contact-form.js"></script>
+    {% unless page.layout == 'contact-form' %}
+      <script src="/js/jquery.form.js"></script>
+      <script src="/js/contact-form.js"></script>
+    {% endunless %}
   </head>
 
   <body class="{{ page.layout }} {{ page_locale }}{% if page.body_class %} {{ page.body_class }}{% endif %}">

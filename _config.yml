@@ -18,32 +18,18 @@ locales:
       legal_link:
       - "Aviso legal": "/aviso-legal/"
     contact:
-      thank_you:
-        url: /gracias/
-        text: |
-          h2. Gracias por tu email
-
-          Nuestro equipo lo revisará en breve; te enviaremos una respuesta tan pronto como sea posible.
-
-          Un saludo,
-            El equipo de Splendeo Innovación
-      email:
-        title: Tu dirección de correo
-        help: Necesitamos tu dirección para poder responderte. No la utilizaremos para ningún otro fin.
-        error: Por favor escribe una dirección de correo válida.
-      subject:
-        title: Asunto del Mensaje
-        help: Escribe aquí un título para tu mensaje.
-        error: Por favor rellena el Asunto del Mensaje.
-      body:
-        title: Cuerpo del Mensaje
-        help: Escribe tu comentario o pregunta aquí.
-        error: Por favor rellena el Cuerpo del Mensaje.
+      thank_you: Tu email ha sido enviado! Gracias!
+      bad_email: Por favor incluye tu dirección de correo, el asunto, el mensaje y el resultado de la prueba anti-spam.
+      name: Tu nombre
+      email: Tu dirección de correo
+      subject: Asunto de tu mensaje
+      anti_spam: Para prevenir el SPAM - cuánto es 1 + 1?
+      body: Mensaje
       submit: Enviar
       link:
         text: Contacto
         url: /contacto/
-        ajax: /contacto-ajax/
+        image: /css/images/contact-es.gif
 
   en:
     name: English
@@ -63,33 +49,18 @@ locales:
       legal_link:
       - "Legal notice": "/en/legal-notice/"
     contact:
-      thank_you:
-        url: /en/thank-you/
-        text: |
-          h2. Thank you for your email
-
-          Our team will review it and send you an answer as shortly.
-
-          Best regards,
-            Splendeo Innovación
-
-      email:
-        title: Your email address
-        help: We'll use it exclusively to answer to your email. We will not use it for any other purpose.
-        error: Please enter a valid email address.
-      header:
-        title: Message Header
-        help: Enter the title of your message here.
-        error: Please provide a Message Header.
-      body:
-        title: Message Body
-        help: Enter your complete comment or question here.
-        error: Please fill in the Message Body.
-      submit: Submit
+      thank_you: Your email has been sent. Thank you!
+      bad_email: Please include your name, email address, subject, message and the anti-spam test result.
+      name: Your name
+      email: Your email address
+      subject: Message subject
+      anti_spam: To prevent SPAM - how much is 1 + 1?
+      body: Your message
+      submit: Send
       link:
         text: Contact
         url: /en/contact/
-        ajax: /en/contact-ajax/
+        image: /css/images/contact-en.gif
 
 permalink: pretty
 auto: true

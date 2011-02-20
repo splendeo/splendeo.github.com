@@ -30,11 +30,7 @@
         </div> <!-- footer_white -->
       </div> <!-- footer_text -->
       {% unless page.layout == 'contact-form' %}
-        <a id="contact_link"
-           href="{{ site.locales[page_locale].contact.link.url }}"
-           onclick="show_contact_form('{{ site.locales[page_locale].contact.link.ajax }}'); return false;"
-           title="{{ site.locales[page_locale].contact.link.text }}"
-        >{{ site.locales[page_locale].contact.link.text }}</a>
+        {% include contact-form.html %}
       {% endunless %}
     </div> <!-- page -->
   </body>

@@ -2,59 +2,45 @@
 {% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
 {% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
 
-<form action="http://contact.splendeo.es/"
-  id="ss-form"
-  target="hidden_iframe"
-  method="POST"
-  onsubmit="mark_as_submitted();"
->
-  <input type="hidden" name="pageNumber" value="0"></input>
-  <input type="hidden" name="backupCache" value=""></input>
-  <div class="form-entry">
-    <label class="title" for="email_address">{{ site.locales[page_locale].contact.email.title }} <span class="required-asterisk">*</span>
-    </label>
-    <label class="help" for="email_address">
-      {{ site.locales[page_locale].contact.email.help }}
-    </label>
-    <input type="text" class="required email" name="email_address" value="" id="email_address"
-           title="{{ site.locales[page_locale].contact.email.error }}"></input>
-  </div>
-  <div class="form-entry">
-    <label class="title" for="email_subject">
-      {{ site.locales[page_locale].contact.subject.title }} <span class="required-asterisk">*</span>
-    </label>
-    <label class="help" for="email_subject">
-      {{ site.locales[page_locale].contact.subject.help }}
-    </label>
-    <input type="text" class="required" name="email_subject" value="" id="email_subject"
-           title="{{ site.locales[page_locale].contact.subject.error }}"></input>
-  </div>
-  <div class="form-entry">
-    <label class="title" for="email_body">
-      {{ site.locales[page_locale].contact.body.title }}<span class="required-asterisk">*</span>
-    </label>
-    <label class="help" for="email_body">
-      {{ site.locales[page_locale].contact.body.help }}
-    </label>
-    <textarea class="required" name="email_body" id="email_body"
-              title="{{ site.locales[page_locale].contact.body.error }}"
-    ></textarea>
-  </div>
-  <div class="buttons">
-    <input type="submit" name="submit" value="{{ site.locales[page_locale].contact.submit }}">
-  </div>
-</form>
+{% assign contact = site.locales[page_locale].contact %}
 
-<div id="ajax-indicator-big" style="display:none;"></div>
+<div class="dwp-contact-wrapper">
+  <div class="dwpcontact-page" style="float: left;">
+     
+    <p id="success" class="message-success" style="display:none;">{{ contact.thank_you }}</p>
 
-<div id="thank-you" style="display:none;">
-  {{ site.locales[page_locale].contact.thank_you.text | textilize }}
+    <p id="bademail" class="message-error" style="display:none;">{{ contact.bad_email }}</p>
+
+    <form id="contact" action="http://contact.splendeo.es/" method="post">
+      
+      <label class="contact-label" for="name">{{ contact.name }}</label>
+      <input type="text" id="name" name="name" value=""/>
+      <div class="clear"></div>
+      
+      <label class="contact-label" for="email">{{ contact.email }}</label>
+      <input type="text" id="email" name="email" value=""/><br />
+      <div class="clear"></div>
+      
+      <label class="contact-label" for="subject">{{ contact.subject }}</label>
+      <input type="text" id="subject" name="subject" value=""/><br />
+      <div class="clear"></div>
+      
+      <label class="contact-label" for="comment">{{ contact.body }}</label>
+      <textarea cols="20" rows="7" id="body" name="body"></textarea><br />
+      <div class="clear"></div>
+      
+      <label class="contact-label" for="antispam">{{ contact.anti_spam }}</label>
+      <input type="text" id="antispam" name="antispam" value=""/>
+      
+      <input type="submit" id="submit" name="submit" class="submit" value="{{ contact.submit }}"/>
+      <input type="hidden" id="locale" name="locale" value="{{ locale }}"/>
+    </form>
+    <div style="clear: both;"></div>
+    <div class="dwp-contact-button-wrap">
+
+    <div style="clear: both;"></div>
+    </div>
+  </div>
+          <a href="#" id="dwp-contact-button"><img src="{{ contact.link.image }}" alt="{{ contact.link.text }}" /></a>
+<div style="clear: both;"></div>
 </div>
-
-<iframe
-  id="hidden_iframe"
-  name="hidden_iframe"
-  style="display:none;"
-  onload="show_thank_you_if_submitted();">
-></iframe>
-

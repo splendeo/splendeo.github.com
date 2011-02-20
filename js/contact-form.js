@@ -1,36 +1,23 @@
-var submitted=false;
+$(document).ready(function() {
 
-function show_thank_you_if_submitted(){
-  if(submitted) {
-    $("#ajax-indicator-big").fadeOut('slow', function(){ $('#thank-you').show(); });
-  }
-}
+  // make the "contact us" left link show the javascript contact us form with an animation 
+  $("#dwp-contact-button").click(function() {
+    $(".dwpcontact-page").animate({ left: parseInt($(".dwpcontact-page").css("left"),10) == 0 ? -354 :  0 });
+    $("#dwp-contact-button").animate({ left: parseInt($("#dwp-contact-button").css("left"),10) == 0 ? 354 :  0 });
+    return false;
+  });
 
-function show_ajax_indicator_big(){
-  $("#ss-form").hide();
-  $("#ajax-indicator-big").show();
-}
-
-function activate_contact_form_validation(){
-  $("#ss-form").validate( {
-    submitHandler: function(form){
-      show_ajax_indicator_big();
-      form.submit();
+  // add validations to the form
+  $('#contact').ajaxForm({
+    success: function() {
+      $('#success').fadeIn("slow");
+      $('#bademail').fadeOut("slow");
+      $('#contact').resetForm();
+    },
+    error: function() {
+      $('#bademail').fadeIn("slow");
     }
   });
-  $("#ajax-indicator-big").hide();
-  $("#thank-you").hide();
-}
 
-function show_contact_form(href){
-  $.colorbox({ 
-    width:'60%',
-    href: href,
-    onComplete: activate_contact_form_validation
-  });
-}
-
-function mark_as_submitted(){
-  submitted=true;
-}
+});
 
