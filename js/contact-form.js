@@ -8,16 +8,24 @@ $(document).ready(function() {
   });
 
   // add validations to the form
-  $('#contact').ajaxForm({
-    success: function() {
-      $('#success').fadeIn("slow");
-      $('#bademail').fadeOut("slow");
-      $('#contact').resetForm();
-    },
-    error: function() {
-      $('#bademail').fadeIn("slow");
-    }
+  $('#contact').submit(function() {
+    $('#success').fadeOut("slow");
+    $('#bademail').fadeOut("slow");
+
+    var url = $(this).attr('action')
+    var params = $(this).serialize()
+    $.getJSON(url + '?' + params + "&callback=?", function(data) {
+      if(data == true) { // success
+        $('#success').fadeIn("slow");
+        $('#contact')[0].reset();
+      } else { // error
+        $('#bademail').fadeIn("slow");
+      }
+    });
+
+    return false;
   });
+
 
 });
 

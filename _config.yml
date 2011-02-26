@@ -19,7 +19,7 @@ locales:
       - "Aviso legal": "/aviso-legal/"
     contact:
       thank_you: Tu email ha sido enviado! Gracias!
-      bad_email: Por favor incluye tu dirección de correo, el asunto, el mensaje y el resultado de la prueba anti-spam.
+      bad_email: Por favor incluye tu nombre, un email válido, el asunto, el mensaje y el resultado de la prueba anti-spam.
       name: Tu nombre
       email: Tu dirección de correo
       subject: Asunto de tu mensaje
@@ -50,7 +50,7 @@ locales:
       - "Legal notice": "/en/legal-notice/"
     contact:
       thank_you: Your email has been sent. Thank you!
-      bad_email: Please include your name, email address, subject, message and the anti-spam test result.
+      bad_email: Please include your name, valid email address, subject, message and the anti-spam test result.
       name: Your name
       email: Your email address
       subject: Message subject
