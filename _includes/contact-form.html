@@ -1,8 +1,5 @@
-{% assign page_locale = 'es' %}
-{% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
-{% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
-
-{% assign contact = site.locales[page_locale].contact %}
+{% assign locale = "es" %}{% if page.es %}{% assign locale = "en" %}{% endif %}
+{% assign contact = site.locales[locale].contact %}
 
 <div class="dwp-contact-wrapper">
   <div class="dwpcontact-page" style="float: left;">

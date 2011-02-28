@@ -1,8 +1,6 @@
 {% include header.html %}
 
-{% assign page_locale = 'es' %}
-{% capture url_start %}{{ page.url | truncate : 3, '' }}{% endcapture %}
-{% if url_start == '/en' %}{% assign page_locale = 'en' %}{% endif %}
+{% capture page_locale %}{% if page.es %}en{% else %}es{% endif %}{% endcapture %}
 
   <div class='main'>
     {{ site.locales[page_locale].contact.thank_you.text | textilize }}
