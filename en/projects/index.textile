@@ -30,9 +30,11 @@ When CMSs are not enough, we develop custom applications. To do that we use "Rub
 
 {% include sidebar-end.html %}
 
+h2. Proyectos
+
 {% for project in site.categories.projects %}
 
-h2. {{ project.title }}
+h3. {{ project.title }}
 
 {% if project.intro %}{{ project.intro | textilize }}{% endif %}
 
