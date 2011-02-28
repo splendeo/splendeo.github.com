@@ -11,8 +11,12 @@ locales:
       url: /quienes-somos/
     - text: Proyectos
       url: /proyectos/
+      ugly_url: /proyectos/index.html
+      layout: project
     - text: Blog
       url: /blog/
+      ugly_url: /blog/index.html
+      layout: post
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
       legal_link:
@@ -42,8 +46,12 @@ locales:
       url: /en/who-we-are/
     - text: Projects
       url: /en/projects/
+      ugly_url: /en/projects/index.html
+      layout: project
     - text: Blog
       url: /en/blog/
+      ugly_url: /en/blog/index.html
+      layout: post
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
       legal_link:

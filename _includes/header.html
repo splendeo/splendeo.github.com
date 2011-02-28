@@ -67,12 +67,7 @@
           <ul class="navigation line plain">
             {% for link in site.locales[locale].navigation %}
               {% assign current = nil %}
-              {% capture ugly_url %}{{ link.url }}index.html{% endcapture %}
-              {% if page.url == link.url or page.url == ugly_url %}
-                {% assign current = ' current' %}
-              {% elsif page.layout == 'project' and (link.url == '/en/projects/' or link.url == '/proyectos/') %}
-                {% assign current = ' current' %}
-              {% elsif page.layout == 'post' and (link.url == '/en/blog/' or link.url == '/blog/') %}
+              {% if page.url == link.url or page.url == link.ugly_url or page.layout == link.layout %}
                 {% assign current = ' current' %}
               {% endif %}
 
