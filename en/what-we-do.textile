@@ -42,29 +42,31 @@ We know how to make websites mobile-ready. We respect web standards and use "JQu
 
 {% include sidebar-end.html %}
 
-p(centered). In Splendeo we follow a very simple set of directives while developing our products:
+h2. What we do
+
+In Splendeo we follow a very simple set of directives while developing our products:
 
 notextile. <dl class="win-container"><dd class='w'><a href="#w"><span class="show-on-hover">
 
-h2(win-title). %(underline bold)Web% applications
+h3(win-title). %(underline bold)Web% applications
 
 p(win-question translucent-bg rounded-5). Why web?
 
 notextile. </span></a></dd><dd class='i'><a href="#i"><span class="show-on-hover">
 
-h2(win-title). %(underline bold)Intuitive% applications
+h3(win-title). %(underline bold)Intuitive% applications
 
 p(win-question translucent-bg rounded-5). Will I know how to use it?
 
 notextile. </span></dd><dd class='n'><a href="#n"><span class="show-on-hover">
 
-h2(win-title). %(underline bold)Necessary% applications
+h3(win-title). %(underline bold)Necessary% applications
 
 p(win-question translucent-bg rounded-5). Will the app do everything I need?
 
 notextile. </span></a></dd></dl>
 
-<h2 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)"><span class="underline">Web</span> applications</h2>
+<h3 id="w" class="big-left-icon" style="background-image: url(/images/what-we-do/w.png)"><span class="underline">Web</span> applications</h2>
 
 Compared with traditional desktop applications, web applications are:
 
@@ -72,7 +74,7 @@ Compared with traditional desktop applications, web applications are:
 * Cheaper and easier to maintain: you don't have any servers or network to maintain.
 * More reliable: your data is safer on a dedicated server.
 
-<h2 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)"><span class="underline">Intuitive</span> applications</h2>
+<h3 id="i" class="big-left-icon" style="background-image: url(/images/what-we-do/i.png)"><span class="underline">Intuitive</span> applications</h2>
 
 We are experts in making easily and quickly understandable applications.
 
@@ -80,7 +82,7 @@ We are experts in making easily and quickly understandable applications.
 * One (and only one) button for each task.
 * Our buttons are always easily identifiable.
 
-<h2 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)"><span class="underline">Necessary</span> applications</h2>
+<h3 id="n" class="big-left-icon" style="background-image: url(/images/what-we-do/n.png)"><span class="underline">Necessary</span> applications</h2>
 
 We know how to fullfill our client's expectations. For each new project:
 
@@ -88,4 +90,4 @@ We know how to fullfill our client's expectations. For each new project:
 * Or we develop a new solution.
 * If the time or money constraints are not possible to satisfy, we say so.
 
-p(spaced). Intrigued? We'd like to hear from you. <a onclick="show_contact_form('/en/contact-ajax/'); return false;" href="/en/contact/">Contact us!</a>
+p(spaced). Intrigued? We'd like to hear from you. <a class="open-contact" href="/en/contact/">Contact us!</a>
