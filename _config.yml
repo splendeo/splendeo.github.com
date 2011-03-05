@@ -18,8 +18,9 @@ locales:
       layout: post
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
-      legal_link:
-      - "Aviso legal": "/aviso-legal/"
+      legal:
+        text: Aviso legal
+        url: /aviso-legal/
     contact:
       thank_you: Tu email ha sido enviado! Gracias!
       bad_email: Por favor incluye tu nombre, un email válido, el asunto, el mensaje y el resultado de la prueba anti-spam.
@@ -52,8 +53,9 @@ locales:
       layout: post
     footer:
       text: "Copyright &copy; Splendeo Innovación, SL 2010"
-      legal_link:
-      - "Legal notice": "/en/legal-notice/"
+      legal:
+        text: Legal notice
+        url: /en/legal-notice/
     contact:
       thank_you: Your email has been sent. Thank you!
       bad_email: Please include your name, valid email address, subject, message and the anti-spam test result.
