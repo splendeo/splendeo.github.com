@@ -16,12 +16,10 @@ layout: nil
 
   {% for post in site.posts %}
     {% assign right_locale = false %}
-    {% assign is_blog = false %}
     {% for category in post.categories %}
       {% if category == 'en' %}{% assign right_locale = true %}{% endif %}
-      {% if category == 'blog' %}{% assign is_blog = true %}{% endif %}
     {% endfor %}
-    {% if right_locale == true and is_blog == true %}
+    {% if right_locale == true %}
      <entry>
        <title>{{ post.title }}</title>
        <link href="{{ site.url }}{{ post.url }}"/>
@@ -29,7 +27,7 @@ layout: nil
        <id>{{ site.url }}{{ post.id }}</id>
        <content type="html">{{ post.content | xml_escape }}</content>
      </entry>
-     {% endif %}
-   {% endfor %}
- 
+    {% endif %}
+  {% endfor %}
+
 </feed>
