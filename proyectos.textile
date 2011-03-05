@@ -71,7 +71,7 @@ projects:
 
 h2. De boceto a web
 
-<div style="background-image: url(/images/projects/ps2web.png);" title="De boceto a web" class="big-link rounded-5" ></div>
+ <div style="background-image: url(/images/projects/ps2web.png);" title="De boceto a web" class="big-link rounded-5" ></div>
 
 Transformamos gráficos (Photoshop, jpg, gif...) en una página web, siguiendo todos los estándares del "W3C":http://www.w3.org/ .
 

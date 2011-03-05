@@ -74,7 +74,7 @@ projects:
 
 h2. Sketch to Web
 
-<div style="background-image: url(/images/projects/ps2web.png);" title="Sketch to web" class="big-link rounded-5" ></div>
+ <div style="background-image: url(/images/projects/ps2web.png);" title="Sketch to web" class="big-link rounded-5" ></div>
 
 We transform graphics (Photoshop, jpg, gif...) into websites, following the "W3C Standards":http://www.w3.org/ .
 
