@@ -1,0 +1,127 @@
+---
+layout: default
+title: Proyectos
+en: /en/projects
+has_sidebar: true
+projects:
+  - title: e-Storemonitor
+    link: http://www.e-storemonitor.com
+    image: storemonitor.png
+    intro: |
+      "e-Storemonitor":http://www.e-storemonitor.com es una aplicación de gestión de fotografías de tiendas para el control del surtido.
+    text: |
+      * Cliente: Colgate-Palmolive Iberia ("ES":http://www.colgate.es + "PT":http://www.colgate.pt)
+      * Aplicación a medida ("Ruby on Rails":http://rubyonralis.org)
+      * 9000 tiendas en España y Portugal
+      * 4000 fotografías nuevas cada mes
+      * Importación automatizada desde otros proveedores
+      * Búsqueda y filtrado de fotografías
+      * Generación de informes de seguimiento.
+  - title: t-engine
+    link: http://www.talleresanemia.es
+    image: t-engine.png
+    intro: |
+      T-engine es una plataforma de e-learning adaptada a cursos para el sector farmacéutico y sanitario impartidos en Hospitales y Centros de Salud de todo el territorio español.
+    text: |
+      * Cliente: "Think-in Pharma Services SL":http://www.thinkinpharma.com/
+      * Aplicación a medida ("Ruby on Rails":http://rubyonralis.org)
+      * Desarollo inicial: 5 semanas.
+      * Desarrollo de cada nuevo curso: 2 semanas.
+
+      Ejemplos:
+      * "talleresanemia.es":http://www.talleresanemia.es
+      * "cuidadosenfermeria.org":http://www.cuidadosenfermeria.org
+
+  - title: OHWR
+    link: http://www.ohwr.org
+    image: ohwr.png
+    text: |
+      El "Open Hardware Repository (ohwr)":http://www.ohwr.org es una aplicación de gestión de proyectos.
+
+      * Cliente: "CERN":http://www.cern.ch
+      * Software: "Redmine":http://www.redmine.org
+      * Forums, Wikis, Tickets e incidencias
+      * Desarrollo de plug-ins a medida
+      * Repositorios "git":http://git-scm.com/ y "subversion":http://subversion.apache.org/
+
+  - title: Hotel Castellar
+    link: http://www.hotelcastellar.es
+    image: hotel-castellar.png
+    text: |
+      Página web de Hotel Castellar, un hotel situado en Cádiz.
+
+      * Página web realizada con "Drupal":http://drupal.org
+      * Página con diversos módulos adicionales realizados a medida
+      * Bilingüe (inglés-español)
+      * Módulo de noticias categorizadas
+      * Tiempo de desarrollo: 3 semanas
+
+  - title: Innofisio
+    link: http://www.innofisio.com
+    image: innofisio.png
+    text: |
+      Página web básica para una clínica de fisioterapia, Innofisio.
+
+      * Cliente: "Innofisio":http://www.innofisio.com
+      * Aplicación relizada con "Drupal":http://drupal.org
+      * Tiempo de desarrollo: 1 semana
+
+---
+{% include sidebar-start.html %}
+
+h2. De boceto a web
+
+<div style="background-image: url(/images/projects/ps2web.png);" title="De boceto a web" class="big-link rounded-5" ></div>
+
+Transformamos gráficos (Photoshop, jpg, gif...) en una página web, siguiendo todos los estándares del "W3C":http://www.w3.org/ .
+
+h2. CMSs
+
+En splendeo también podemos realizar aplicaciones con los siguientes "CMSs":http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
+
+(v-list)* <a href="http://drupal.org" title="Drupal" style="background-image: url(/images/projects/drupal.png);" class="image-link wide-link rounded-5">Drupal</a>
+* <a href="http://wordpress.org" title="Wordpress" style="background-image: url(/images/projects/wordpress.png);" class="image-link wide-link rounded-5">Wordpress</a>
+
+Desarrollamos aplicaciones, templates y módulos.
+
+h2. Desarrollos a medida
+
+<a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/projects/ruby-on-rails.png);" class="image-link big-link rounded-5">Ruby on Rails</a>
+
+Cuando un CMS no es suficiente, desarrollamos aplicaciones a medida. Para ello utilizamos "Ruby on Rails":http://rubyonrails.org
+
+{% include sidebar-end.html %}
+
+h2. Proyectos
+
+{% for project in page.projects %}
+
+h3. {{ project.title }}
+
+  {% if project.intro %}{{ project.intro | textilize }}{% endif %}
+
+  {% if project.image %}
+
+    <div class="media">
+
+    "(img shadow). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
+
+    <div class="bd">
+
+    {{ project.text | textilize }}
+
+    </div></div>
+
+    {% else %}
+
+    {{ project.text | textilize }}
+
+  {% endif %}
+
+{% endfor %}
+
+p(ptl mtl). Además hemos realizado otras aplicaciones con como las del "Programa de Investigación y Doctorado":http://www2.montes.upm.es/invest_doct/ de la ETSI de Montes de la Universidad Politécnica de Madrid, o páginas de aprendizaje interno para Colgate-Palmolive.
+
+
+
+

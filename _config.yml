@@ -12,7 +12,6 @@ locales:
     - text: Proyectos
       url: /proyectos/
       ugly_url: /proyectos/index.html
-      layout: project
     - text: Blog
       url: /blog/
       ugly_url: /blog/index.html
@@ -47,7 +46,6 @@ locales:
     - text: Projects
       url: /en/projects/
       ugly_url: /en/projects/index.html
-      layout: project
     - text: Blog
       url: /en/blog/
       ugly_url: /en/blog/index.html

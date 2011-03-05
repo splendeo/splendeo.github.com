@@ -1,0 +1,126 @@
+---
+layout: default
+title: Projects
+es: /proyectos
+has_sidebar: true
+projects:
+  - title: e-Storemonitor
+    link: http://www.e-storemonitor.com
+    image: storemonitor.png
+    intro: |
+      "e-Storemonitor":http://www.e-storemonitor.com is a web application for managing pictures of stores and supply control.
+    text: |
+      * Client: Colgate-Palmolive Iberia ("ES":http://www.colgate.es + "PT":http://www.colgate.pt )
+      * Custom development ("Ruby on Rails":http://rubyonralis.org )
+      * 9000 stores in Spain and Portugal
+      * 4000 new pictures every month
+      * Automatic imports from other providers.
+      * Search and filtering
+      * Follow-up reports
+
+  - title: t-engine
+    link: http://www.talleresanemia.es
+    image: t-engine.png
+    intro: |
+      T-engine is an e-learning platform adapted to farmaceutical and health-care courses thought in Spanish hospitals and health centers.
+    text: |
+      * Client: "Think-in Pharma Services SL":http://www.thinkinpharma.com/
+      * Custom application ("Ruby on Rails":http://rubyonralis.org)
+      * Initial development cycle: 5 weeks.
+      * New course cycle: 2 weeks.
+
+      Samples:
+      * "talleresanemia.es":http://www.talleresanemia.es
+      * "cuidadosenfermeria.org":http://www.cuidadosenfermeria.org
+
+  - title: OHWR
+    link: http://www.ohwr.org
+    image: ohwr.png
+    text: |
+
+      The "Open Hardware Repository (ohwr)":http://www.ohwr.org is a project management web application.
+
+      * Client: "CERN":http://www.cern.ch
+      * Software used: "Redmine":http://www.redmine.org
+      * Forums, Wikis, Incidences and access control
+      * Custom plug-in development
+      * "Git":http://git-scm.com/ and "subversion":http://subversion.apache.org/ repositories
+
+  - title: Hotel Castellar
+    link: http://www.hotelcastellar.es
+    image: hotel-castellar.png
+    text: |
+      Website for Hotel Castellar, a hotel located in Cádiz (Spain).
+
+      * Developed over Drupal "Drupal":http://drupal.org
+      * Custom-made template & blocks
+      * Bilingual (English-Spanish)
+      * Customized categorized news module
+      * Complete development time: 3 weeks
+
+  - title: Innofisio
+    link: http://www.innofisio.com
+    image: innofisio.png
+    text: |
+      Basic website for a physical therapy clinic, Innofisio.
+
+      * Client: "Innofisio":http://www.innofisio.com
+      * CMS: "Drupal":http://drupal.org
+      * Complete development cycle: 1 week
+
+---
+
+{% include sidebar-start.html %}
+
+h2. Sketch to Web
+
+<div style="background-image: url(/images/projects/ps2web.png);" title="Sketch to web" class="big-link rounded-5" ></div>
+
+We transform graphics (Photoshop, jpg, gif...) into websites, following the "W3C Standards":http://www.w3.org/ .
+
+h2. CMSs
+
+We also know how to create web applications with the following "CMSs":http://en.wikipedia.org/wiki/Content_management_system :
+
+(v-list)* <a href="http://drupal.org" title="Drupal" style="background-image: url(/images/projects/drupal.png);" class="image-link wide-link rounded-5">Drupal</a>
+* <a href="http://wordpress.org" title="Wordpress" style="background-image: url(/images/projects/wordpress.png);" class="image-link wide-link rounded-5">Wordpress</a>
+
+We also develop templates and modules for them.
+
+h2. Custom development
+
+<a href="http://rubyonrails.org" title="Ruby on Rails" style="background-image: url(/images/projects/ruby-on-rails.png);" class="image-link big-link rounded-5">Ruby on Rails</a>
+
+When CMSs are not enough, we develop custom applications. To do that we use "Ruby on Rails":http://rubyonrails.org
+
+{% include sidebar-end.html %}
+
+h2. Projects
+
+{% for project in page.projects %}
+
+h3. {{ project.title }}
+
+  {% if project.intro %}{{ project.intro | textilize }}{% endif %}
+
+  {% if project.image %}
+
+    <div class="media">
+
+    "(img shadow). !/images/projects/{{ project.image }}!({{project.link}})":{{ project.link }}
+
+    <div class="bd">
+
+    {{ project.text | textilize }}
+
+    </div></div>
+
+    {% else %}
+
+    {{ project.text | textilize }}
+
+  {% endif %}
+
+{% endfor %}
+
+p(ptl mtl). We have have also developed other web applications like "Programa de Investigación y Doctorado":http://www2.montes.upm.es/invest_doct/ for the ETSI de Montes de la Universidad Politécnica de Madrid, or internal training websites for Colgate-Palmolive.
