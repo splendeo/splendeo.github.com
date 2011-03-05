@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include page-start.html %}
 
 {% capture page_locale %}{% if page.es %}en{% else %}es{% endif %}{% endcapture %}
 
@@ -6,4 +6,4 @@
     {{ site.locales[page_locale].contact.thank_you.text | textilize }}
   </div>
 
-{% include footer.html %}
+{% include page-end.html %}
