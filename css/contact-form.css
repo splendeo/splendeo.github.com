@@ -1,4 +1,4 @@
-#dwp-contact-button {
+#contact-button {
   position: fixed;
   top:110px;
   left: 0;
@@ -6,7 +6,7 @@
   outline: none;
   z-index: 1000;
 }
-.dwpcontact-page{
+.contact-page{
   position: fixed;
   top: 100px;
   left: -354px;
@@ -17,13 +17,13 @@
   z-index: 1000;
   text-align: left;
 }
-.dwpcontact-page { background: #004d83 url(/css/images/contact-background.png) right 0 repeat-y; }
-.dwpcontact-page .contact-label{
+.contact-page { background: #004d83 url(/css/images/contact-background.png) right 0 repeat-y; }
+.contact-page .contact-label{
   display: block;
   text-align: left;
 }
-.dwpcontact-page #name, .dwpcontact-page #email, .dwpcontact-page #subject, 
-.dwpcontact-page #body, .dwpcontact-page #antispam {
+.contact-page #name, .contact-page #email, .contact-page #subject, 
+.contact-page #body, .contact-page #antispam {
   width: 300px;
   padding: 6px;
   margin: 0 0 8px 0;
@@ -33,19 +33,19 @@
   border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px;
   box-shadow: inset 5px 5px 5px #ccc; -moz-box-shadow: inset 5px 5px 5px #ccc; -webkit-box-shadow: inset 5px 5px 5px #ccc; -khtml-box-shadow: inset 5px 5px 5px #ccc;
 }
-.dwpcontact-page #antispam {
+.contact-page #antispam {
   width: 125px;
 }
-.dwpcontact-page #body{
+.contact-page #body{
   width: 300px;color: #222; height: 115px;
 }
-.dwpcontact-page #submit{
+.contact-page #submit{
   background: #DFDFDF;
   border: none;
   padding: 6px 5px;
   border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; 
 }
-.dwpcontact-page .message-error{
+.contact-page .message-error{
   padding: 2px 4px;
   color:#DA4310;
   border: 1px solid  #F7A68A;
@@ -54,7 +54,7 @@
   display: block;
   text-align: center;
 }
-.dwpcontact-page .message-success{
+.contact-page .message-success{
   padding: 2px 4px;
   color: #8FA943;
   border: 1px solid  #C2E1AA;
@@ -63,10 +63,10 @@
   display: block;
   text-align: center;
 }
-.dwp-contact-button-wrap{
+.contact-button-wrap{
   margin-top: 10px; margin-bottom: 10px;
 }
-.dwp-contact-button-wrap img{
+.contact-button-wrap img{
   float: right; margin-left: 10px;
 }
 

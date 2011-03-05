@@ -2,8 +2,8 @@ $(document).ready(function() {
 
   // make the "contact us" left link show the javascript contact us form with an animation 
   $(".open-contact").click(function() {
-    $(".dwpcontact-page").animate({ left: parseInt($(".dwpcontact-page").css("left"),10) == 0 ? -354 :  0 });
-    $("#dwp-contact-button").animate({ left: parseInt($("#dwp-contact-button").css("left"),10) == 0 ? 354 :  0 });
+    $(".contact-page").animate({ left: parseInt($(".contact-page").css("left"),10) == 0 ? -354 :  0 });
+    $("#contact-button").animate({ left: parseInt($("#contact-button").css("left"),10) == 0 ? 354 :  0 });
     return false;
   });
 

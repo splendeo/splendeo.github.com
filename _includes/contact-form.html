@@ -1,8 +1,8 @@
 {% assign locale = "es" %}{% if page.es %}{% assign locale = "en" %}{% endif %}
 {% assign contact = site.locales[locale].contact %}
 
-<div class="dwp-contact-wrapper">
-  <div class="dwpcontact-page" style="float: left;">
+<div class="contact-wrapper">
+  <div class="contact-page" style="float: left;">
      
     <p id="success" class="message-success" style="display:none;">{{ contact.thank_you }}</p>
 
@@ -32,10 +32,10 @@
       <input type="hidden" id="locale" name="locale" value="{{ locale }}"/>
     </form>
     <div style="clear: both;"></div>
-    <div class="dwp-contact-button-wrap">
+    <div class="contact-button-wrap">
       <div style="clear: both;"></div>
     </div>
   </div>
-  <a href="{{ contact.link.url }}" id="dwp-contact-button" class="open-contact"><img src="{{ contact.link.image }}" alt="{{ contact.link.text }}" /></a>
+  <a href="{{ contact.link.url }}" id="contact-button" class="open-contact"><img src="{{ contact.link.image }}" alt="{{ contact.link.text }}" /></a>
   <div style="clear: both;"></div>
 </div>
