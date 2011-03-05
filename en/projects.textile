@@ -8,8 +8,10 @@ projects:
     link: http://www.e-storemonitor.com
     image: storemonitor.png
     intro: |
+    
       "e-Storemonitor":http://www.e-storemonitor.com is a web application for managing pictures of stores and supply control.
     text: |
+    
       * Client: Colgate-Palmolive Iberia ("ES":http://www.colgate.es + "PT":http://www.colgate.pt )
       * Custom development ("Ruby on Rails":http://rubyonralis.org )
       * 9000 stores in Spain and Portugal
@@ -22,8 +24,10 @@ projects:
     link: http://www.talleresanemia.es
     image: t-engine.png
     intro: |
+    
       T-engine is an e-learning platform adapted to farmaceutical and health-care courses thought in Spanish hospitals and health centers.
     text: |
+    
       * Client: "Think-in Pharma Services SL":http://www.thinkinpharma.com/
       * Custom application ("Ruby on Rails":http://rubyonralis.org)
       * Initial development cycle: 5 weeks.
@@ -50,6 +54,7 @@ projects:
     link: http://www.hotelcastellar.es
     image: hotel-castellar.png
     text: |
+    
       Website for Hotel Castellar, a hotel located in Cádiz (Spain).
 
       * Developed over Drupal "Drupal":http://drupal.org
@@ -62,6 +67,7 @@ projects:
     link: http://www.innofisio.com
     image: innofisio.png
     text: |
+    
       Basic website for a physical therapy clinic, Innofisio.
 
       * Client: "Innofisio":http://www.innofisio.com
