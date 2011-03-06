@@ -46,18 +46,16 @@
     <div class="page shadow">
       <div class="head">
         <div id="language_switcher">
-          {% for locale in site.locales %}
-            {% assign locale_name = locale[0] %}
-            {% assign locale_hash = locale[1] %}
-            {% unless locale_name == locale %}
-              {% if page[locale_name] %}
-                {% if page.layout == 'post' %}
-                  <a href="{{ locale_hash['path'] }}/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page[locale_name] }}">{{ locale_hash['name'] }}</a>
-                {% else %}
-                  <a href="{{ page[locale_name] }}/">{{ locale_hash['name'] }}</a>
-                {% endif %}
+          {% for loc in site.locales %}
+            {% assign loc_id = loc[0] %}
+            {% assign loc_info = loc[1] %}
+            {% if page[loc_id] %}
+              {% if page.layout == 'post' %}
+                <a href="{{ loc_info.path }}/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page[loc_id] }}">{{ loc_info.name }}</a>
+              {% else %}
+                <a href="{{ page[loc_id] }}/">{{ loc_info.name }}</a>
               {% endif %}
-            {% endunless %}
+            {% endif %}
           {% endfor %}
         </div>
         
