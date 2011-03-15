@@ -1,0 +1,20 @@
+---
+layout: post
+title: Asociación Abraza
+en: abraza-ngo
+author: eroibas
+---
+
+notextile. <div class="media"><div class="img">
+
+!/images/blog/logo-abraza.png!
+
+notextile. </div><div class="bd">
+
+En Splendeo dedicamos parte de nuestro tiempo a colaborar con organizaciones con fines sociales. Para ello estamos abiertos a recibir propuestas de ONG´s, asociaciones, etc que necesiten de nuestra ayuda para desarrollar sus proyectos web.
+
+Como primer paso, estamos colaborando con Abraza Asociación de familias con niños con autismo y TGD (Trastorno General del Desarrollo). Esta asociación cordobesa necesita su una página web  y Splendeo se está encargando de su desarrollo.
+
+Como el tiempo para buscar estos proyectos es limitado, agradecemos que todos los que conozcan casos como el de Abraza se "(open-contact)pongan en contacto":/contacto/ con nosotros.
+
+notextile. </div></div>

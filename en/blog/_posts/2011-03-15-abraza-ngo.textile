@@ -1,0 +1,20 @@
+---
+layout: post
+title: Abraza NGO
+es: asociacion-abraza
+author: eroibas
+---
+
+notextile. <div class="media"><div class="img">
+
+!/images/blog/logo-abraza.png!
+
+notextile. </div><div class="bd">
+
+Here in Splendeo we employ part of our time in collaborating with organizations having social objectives. On that regard, we are open to receiving proposals from NGOs, associations, etc that need our help in developing their web projects.
+
+As a first step, we're collaborating with Abraza – Association of families with children with autism and PDD (Pervasive Developmental Disorder). This Cordobese organization needs a website and Splendeo is in charge of its development.
+
+Since the time we have to look for these projects is limited, we'd be grateful that anyone that knows a case such as Abraza's will "(open-contact)contact us":/en/contact/.
+
+notextile. </div></div>
