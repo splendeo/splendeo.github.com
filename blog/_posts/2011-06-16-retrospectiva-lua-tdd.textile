@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Retrospectiva: Lua + TDD"
+en: lua-tdd-retrospective
+author: egarcia
+---
+
+notextile. <div class="media"><div class="img">
+
+!/images/blog/logo-lua.png!
+
+notextile. </div><div class="bd">
+
+La semana pasada los de Splendeo organizamos una charla titulada "Lua + TDD" para la gente de "MadriÁgil":http://sites.google.com/site/agilemadrid/ . La mayor parte del proceso recayó sobre mí (Enrique García) aunque el resto del equipo me dio mucho apoyo.
+
+El título de la charla era una _mentira a propósito_: en realidad la actividad podría haberse llamado *Lua Koans*, pero no queríamos que nadie investigara nada antes de la charla. También está el hecho de que cuando me ... "asignaron voluntariamente" la charla aún no tenía claro desde qué ángulo la iba a abordar. Mis disculpas si alguien se sintió engañado.
+
+(Nota: la definición de "koan" que utilizaremos en este post será la establecida en  "rubykoans.com":http://rubykoans.com/)
+
+La idea principal de la actividad era experimentar el aprendizaje mediante koans: aprender los principios fundamentales de un lenguage nuevo haciendo tests en lugar de programando sin ellos (p.ej. con un "Hola mundo"). No queríamos que nadie se aburriera, y como nos consta que algunos miembros de Madriágil ya conocen rails, decidimos utilizar Lua en lugar de Ruby como lenguage de aprendizaje. Los "rubykoans":http://rubykoans.com, sirvieron de base para crear nuestros propios koans en Lua. No teníamos tiempo de añadir toda el _zen folclórico_ que hay en rubykoans, así que decidimos llamar a nuestro proyecto "lua missions":http://github.com/otikik/lua_missions .
+
+notextile. </div></div>
+
+El formato de la actividad fue:
+
+* Una presentación muy corta (de menos de 5 minutos). Las diapositivas pueden verse más abajo, aunque no están pensadas para ser leídas sino que son un apoyo a una presentación hablada. No obstante contienen todos los enlaces de interés.
+* Instalación de Lua (también menos de 5 minutos, como algunos asistentes llegaron antes fuimos instalando Lua en sus sistemas) y descarga de las koans.
+* Resolución de las koans mediante pair programming.
+* Retrospectiva y cierre.
+
+h3. Cosas que fueron bien
+
+* La gente *se enganchó* en la actividad. Me costó un rato hacer que todos soltaran sus teclados!
+* El *control de tiempo*. Teníamos un horario de salida prefijado, y el bar cerraba más bien pronto, así que la gestión del tiempo que teníamos era esencial. La presentación inicial fue suficientemente corta, la instalación fue un trámite y el tiempo para programar (unos 50 minutos) fue suficientemente largo para pudiéramos profundizar, pero suficientememente corto para que no hiciera falta hacer un descanso (10 minutos más y lo tendríamos que haber hecho)
+* *La curva de dificultad estaba bien ajustada*. Había gente de todos los niveles, desde programadores profesionales hasta gente que hacía mucho tiempo que no tocaba el código. Sin embargo, todos fueron capaces de avanzar (en mayor o menor medida).
+* Los koans tienen un valor añadido: dada la manera en la que están pensados, lo fácil es arreglar un test, y ejecutarlo para ver que se ha arreglado. *No vi a nadie saltarse pasos*; creo que en los koans hay un refuerzo positivo en ver que el test pasa, más inmediato que en el desarrollo TDD tradicional. También podría deberse que los asistentes fueron muy profesionales.
+
+h3. Cosas que se podrían mejorar
+
+* *Se detectaron errores*. Mainly koans con nombres no muy claros, y errores cronológicos (utilizar conceptos antes de explicarlos). De estos últimos, unos eran inevitables, y otros eran meros bugs. No había forma humana de detectar todos esos problemas con el tiempo y los recursos disponibles, así que lo mejor que pude hacer fue pedir a los asistentes valentía, y que aceptaran ser mis "conejillos de indias". Lo hicieron gustosamente (gracias!)
+* Invertí *demasiado tiempo en desarrollar la librería de tests*, cuando claramente el tiempo disponible para ejecutarlos no era suficiente para cubrirlos todos; nadie llegó a hacer el 30% de los tests; podría haber implementado menos koans, y mi backlog no habría crecido tanto. Por otro lado, la librería es cohesivos, y enseñan la mayor parte de Lua. No estoy seguro de cuándo habría podido completarla de no haberme propuesto tenerla hecha para la presentación.
+
+h3. Acciones a realizar
+
+A título personal, me reafirmé en varias directrices básicas que ya tenía más o menos claras para que una presentación salga bien. Estas son algunas tareas que creo pueden ser importantes para que una presentación salga bien:
+
+* *Es necesario invertir tiempo*. En mi caso, el desarrollo de los koans se llevó la mayor parte del tiempo (unos 3 días y medio). Escribir la micro-presentación me llevó 3 horas de escritura + 1 de ensayo; todo ello para una presentación de apenas 5 minutos!
+* También es importante *degradar grácilmente*. No estábamos seguros de que tendríamos internet, así que teníamos 5 memory sticks preparados con todo lo necesario - Lua para windows, mac y ubuntu, una copia de los koans, y la presentación en formato PDF.
+* *Revisar los medios técnicos* con antelación también es importante. El primer ordenador que utilizamos no se quería conectar con el proyector, y tuvimos que utilizar un segundo. Hubo que adaptar algunas diapositivas al proyector, porque no se apreciaba bien la información en la parte inferior. Ajustamos el aire acondicionado y la iluminación. Una vez estaba todo preparado hice varios ensayos en voz alta. Para tener tiempo de preparar todo esto, bajamos a la sala *2 horas antes de empezar la charla* (sin los ensayos habría bastado con una hora).
+* *Tener localizado el bar* al que ir después era esencial. Avisarles de que iban a tener clientes con antelación fue una buena idea.
+* Dependiendo de la duración y la actividad, puede ser necesario preparar *cátering*. Como era una actividad pequeña, nosotros llevamos únicamente botellas de agua mineral.
+* *Intercambiar unas cuantas frases informales con los asistentes antes de empezar* relaja mucho el ambiente y hace más fácil todo, especialmente las presentaciones.
+* Hay que *adaptar las actividades a la audiencia*. La gente de MadriÁgil acepta mejor las tareas interactivas que las presentaciones.
+
+
+h3. Conclusión
+
+Organizar esta actividad, aunque agotador, ha sido una gran experiencia y creo que salió estupendamente. Estoy deseoso de hacer más así.
+
+
+Diapositivas de la presentación:
+
+ <div style="width:425px;margin:auto;" id="__ss_8249238"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/otikik/luatdd-8249238" title="Lua+tdd">Lua+tdd</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8249238" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </div>

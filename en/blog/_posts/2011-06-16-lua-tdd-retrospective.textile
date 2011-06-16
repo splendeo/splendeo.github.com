@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Lua + TDD Retrospective"
+en: retrospectiva-lua-tdd
+author: egarcia
+---
+
+notextile. <div class="media"><div class="img">
+
+!/images/blog/logo-lua.png!
+
+notextile. </div><div class="bd">
+
+Last week we organized an activity called "Lua + TDD" for the "MadriÁgil":http://sites.google.com/site/agilemadrid/ guys. Most of the work was done by me (Enrique García) but the rest of the Splendeo team was a great support.
+
+The activity's title was _intentionally misleading_: in reality, it could have been called *Lua Koans*. But we didn't want anyone investigating stuff ahead of time. There's also the fact that when I was *voluntarily assigned* the task, I wasn't sure about doing Koans or using another approach. My apologies if anyone felt deceived.
+
+(Note: When we say "koan" on this task we'll be referring to the definition used in  "rubykoans.com":http://rubykoans.com/)
+
+The main idea behind the activity was experimenting koans-driven learning: that the main principles of a programming language can be learnt from the ground-up using tests, as opposed to not using them (like with a "Hello world"). We didn't want anyone getting bored, and since some members of MadriÁgil are fluent in Ruby we decided to implement our own koans for Lua instead of using "rubykoans":http://rubykoans.com. Nevertheless, we used rubykoans as a base for our work. We didn't have the time to include the _folk zen_ that impregnates rubykoans, so we decided not to call our project Lua Koans, but "Lua Missions":http://github.com/otikik/lua_missions .
+
+notextile. </div></div>
+
+The activity was divided into different parts:
+
+* A short introductory presentation (less than 5 minutes). The slides can be seen below, although they were conceived as a speech-supporting tool. Nevertheless, they contain all the pertaining links.
+* Lua instalation (also less than 5 minutes; we had already installed Lua on the early attendants' computers) and koan downloading.
+* Koan resolution through pair-programming.
+* Retrospective and closure.
+
+h3. Things that went well
+
+* People got *hooked* on the activity. It took me a while to make everyone stop typing!
+* *Time control*. We had a very strict deadline, and besides, the pub was closing early, so time management was essential. The initial presentation was short enough, installing took very little, and the programming time (about 50 mins) was long enough so that we could really "dive into the language", but short enough so that we didn't need any breaks (10 more minutes and we'd have needed it)
+* The *learning curve was reasonably adjusted*. There were people of all levels, from professional programmers to people that hadn't touched code in years. All of them were able to advance, each at their own pace.
+* The koans had a great side-effect; given the way the activity is layed out, it's very easy to follow the typical TDD steps. Running the tests right after making a fix feels intuitive when doing koans. *I didn't see anyone skipping steps*; I believe there's a "positive reinforcement" on running the koans and watching a test pass that isn't as strong in regular TDD. Or maybe I just had an exceptionally good audience.
+
+h3. Things that could be improved
+
+* *Errors were detected*. Several koan names did not declare intent properly. There were also chronological errors (using a concept in a step before explaining the concept in another). Some of these are inevitable, but others were flagrant bugs. With the available resources and time, there was no human way of detecting all those, so I had to ask the attendants to be brave and accepting beins used as guinea pigs. They did gladly (thanks!).
+* I employed *too much time in developing the library*, when there was clearly no way we could cover all the tests in the available time; no-one got over 30% completion. It would have been enough with half the time I employed on the tests, and my backlog would have been smaller. On the other hand, the current Koans are a cohesive set; they teach a big chunk of the language. Had I not tried to get it complete for the presentation, I'm not sure when I would have been able to get the koans so "complete".
+
+h3. To-do lists
+
+I was personally re-afirmed on certain basic directives that I had already in mind, in order to make a successful presentation or activity. Here are some activities that I think are key for delivering a successful presentation:
+
+* *Reserve some time*. On my case, the development took most of the time (3 days and a half). Writing the micro-presentation took me 3 hours to write and 1 hour to rehearsal; and it was a 5-minutes talk!
+* It's also important to *degrade gracefully*. We were not entirely sure that the rooms would have a working internet access, so we had a bunch of memory sticks with everything we needed - Lua for windows, mac and ubuntu, as well as the koans and the presentation in PDF format.
+* *Reviewing the equipment* in advance was key. The first computer we tried didn't want to interact with the projector; we had one in reserve. Slides had to be adjusted so that the information near their bottom was visible. We adjusted the air conditioning and illumination. Then I did several presentation rehearsals. All in all, it took us around 2 hours to have everything ready (it would have been 1 hours without the rehearsals)
+* *Having the pub localized* was a must. Warning them about the unusual influx of clients was a good idea.
+* Depending on the duration and activity, it might be necesary to arrange some *catering*. In our case, mineral water was enough.
+* *Adapt the activity to the audience*. MadriÁgil people are very hands-on, and they take interactive tasks more eagerly than passive presentations.
+
+
+h3. Conclusion
+
+Organizing this activity, although tiring, has been a great experience and I think it went very well. I'm eager to do more like this one!
+
+The slides:
+
+ <div style="width:425px;margin:auto;" id="__ss_8249238"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/otikik/luatdd-8249238" title="Lua+tdd">Lua+tdd</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8249238" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </div>
