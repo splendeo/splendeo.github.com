@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lua + TDD Retrospective"
-en: retrospectiva-lua-tdd
+es: retrospectiva-lua-tdd
 author: egarcia
 ---
 
