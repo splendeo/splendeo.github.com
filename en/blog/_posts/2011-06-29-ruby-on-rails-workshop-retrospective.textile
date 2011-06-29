@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Ruby on Rails Workshop Retrospective"
+es: retrospectiva-taller-ruby-on-rails
+author: egarcia
+---
+
+
+notextile. <div class="media"><div class="img">
+
+!/images/blog/logo-rails.png!
+
+notextile. </div><div class="bd">
+
+Yesterday we gave a "Ruby on Rails":http://rubyonrails.org/ workshop - part of the reason was that "SeedRocket":http://www.seedrocket.com/ asked us to do it, and part was that we just felt like it. The room, kindly provided by the "Vivero de Empresas de Carabanchel":http://www.madridemprende.net/Viveros/Carabanchel/tabid/90/language/es-ES/Default.aspx, was completely packed.
+
+The workshop target audience were people with knowledge of some other web technology but wanting to have a "first taste" of "Ruby on Rails":http://rubyonrails.org/.
+
+We had a little less than two hours, to give an introduction to the Ruby language, show the basic Rails concepts, and implement some exemplary apps. So there was a 70% theory component, and only a tiny 30% was practice.
+
+It was ambitious, but nevertheless I think it went very well - but it wasn't for the lack of setbacks.
+
+notextile. </div></div>
+
+The activity was divided into the next steps:
+
+* A very short intro - what is Ruby and what is Rails.
+* Ruby installation (rvm)
+* A walk around Ruby
+* Rails basic concepts
+* Sample apps with Rails
+* References & Questions
+* Pub
+
+h3. What went well
+
+* *Technical concepts* were assimilated quite easily; it was a pleasant surprise that the attendees were able to "get it" so fast. I'd say that this was a consequence of their exceptional understanding capacity; not the presenter's delivery.
+* The *equipment* (room, proyector, etc) went just well. There was some minor wifi issues, but nothing serious.
+* Even if the workshop had a strong theoretical charge, we didn't seem to lose the attendants. We had lots of *interesting questions*!
+* We used *"showoff":https://github.com/schacon/showoff* for out slides. Showoff is a ruby gem that creates slides in the shape of a web page, easily. We used it instead of powerpoint mainly because we needed easy, fast, syntax highlighting from Ubuntu, and we didn't find anything else. Fortunately it was easy to use, and writing the slides was simple enough.
+
+h3. Areas of improvement
+
+* By far, the biggest problem we had was *installation* - both in ruby and rails. That's something we didn't anticipate - it got us 10 minutes behind schedule.
+** "rvm":https://rvm.beginrescueend.com/ seems to be optimized for certain version of Mac OS X - in other versions, or in Ubuntu, the installing experience isn't "clean" - there are several hoops to jump through, google searches included.
+** Windows users didn't have an easy day, either - on their case, the problem was "SQlite":http://www.sqlite.org/, the default Rails DBMS. In Ubuntu and Mac it's trivial to configure, but on windows it was necesary to query google. Again, nothing unsolvable, but it set us back some precious time.
+* There were some minor coordination issues when I shared the stage with my co-presentor, Francisco.
+* The slides graphical format is showoff's default, which is correct, but not particularly engaging.
+* There was only one open pub near the venue, and it closed early.
+
+
+h3. Things to do
+
+* A general presentation rule is: *test everything beforehand*. We should have been prepared for the issues we found during the instalation - if we had tried to install the whole stack at least once on each system, we would have been prepared to resolve the issues quickly, instead of losing workshop time googling. We should also have spent some time in the multi-presenter coordination.
+* Aside from that, rvm needs better manuals, and better error messages, at least in Ubuntu. We'll see if Splendeo can make something about that.
+* Something similar happens with SQLite on Windows.
+
+
+h3. Conclusion
+
+It was a great experience - I think people learned some useful stuff, and I had a great time. There was even some networking at the pub later on.
+
+I'll end with this quote from one of the atendees:
+
+bq. "The most difficult part of Ruby on Rails is the installation"
+
+
+Slides:
+
+"http://www.splendeo.es/rails-presentation":http://www.splendeo.es/rails-presentation
