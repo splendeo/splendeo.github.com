@@ -11,7 +11,7 @@ notextile. <div class="media"><div class="img">
 
 notextile. </div><div class="bd">
 
-Ayer organizamos un taller gratuito sobre "Ruby on Rails":http://rubyonrails.org/, en parte porque nos lo había pedido "SeedRocket":http://www.seedrocket.com/ , y en parte porque hacía tiempo que queríamos hacerlo. El aula que utilizamos, cedida por el "Vivero de Empresas de Carabanchel":http://www.madridemprende.net/Viveros/Carabanchel/tabid/90/language/es-ES/Default.aspx, tubo aforo completo.
+Ayer organizamos un taller gratuito sobre "Ruby on Rails":http://rubyonrails.org/, en parte porque nos lo había pedido "SeedRocket":http://www.seedrocket.com/ , y en parte porque hacía tiempo que queríamos hacerlo. El aula que utilizamos, cedida por el "Vivero de Empresas de Carabanchel":http://www.madridemprende.net/Viveros/Carabanchel/tabid/90/language/es-ES/Default.aspx, tuvo aforo completo.
 
 El taller estaba orientado a gente que tuviera conocimientos de algún lenguage o entorno web y quisieran tener una primera exposición a "Ruby on Rails":http://rubyonrails.org/ .
 
