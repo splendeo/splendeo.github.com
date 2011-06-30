@@ -453,6 +453,12 @@ form#ss-form div.buttons input:active {
   padding: 5px;
 }
 
+blockquote {
+  font-style: italic;
+  font-size: 120%;
+  text-align: center;
+}
+
 
 
 
