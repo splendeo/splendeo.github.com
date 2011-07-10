@@ -1,0 +1,10 @@
+---
+layout: post
+title: "How to make awesome diagrams for your slides"
+es: como-hacer-diagramas-asombrosos-para-tus-diapositivas
+author: egarcia
+---
+
+Meta-presentation by Enrique García Cota.
+
+ <div style="width:637px;margin:auto;" id="__ss_8555051"><iframe src="http://www.slideshare.net/slideshow/embed_code/8555051" width="637" height="532" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
