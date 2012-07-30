@@ -31,22 +31,8 @@ En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los se
 
 (h-list bar-list)*(first) "Currículum":/files/francisco-de-juan.es.pdf
 * "LinkedIn":http://es.linkedin.com/in/franciscodejuan
-*(last) "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
-
-notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/egarcia.png"></img><div class="bd">
-
-h4(#egarcia). Enrique García
-
-Enrique es Ingeniero en Informática y habla fluidamente inglés, francés y español.
-
-Empezó programando en el "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum y continúa programando profesionalmente casi desde entonces (con algunos lapsus en el mundo de la consultoría).
-
-Es experto en gestión de las expectativas y se encarga de aplicar los diseños a los desarrollos de Splendeo.
-
-(h-list bar-list)*(first) "Currículum":/files/enrique-garcia-cota.es.pdf
-* "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb
-* "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
-*(last) "Github":https://github.com/kikito
+* "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+*(last) "Github":https://github.com/fjuan
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 

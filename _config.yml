@@ -17,7 +17,7 @@ locales:
       ugly_url: /blog/index.html
       layout: post
     footer:
-      text: "Copyright &copy; Splendeo Innovación, SL 2010"
+      text: "Copyright &copy; Splendeo Innovación, SL"
       legal:
         text: Aviso legal
         url: /aviso-legal/
@@ -52,7 +52,7 @@ locales:
       ugly_url: /en/blog/index.html
       layout: post
     footer:
-      text: "Copyright &copy; Splendeo Innovación, SL 2010"
+      text: "Copyright &copy; Splendeo Innovación, SL"
       legal:
         text: Legal notice
         url: /en/legal-notice/

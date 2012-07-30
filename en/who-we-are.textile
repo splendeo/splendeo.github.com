@@ -27,22 +27,8 @@ He's got experience dealing with clients and is an usability expert. He's also t
 
 (h-list bar-list)*(first) "Resume":/files/francisco-de-juan.en.pdf
 * "LinkedIn":http://es.linkedin.com/in/franciscodejuan
-*(last) "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
-
-notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/egarcia.png"></img><div class="bd">
-
-h3(#egarcia). Enrique García
-
-Enrique is a Computer Scientist that speaks fluently English, French and Spanish.
-
-He started programming the "Sinclair Spectrum 48k":http://en.wikipedia.org/wiki/ZX_Spectrum, and hasn't stopped programming since them, except for a brief encounters with the consultancy world).
-
-He's an expert on managing expectations and is responsible of applying the graphic design to Splendeo's software.
-
-(h-list bar-list)*(first) "Resume":/files/enrique-garcia-cota.en.pdf
-* "LinkedIn":http://es.linkedin.com/pub/enrique-garc%C3%ADa-cota/23/11a/5bb
-* "Stack Overflow":http://stackoverflow.com/users/312586/egarcia
-*(last) "Github":https://github.com/kikito
+* "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
+*(last) "Github":https://github.com/fjuan
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 
