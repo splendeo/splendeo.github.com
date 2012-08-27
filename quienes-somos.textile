@@ -32,7 +32,9 @@ En Splendeo se responsabiliza de planificar el diseño y mantenimiento de los se
 (h-list bar-list)*(first) "Currículum":/files/francisco-de-juan.es.pdf
 * "LinkedIn":http://es.linkedin.com/in/franciscodejuan
 * "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
-*(last) "Github":https://github.com/fjuan
+* "Github":https://github.com/fjuan
+*(last) "fjuan.es":http://www.fjuan.es
+
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 

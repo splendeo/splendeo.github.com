@@ -28,7 +28,8 @@ He's got experience dealing with clients and is an usability expert. He's also t
 (h-list bar-list)*(first) "Resume":/files/francisco-de-juan.en.pdf
 * "LinkedIn":http://es.linkedin.com/in/franciscodejuan
 * "Stack Overflow":http://stackoverflow.com/users/253956/fjuan
-*(last) "Github":https://github.com/fjuan
+* "Github":https://github.com/fjuan
+*(last) "fjuan.es":http://www.fjuan.es
 
 notextile. </div></div><div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/eroibas.png"></img><div class="bd">
 
