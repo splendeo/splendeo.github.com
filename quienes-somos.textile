@@ -15,7 +15,7 @@ Actualmente formamos parte del programa "Madrid Emprende":http://madridemprende.
 
 h3. Socios
 
-Splendeo fue fundada en Madrid en el año 2009 por tres socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
+Splendeo fue fundada en Madrid en el año 2009 por dos socios con experiencia en el desarrollo de software, la usabilidad y la optimización de procesos.
 
 notextile. <div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/fjuan.png"></img><div class="bd">
 

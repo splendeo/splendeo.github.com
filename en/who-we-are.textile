@@ -15,7 +15,7 @@ Currently we have engaged "Madrid Emprende":http://madridemprende.esmadrid.com/ 
 
 h3. Partners
 
-Splendeo was founded in 2009 by 3 partners with experience in software, usability and process optimization.
+Splendeo was founded in 2009 by 2 partners with experience in software, usability and process optimization.
 
 notextile. <div class="media non-marginal"><img class="imgExt" src="/images/who-we-are/fjuan.png"></img><div class="bd">
 
